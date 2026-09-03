@@ -1,13 +1,13 @@
 {
   "product": "EpisodeFactory",
-  "version": "1.2.6",
+  "version": "1.2.7",
   "date": "2026-09-03",
-  "applies_from": "1.2.6",
+  "applies_from": "1.2.7",
   "file": "",
   "format": "",
-  "zip": "EpisodeFactory_1.2.6_2026-09-03.zip",
+  "zip": "EpisodeFactory_1.2.7_2026-09-03.zip",
   "url": "",
   "size": 0,
   "sha256": "",
-  "notes": "the page makes the episode from the script and takes the voice; the installer asks only for the key"
+  "notes": "the page takes the voice sample too; the installer asks only for the key"
 }
