@@ -1,13 +1,13 @@
 {
   "product": "EpisodeFactory",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "date": "2026-09-03",
-  "applies_from": "1.2.3",
+  "applies_from": "1.2.4",
   "file": "",
   "format": "",
-  "zip": "EpisodeFactory_1.2.3_2026-09-03.zip",
+  "zip": "EpisodeFactory_1.2.4_2026-09-03.zip",
   "url": "",
   "size": 0,
   "sha256": "",
-  "notes": "the script decides the length; no question about the kind of episode"
+  "notes": "one press, no stops: the only questions come at the end"
 }
