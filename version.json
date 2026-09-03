@@ -1,13 +1,13 @@
 {
   "product": "EpisodeFactory",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "date": "2026-09-03",
-  "applies_from": "1.2.0",
+  "applies_from": "1.2.1",
   "file": "",
   "format": "",
-  "zip": "EpisodeFactory_1.2.0_2026-09-03.zip",
+  "zip": "EpisodeFactory_1.2.1_2026-09-03.zip",
   "url": "",
   "size": 0,
   "sha256": "",
-  "notes": "licence activation and automatic updates"
+  "notes": "the installer refuses a long folder path and unpacks the speech engine's source safely"
 }
