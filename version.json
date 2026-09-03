@@ -1,13 +1,13 @@
 {
   "product": "EpisodeFactory",
-  "version": "1.2.9",
+  "version": "1.2.10",
   "date": "2026-09-03",
-  "applies_from": "1.2.9",
+  "applies_from": "1.2.10",
   "file": "",
   "format": "",
-  "zip": "EpisodeFactory_1.2.9_2026-09-03.zip",
+  "zip": "EpisodeFactory_1.2.10_2026-09-03.zip",
   "url": "",
   "size": 0,
   "sha256": "",
-  "notes": "the page's description and the kit file are the same text: chapters with real timestamps at the end, before the hashtags"
+  "notes": "the kit document puts the chapter list at the end of the description, as the page does"
 }
