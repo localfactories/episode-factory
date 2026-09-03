@@ -1,13 +1,13 @@
 {
   "product": "EpisodeFactory",
-  "version": "1.2.13",
+  "version": "1.2.14",
   "date": "2026-09-04",
-  "applies_from": "1.2.13",
+  "applies_from": "1.2.14",
   "file": "",
   "format": "",
-  "zip": "EpisodeFactory_1.2.13_2026-09-04.zip",
+  "zip": "EpisodeFactory_1.2.14_2026-09-04.zip",
   "url": "",
   "size": 0,
   "sha256": "",
-  "notes": "the uninstaller retries files something has open for a moment and clears every state file"
+  "notes": "attach the script and run: the montage plan, the chapters and the upload kit are made from the script; one Run button; the speech engine check passes when it is installed but idle"
 }
