@@ -1,13 +1,13 @@
 {
   "product": "EpisodeFactory",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "date": "2026-09-03",
-  "applies_from": "1.2.2",
+  "applies_from": "1.2.3",
   "file": "",
   "format": "",
-  "zip": "EpisodeFactory_1.2.2_2026-09-03.zip",
+  "zip": "EpisodeFactory_1.2.3_2026-09-03.zip",
   "url": "",
   "size": 0,
   "sha256": "",
-  "notes": "asks what kind of episodes once; the page in the browser is the first thing after READY"
+  "notes": "the script decides the length; no question about the kind of episode"
 }
