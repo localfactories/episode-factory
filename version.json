@@ -1,13 +1,13 @@
 {
   "product": "EpisodeFactory",
-  "version": "1.2.10",
-  "date": "2026-09-03",
-  "applies_from": "1.2.10",
+  "version": "1.2.11",
+  "date": "2026-09-04",
+  "applies_from": "1.2.11",
   "file": "",
   "format": "",
-  "zip": "EpisodeFactory_1.2.10_2026-09-03.zip",
+  "zip": "EpisodeFactory_1.2.11_2026-09-04.zip",
   "url": "",
   "size": 0,
   "sha256": "",
-  "notes": "the kit document puts the chapter list at the end of the description, as the page does"
+  "notes": "the page states the facts of the script and names only what is missing; the profile is always in force"
 }
