@@ -1,13 +1,13 @@
 {
   "product": "EpisodeFactory",
-  "version": "1.2.15",
+  "version": "1.2.16",
   "date": "2026-09-04",
-  "applies_from": "1.2.15",
+  "applies_from": "1.2.16",
   "file": "",
   "format": "",
-  "zip": "EpisodeFactory_1.2.15_2026-09-04.zip",
+  "zip": "EpisodeFactory_1.2.16_2026-09-04.zip",
   "url": "",
   "size": 0,
   "sha256": "",
-  "notes": "attach the script and press Run: the page has nothing else - no prompt, no tables box, no save; one Run button on the episode page"
+  "notes": "a script already in the episode gets its plan the first time the page looks at it; a package from a different script is never offered for a run"
 }
