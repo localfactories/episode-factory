@@ -1,13 +1,13 @@
 {
   "product": "EpisodeFactory",
-  "version": "1.2.14",
+  "version": "1.2.15",
   "date": "2026-09-04",
-  "applies_from": "1.2.14",
+  "applies_from": "1.2.15",
   "file": "",
   "format": "",
-  "zip": "EpisodeFactory_1.2.14_2026-09-04.zip",
+  "zip": "EpisodeFactory_1.2.15_2026-09-04.zip",
   "url": "",
   "size": 0,
   "sha256": "",
-  "notes": "attach the script and run: the montage plan, the chapters and the upload kit are made from the script; one Run button; the speech engine check passes when it is installed but idle"
+  "notes": "attach the script and press Run: the page has nothing else - no prompt, no tables box, no save; one Run button on the episode page"
 }
