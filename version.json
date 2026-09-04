@@ -1,13 +1,13 @@
 {
   "product": "EpisodeFactory",
-  "version": "1.2.18",
+  "version": "1.2.19",
   "date": "2026-09-05",
-  "applies_from": "1.2.18",
+  "applies_from": "1.2.19",
   "file": "",
   "format": "",
-  "zip": "EpisodeFactory_1.2.18_2026-09-05.zip",
+  "zip": "EpisodeFactory_1.2.19_2026-09-05.zip",
   "url": "",
   "size": 0,
   "sha256": "",
-  "notes": "mastering survives ffmpeg's denoiser crash: the chain runs as two processes, every stage is retried and every file is measured before it is trusted; the installer downloads the ffmpeg 9.0 release build instead of the nightly"
+  "notes": "the install stops for nothing but the keys: the transcriber downloads without asking, optional keys are not asked for, the signup address is printed instead of opening a browser"
 }
