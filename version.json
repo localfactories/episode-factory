@@ -1,13 +1,13 @@
 {
   "product": "EpisodeFactory",
-  "version": "1.3.8",
+  "version": "1.3.9",
   "date": "2026-09-05",
-  "applies_from": "1.3.8",
+  "applies_from": "1.3.9",
   "file": "",
   "format": "",
-  "zip": "EpisodeFactory_1.3.8_2026-09-05.zip",
+  "zip": "EpisodeFactory_1.3.9_2026-09-05.zip",
   "url": "",
   "size": 0,
   "sha256": "",
-  "notes": "The Run and Update buttons follow their job again (a page error, watchJob is not defined, showed on the first Run of 1.3.7); a static check now fails the build on any page call to a function it does not define."
+  "notes": "Chunks are 60 words or fewer: when a script is attached, any longer chunk is split at sentence ends into new chunks and the file is renumbered, so the count on the page is the count of takes. A script attached earlier is re-cut the first time the page looks at it, before anything is recorded."
 }
