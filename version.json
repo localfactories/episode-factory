@@ -1,13 +1,13 @@
 {
   "product": "EpisodeFactory",
-  "version": "1.3.0",
+  "version": "1.3.1",
   "date": "2026-09-05",
-  "applies_from": "1.3.0",
+  "applies_from": "1.3.1",
   "file": "",
   "format": "",
-  "zip": "EpisodeFactory_1.3.0_2026-09-05.zip",
+  "zip": "EpisodeFactory_1.3.1_2026-09-05.zip",
   "url": "",
   "size": 0,
   "sha256": "",
-  "notes": "IndexTTS-2.5 is the speech engine: the product serves it itself from the official index-tts code at a pinned commit, installed with uv from the publisher's lock file; about 2.8 times faster recording, same cloned voice from the same clip; the studio and conda are gone from the install"
+  "notes": "proven on a fresh install: IndexTTS-2.5 loads in 14 s and speaks in your voice (similarity 1.00); 7zr.exe is accepted after the publisher republished it; the doctor knows the new engine's layout"
 }
