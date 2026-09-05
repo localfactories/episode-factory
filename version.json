@@ -1,13 +1,13 @@
 {
   "product": "EpisodeFactory",
-  "version": "1.3.7",
+  "version": "1.3.8",
   "date": "2026-09-05",
-  "applies_from": "1.3.7",
+  "applies_from": "1.3.8",
   "file": "",
   "format": "",
-  "zip": "EpisodeFactory_1.3.7_2026-09-05.zip",
+  "zip": "EpisodeFactory_1.3.8_2026-09-05.zip",
   "url": "",
   "size": 0,
   "sha256": "",
-  "notes": "Any length from one chunk up. The engine speaks each chunk in whole-sentence pieces of at most 60 words, which ends the looping on the last words of long chunks. The page shows the version and has an Updates card with Check now and a switch for the automatic check."
+  "notes": "The Run and Update buttons follow their job again (a page error, watchJob is not defined, showed on the first Run of 1.3.7); a static check now fails the build on any page call to a function it does not define."
 }
