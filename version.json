@@ -1,13 +1,13 @@
 {
   "product": "EpisodeFactory",
-  "version": "1.3.13",
+  "version": "1.3.14",
   "date": "2026-09-05",
-  "applies_from": "1.3.13",
+  "applies_from": "1.3.14",
   "file": "",
   "format": "",
-  "zip": "EpisodeFactory_1.3.13_2026-09-05.zip",
+  "zip": "EpisodeFactory_1.3.14_2026-09-05.zip",
   "url": "",
   "size": 0,
   "sha256": "",
-  "notes": "The topic guides the footage: subjects are named only by words a camera can point at, every footage search carries the episode's place, scenery is the place and the light, and the planner writes the footage rules the downloader lives by."
+  "notes": "The footage is fetched alongside the voice stage: when a run reaches the voice, the footage download starts on its own log, and the render begins when both are done. On a 432-chunk episode that takes the six-hour run down to the length of its longest stage."
 }
