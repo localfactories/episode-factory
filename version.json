@@ -1,13 +1,13 @@
 {
   "product": "EpisodeFactory",
-  "version": "1.3.5",
+  "version": "1.3.6",
   "date": "2026-09-05",
-  "applies_from": "1.3.5",
+  "applies_from": "1.3.6",
   "file": "",
   "format": "",
-  "zip": "EpisodeFactory_1.3.5_2026-09-05.zip",
+  "zip": "EpisodeFactory_1.3.6_2026-09-05.zip",
   "url": "",
   "size": 0,
   "sha256": "",
-  "notes": "the Setup screen knows the IndexTTS-2.5 engine: no client package to install, and the graphics-card box shows the 2.5 ladder"
+  "notes": "The Setup page names Pexels for the footage key with its address, says why a saved key cannot be read instead of a bare missing, and has a Format card to see and change the kind of episode."
 }
