@@ -1,13 +1,13 @@
 {
   "product": "EpisodeFactory",
-  "version": "1.3.19",
+  "version": "1.3.20",
   "date": "2026-09-05",
-  "applies_from": "1.3.19",
+  "applies_from": "1.3.20",
   "file": "",
   "format": "",
-  "zip": "EpisodeFactory_1.3.19_2026-09-05.zip",
+  "zip": "EpisodeFactory_1.3.20_2026-09-05.zip",
   "url": "",
   "size": 0,
   "sha256": "",
-  "notes": "1.3.19: a key saved while the Setup page is still checking the machine now shows its tick when the check ends - the page asks again on its own, and a check asked for during a running check is run once more instead of dropped."
+  "notes": "1.3.20: one format. The product makes sleep documentaries; the two untested example profiles, the Setup page's Format card and the top bar's Format label are gone. Nothing to switch."
 }
