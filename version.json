@@ -1,13 +1,13 @@
 {
   "product": "EpisodeFactory",
-  "version": "1.3.22",
+  "version": "1.3.23",
   "date": "2026-09-06",
-  "applies_from": "1.3.22",
+  "applies_from": "1.3.23",
   "file": "",
   "format": "",
-  "zip": "EpisodeFactory_1.3.22_2026-09-06.zip",
+  "zip": "EpisodeFactory_1.3.23_2026-09-06.zip",
   "url": "",
   "size": 0,
   "sha256": "",
-  "notes": "1.3.22: the footage reject list is filled - a clip whose stock page names people or the things people build (a town, a pier, a cruise deck), or the opposite climate of the episode's place, is never downloaded; the list matches whole words of the page name."
+  "notes": "1.3.23: the footage reject list can hold a conditional entry - a beach or a sandy shore is refused unless the clip's page also names a polar sign or one of the episode's creatures, so penguins on a beach stay and a golden-hour beach goes."
 }
