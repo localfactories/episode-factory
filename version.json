@@ -1,13 +1,13 @@
 {
   "product": "EpisodeFactory",
-  "version": "1.3.12",
+  "version": "1.3.13",
   "date": "2026-09-05",
-  "applies_from": "1.3.12",
+  "applies_from": "1.3.13",
   "file": "",
   "format": "",
-  "zip": "EpisodeFactory_1.3.12_2026-09-05.zip",
+  "zip": "EpisodeFactory_1.3.13_2026-09-05.zip",
   "url": "",
   "size": 0,
   "sha256": "",
-  "notes": "The footage downloader no longer reports a connection that timed out as a certificate failure, so a slow network never suggests switching TLS verification off; a stall is named as a stall and the next clip is tried."
+  "notes": "The topic guides the footage: subjects are named only by words a camera can point at, every footage search carries the episode's place, scenery is the place and the light, and the planner writes the footage rules the downloader lives by."
 }
