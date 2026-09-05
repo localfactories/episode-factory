@@ -1,13 +1,13 @@
 {
   "product": "EpisodeFactory",
-  "version": "1.3.20",
+  "version": "1.3.21",
   "date": "2026-09-05",
-  "applies_from": "1.3.20",
+  "applies_from": "1.3.21",
   "file": "",
   "format": "",
-  "zip": "EpisodeFactory_1.3.20_2026-09-05.zip",
+  "zip": "EpisodeFactory_1.3.21_2026-09-05.zip",
   "url": "",
   "size": 0,
   "sha256": "",
-  "notes": "1.3.20: one format. The product makes sleep documentaries; the two untested example profiles, the Setup page's Format card and the top bar's Format label are gone. Nothing to switch."
+  "notes": "1.3.21: How it sounds, on the Setup page - one ready-written sentence spoken in your narrator's voice in six settings (as shipped, slightly slower, slightly faster, calmer, warmer, slower and calmer); play them and keep the one you like. As shipped stays unless you keep another."
 }
