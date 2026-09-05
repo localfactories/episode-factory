@@ -1,13 +1,13 @@
 {
   "product": "EpisodeFactory",
-  "version": "1.3.3",
+  "version": "1.3.4",
   "date": "2026-09-05",
-  "applies_from": "1.3.3",
+  "applies_from": "1.3.4",
   "file": "",
   "format": "",
-  "zip": "EpisodeFactory_1.3.3_2026-09-05.zip",
+  "zip": "EpisodeFactory_1.3.4_2026-09-05.zip",
   "url": "",
   "size": 0,
   "sha256": "",
-  "notes": "the engine ladder is the owner's for every engine: one engine for 16 GB cards, two for 24, three for 32"
+  "notes": "the IndexTTS-2.5 engine runs one engine on 16 and 24 GB cards and two on 32 GB (the owner's decision on the measurement); the IndexTTS2 ladder is unchanged"
 }
