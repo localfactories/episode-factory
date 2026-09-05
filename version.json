@@ -1,13 +1,13 @@
 {
   "product": "EpisodeFactory",
-  "version": "1.3.10",
+  "version": "1.3.11",
   "date": "2026-09-05",
-  "applies_from": "1.3.10",
+  "applies_from": "1.3.11",
   "file": "",
   "format": "",
-  "zip": "EpisodeFactory_1.3.10_2026-09-05.zip",
+  "zip": "EpisodeFactory_1.3.11_2026-09-05.zip",
   "url": "",
   "size": 0,
   "sha256": "",
-  "notes": "The recorder keeps a chunk's best take across its retries; the coarse word score forgives the transcriber's spelling the way the alignment already does; a chunk under 4 words joins its neighbour at attach time so a lone word is never a take of its own."
+  "notes": "The speech engine closes itself when the voice stage is done: the run asks the engines it started to shut down, and the engine window closes on a clean exit. An engine you started yourself stays."
 }
