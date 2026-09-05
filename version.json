@@ -1,13 +1,13 @@
 {
   "product": "EpisodeFactory",
-  "version": "1.3.16",
+  "version": "1.3.17",
   "date": "2026-09-05",
-  "applies_from": "1.3.16",
+  "applies_from": "1.3.17",
   "file": "",
   "format": "",
-  "zip": "EpisodeFactory_1.3.16_2026-09-05.zip",
+  "zip": "EpisodeFactory_1.3.17_2026-09-05.zip",
   "url": "",
   "size": 0,
   "sha256": "",
-  "notes": "The Last run card says the time the way a person would (6 h 31 min) instead of a count of seconds followed by the word finished."
+  "notes": "The page and the console cut the package at the same part boundaries, scaled to the script, so an attached script never reads as stale and Run is offered whenever the script and its plan are there."
 }
