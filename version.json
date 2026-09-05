@@ -1,13 +1,13 @@
 {
   "product": "EpisodeFactory",
-  "version": "1.3.18",
+  "version": "1.3.19",
   "date": "2026-09-05",
-  "applies_from": "1.3.18",
+  "applies_from": "1.3.19",
   "file": "",
   "format": "",
-  "zip": "EpisodeFactory_1.3.18_2026-09-05.zip",
+  "zip": "EpisodeFactory_1.3.19_2026-09-05.zip",
   "url": "",
   "size": 0,
   "sha256": "",
-  "notes": "1.3.18: the Setup page's Footage keys card has two rows, Pexels (needed) and Pixabay (optional); a saved key shows a tick, the word saved and a Replace link; each key is checked for its own shape before it is stored."
+  "notes": "1.3.19: a key saved while the Setup page is still checking the machine now shows its tick when the check ends - the page asks again on its own, and a check asked for during a running check is run once more instead of dropped."
 }
