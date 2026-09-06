@@ -1,13 +1,13 @@
 {
   "product": "EpisodeFactory",
-  "version": "1.3.25",
+  "version": "1.3.26",
   "date": "2026-09-06",
-  "applies_from": "1.3.25",
+  "applies_from": "1.3.26",
   "file": "",
   "format": "",
-  "zip": "EpisodeFactory_1.3.25_2026-09-06.zip",
+  "zip": "EpisodeFactory_1.3.26_2026-09-06.zip",
   "url": "",
   "size": 0,
   "sha256": "",
-  "notes": "1.3.25: a zone's mood words (sea, sky, landscape) no longer count as its own subject in the footage reject list, and a subject that is itself a sea word must still show the place - so a sunset over any sea on earth stays out of an Antarctic night."
+  "notes": "1.3.26: a landscape word the script never uses - a lake, a forest, a meadow, a waterfall - is refused outright in the footage search, however much snow lies on it; a polar script that says ice, sea and cliffs gets ice, sea and cliffs."
 }
