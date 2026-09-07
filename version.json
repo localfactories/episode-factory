@@ -1,13 +1,13 @@
 {
   "product": "EpisodeFactory",
-  "version": "1.3.29",
+  "version": "1.3.30",
   "date": "2026-09-07",
-  "applies_from": "1.3.29",
+  "applies_from": "1.3.30",
   "file": "",
   "format": "",
-  "zip": "EpisodeFactory_1.3.29_2026-09-07.zip",
+  "zip": "EpisodeFactory_1.3.30_2026-09-07.zip",
   "url": "",
   "size": 0,
   "sha256": "",
-  "notes": "1.3.29: the render's shots are decoded and scaled on the graphics card when the source is 16:9, six at a time, with the encoder preset the measurement chose - 1.6x the shipped route at the same size on an RTX 5090 laptop; any shot the card cannot decode falls back to the CPU route by itself."
+  "notes": "1.3.30: a footage key is checked with one free request the moment it is saved - a key the library refuses is not saved and the card says why; each row says where its key comes from, and Check asks the library again any time, answering in green when the key works."
 }
