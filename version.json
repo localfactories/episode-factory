@@ -1,13 +1,13 @@
 {
   "product": "EpisodeFactory",
-  "version": "1.3.34",
+  "version": "1.3.35",
   "date": "2026-09-07",
-  "applies_from": "1.3.34",
+  "applies_from": "1.3.35",
   "file": "",
   "format": "",
-  "zip": "EpisodeFactory_1.3.34_2026-09-07.zip",
+  "zip": "EpisodeFactory_1.3.35_2026-09-07.zip",
   "url": "",
   "size": 0,
   "sha256": "",
-  "notes": "1.3.34: the picture judge. A small vision model (Qwen2-VL-2B-Instruct, 4.4 GB, fetched by INSTALL.bat into the speech engine's checkpoints) describes one frame of every stock candidate in words before it is downloaded, and the episode's reject rules judge the words - a road, a hockey team or a glass of iced coffee under a page that says winter is refused before a byte is fetched. A pool fetched before the judge existed is judged the same way on the next Run, one frame per clip, and what it refuses is purged and refilled. People are footage when the subject is people: the plan marks such subjects and a script about people keeps its people. Measured on 300 hand-judged frames of Episode 1: the page words alone refused 38 of the 125 wrong clips; with the judge, 110. INSTALL.bat runs once after this update (the updater does it) to fetch the model and write launch_vision.bat."
+  "notes": "1.3.35: the picture judge (from 1.3.34: a small vision model, Qwen2-VL-2B-Instruct, describes one frame of every stock candidate in words before the download and the episode's reject rules judge the words; pools fetched before it are judged once on the next Run; people are footage when the subject is people) and, new here, an update keeps your settings: INSTALL.bat runs once after every update, and it now merges config.json instead of rewriting it, so the voice you kept by ear, your episodes folder, a pinned engine count and your own tunables survive every update. The 4.4 GB judge model is fetched by that INSTALL.bat run; nothing else to do."
 }
