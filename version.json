@@ -1,13 +1,13 @@
 {
   "product": "EpisodeFactory",
-  "version": "1.3.28",
+  "version": "1.3.29",
   "date": "2026-09-07",
-  "applies_from": "1.3.28",
+  "applies_from": "1.3.29",
   "file": "",
   "format": "",
-  "zip": "EpisodeFactory_1.3.28_2026-09-07.zip",
+  "zip": "EpisodeFactory_1.3.29_2026-09-07.zip",
   "url": "",
   "size": 0,
   "sha256": "",
-  "notes": "1.3.28: an update's tools reach an existing episode through the next Run - when the product's toolkit is newer than the episode's installed copies, the build stage installs them again before anything else."
+  "notes": "1.3.29: the render's shots are decoded and scaled on the graphics card when the source is 16:9, six at a time, with the encoder preset the measurement chose - 1.6x the shipped route at the same size on an RTX 5090 laptop; any shot the card cannot decode falls back to the CPU route by itself."
 }
