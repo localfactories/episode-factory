@@ -1,13 +1,13 @@
 {
   "product": "EpisodeFactory",
-  "version": "1.3.32",
+  "version": "1.3.33",
   "date": "2026-09-07",
-  "applies_from": "1.3.32",
+  "applies_from": "1.3.33",
   "file": "",
   "format": "",
-  "zip": "EpisodeFactory_1.3.32_2026-09-07.zip",
+  "zip": "EpisodeFactory_1.3.33_2026-09-07.zip",
   "url": "",
   "size": 0,
   "sha256": "",
-  "notes": "1.3.32: a creature's folder takes no plain sky, cloud or moon clip as a stand-in for the place; Pixabay's own tags are judged with the page name; the clip ledger is written after every pass; an updated judge reaches an existing pool on the next Run."
+  "notes": "1.3.33: a cave, a cliff, a hill or a rock in a polar script must show ice, snow or a creature on its page; diver is no longer a creature word; people in the water (divers, swimmers, surfers, kayakers, skaters) are refused; and a planner update remakes every episode's footage rules on its next Run."
 }
