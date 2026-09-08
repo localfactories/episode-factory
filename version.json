@@ -1,13 +1,13 @@
 {
   "product": "EpisodeFactory",
-  "version": "1.3.35",
-  "date": "2026-09-07",
-  "applies_from": "1.3.35",
+  "version": "1.3.36",
+  "date": "2026-09-08",
+  "applies_from": "1.3.36",
   "file": "",
   "format": "",
-  "zip": "EpisodeFactory_1.3.35_2026-09-07.zip",
+  "zip": "EpisodeFactory_1.3.36_2026-09-08.zip",
   "url": "",
   "size": 0,
   "sha256": "",
-  "notes": "1.3.35: the picture judge (from 1.3.34: a small vision model, Qwen2-VL-2B-Instruct, describes one frame of every stock candidate in words before the download and the episode's reject rules judge the words; pools fetched before it are judged once on the next Run; people are footage when the subject is people) and, new here, an update keeps your settings: INSTALL.bat runs once after every update, and it now merges config.json instead of rewriting it, so the voice you kept by ear, your episodes folder, a pinned engine count and your own tunables survive every update. The 4.4 GB judge model is fetched by that INSTALL.bat run; nothing else to do."
+  "notes": "1.3.36: the picture judge sits beside the speech engine only when the card has room for both. The same round-down as the engine ladder: the engine's peak (12 GiB), the transcriber (2) and the judge (5) plus a spare must fit. A 24 GB card has that room, so the footage is fetched while the voice records, as before; on a 16 or 20 GB card the footage waits for the voice to finish and the judge then has the card to itself. The run prints which it is; providers.vision.beside_voice (auto, always, never) overrides it. Also in this line: the judge itself (1.3.34) and an update keeping your settings (1.3.35)."
 }
