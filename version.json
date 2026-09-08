@@ -1,13 +1,13 @@
 {
   "product": "EpisodeFactory",
-  "version": "1.3.42",
+  "version": "1.3.43",
   "date": "2026-09-08",
-  "applies_from": "1.3.42",
+  "applies_from": "1.3.43",
   "file": "",
   "format": "",
-  "zip": "EpisodeFactory_1.3.42_2026-09-08.zip",
+  "zip": "EpisodeFactory_1.3.43_2026-09-08.zip",
   "url": "",
   "size": 0,
   "sha256": "",
-  "notes": "1.3.42: space is a topic of its own. A script about the cosmos (planets, nebulae, orbits, comets - not just stars and the moon) keeps the renders and animations that are its footage and the satellites and telescopes it names, bans fireworks and glitter instead, and asks Pixabay under science and backgrounds. The lexicon now knows the cosmos, the deep sea (underwater, seafloor, abyss, atoll) and the desert (mesa, badlands, wadi), and a warm sea (coral, reef, lagoon) counts as a hot place. Also in this line: the picture judge (1.3.34), an update keeping your settings (1.3.35), the judge by the card (1.3.38), the full Pixabay category table (1.3.41)."
+  "notes": "1.3.43: the app window. Episode Factory opens as its own window - no browser, no console - with its own icon, from a shortcut INSTALL.bat puts on your desktop and in the Start menu, like any installed program. Closing the window closes the page; a run that is going keeps going. The window is drawn by Windows' own web view through one small library INSTALL.bat adds to the product's environment; when it cannot be added the page opens in your browser as before. Also in this line: the picture judge (1.3.34), an update keeping your settings (1.3.35), the judge by the card (1.3.38), the full Pixabay category table (1.3.41), space as a topic (1.3.42)."
 }
