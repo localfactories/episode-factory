@@ -1,13 +1,13 @@
 {
   "product": "EpisodeFactory",
-  "version": "1.3.38",
+  "version": "1.3.39",
   "date": "2026-09-08",
-  "applies_from": "1.3.38",
+  "applies_from": "1.3.39",
   "file": "",
   "format": "",
-  "zip": "EpisodeFactory_1.3.38_2026-09-08.zip",
+  "zip": "EpisodeFactory_1.3.39_2026-09-08.zip",
   "url": "",
   "size": 0,
   "sha256": "",
-  "notes": "1.3.38: the speech engine always has the card; the picture judge takes the card when there is room beside the engine (a 24 GB card), otherwise it runs on the processor (about 3 s a frame instead of half a second, half the cores) - so the footage is fetched beside the voice on every card. providers.vision.beside_voice: auto (that rule), cpu, always, or wait (the footage after the voice, the judge with the card to itself). Also in this line: the judge itself (1.3.34), an update keeping your settings (1.3.35)."
+  "notes": "1.3.39: Pixabay is asked by category (nature, then animals) for every subject that is not about people, so its kitchens, sports, people, food and transport never reach the picture judge; a subject about people is asked without a category. Pexels has no such filter. Also in this line: the picture judge (1.3.34), an update keeping your settings (1.3.35), the judge beside the engine when the card has room and on the processor otherwise (1.3.38)."
 }
