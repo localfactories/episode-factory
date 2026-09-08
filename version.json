@@ -1,13 +1,13 @@
 {
   "product": "EpisodeFactory",
-  "version": "1.3.39",
+  "version": "1.3.40",
   "date": "2026-09-08",
-  "applies_from": "1.3.39",
+  "applies_from": "1.3.40",
   "file": "",
   "format": "",
-  "zip": "EpisodeFactory_1.3.39_2026-09-08.zip",
+  "zip": "EpisodeFactory_1.3.40_2026-09-08.zip",
   "url": "",
   "size": 0,
   "sha256": "",
-  "notes": "1.3.39: Pixabay is asked by category (nature, then animals) for every subject that is not about people, so its kitchens, sports, people, food and transport never reach the picture judge; a subject about people is asked without a category. Pexels has no such filter. Also in this line: the picture judge (1.3.34), an update keeping your settings (1.3.35), the judge beside the engine when the card has room and on the processor otherwise (1.3.38)."
+  "notes": "1.3.40: the Pixabay categories come from the script. Nature for every episode, animals when the script has creatures, and religion, buildings, places, travel, transportation, industry, science, food or music when the script says their words (five at most), so a polar night asks under nature and animals and a monastery under nature, religion and buildings; a subject about people is asked under people as well. The categories where the wrong clips live are never asked. Also in this line: the picture judge (1.3.34), an update keeping your settings (1.3.35), the judge beside the engine or on the processor by the card (1.3.38)."
 }
