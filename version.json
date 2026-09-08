@@ -1,13 +1,13 @@
 {
   "product": "EpisodeFactory",
-  "version": "1.3.37",
+  "version": "1.3.38",
   "date": "2026-09-08",
-  "applies_from": "1.3.37",
+  "applies_from": "1.3.38",
   "file": "",
   "format": "",
-  "zip": "EpisodeFactory_1.3.37_2026-09-08.zip",
+  "zip": "EpisodeFactory_1.3.38_2026-09-08.zip",
   "url": "",
   "size": 0,
   "sha256": "",
-  "notes": "1.3.37: the picture judge can run on the processor beside the voice on a card with no room for it (providers.vision.beside_voice = cpu; measured 2.8 s a frame on a 24-thread laptop against 0.5 s on the card, the same sentences). The default on such a card stays: the footage waits for the voice to finish and the judge then has the card to itself. The 2B model is the judge for every card. Also in this line: the judge itself (1.3.34), an update keeping your settings (1.3.35), the card-room rule (1.3.36)."
+  "notes": "1.3.38: the speech engine always has the card; the picture judge takes the card when there is room beside the engine (a 24 GB card), otherwise it runs on the processor (about 3 s a frame instead of half a second, half the cores) - so the footage is fetched beside the voice on every card. providers.vision.beside_voice: auto (that rule), cpu, always, or wait (the footage after the voice, the judge with the card to itself). Also in this line: the judge itself (1.3.34), an update keeping your settings (1.3.35)."
 }
