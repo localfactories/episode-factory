@@ -1,13 +1,13 @@
 {
   "product": "EpisodeFactory",
-  "version": "1.3.36",
+  "version": "1.3.37",
   "date": "2026-09-08",
-  "applies_from": "1.3.36",
+  "applies_from": "1.3.37",
   "file": "",
   "format": "",
-  "zip": "EpisodeFactory_1.3.36_2026-09-08.zip",
+  "zip": "EpisodeFactory_1.3.37_2026-09-08.zip",
   "url": "",
   "size": 0,
   "sha256": "",
-  "notes": "1.3.36: the picture judge sits beside the speech engine only when the card has room for both. The same round-down as the engine ladder: the engine's peak (12 GiB), the transcriber (2) and the judge (5) plus a spare must fit. A 24 GB card has that room, so the footage is fetched while the voice records, as before; on a 16 or 20 GB card the footage waits for the voice to finish and the judge then has the card to itself. The run prints which it is; providers.vision.beside_voice (auto, always, never) overrides it. Also in this line: the judge itself (1.3.34) and an update keeping your settings (1.3.35)."
+  "notes": "1.3.37: the picture judge can run on the processor beside the voice on a card with no room for it (providers.vision.beside_voice = cpu; measured 2.8 s a frame on a 24-thread laptop against 0.5 s on the card, the same sentences). The default on such a card stays: the footage waits for the voice to finish and the judge then has the card to itself. The 2B model is the judge for every card. Also in this line: the judge itself (1.3.34), an update keeping your settings (1.3.35), the card-room rule (1.3.36)."
 }
