@@ -1,13 +1,13 @@
 {
   "product": "EpisodeFactory",
-  "version": "1.3.55",
+  "version": "1.3.56",
   "date": "2026-09-11",
-  "applies_from": "1.3.55",
+  "applies_from": "1.3.56",
   "file": "",
   "format": "",
-  "zip": "EpisodeFactory_1.3.55_2026-09-11.zip",
+  "zip": "EpisodeFactory_1.3.56_2026-09-11.zip",
   "url": "",
   "size": 0,
   "sha256": "",
-  "notes": "Footage rules learned from the Sahara episode: the script's climate is read by what dominates it (polar, desert, tropical, savanna); a desert refuses beaches, seas, forests and the creatures the script never names; page words are matched whole (a star is not a starfish); a creature card takes its own creature; a figure of speech or a word said once names no subject"
+  "notes": "The topic leads, for every land: what the script never talks about is not this place - a water word, a plant, a landform or a creature it never names is refused outright, and one it does name needs a sign of the place in the frame; the climate is read by what dominates the script; page words are matched whole; a creature card takes its own creature; a figure of speech names no subject"
 }
