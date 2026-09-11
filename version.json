@@ -1,13 +1,13 @@
 {
   "product": "EpisodeFactory",
-  "version": "1.3.51",
+  "version": "1.3.52",
   "date": "2026-09-11",
-  "applies_from": "1.3.51",
+  "applies_from": "1.3.52",
   "file": "",
   "format": "",
-  "zip": "EpisodeFactory_1.3.51_2026-09-11.zip",
+  "zip": "EpisodeFactory_1.3.52_2026-09-11.zip",
   "url": "",
   "size": 0,
   "sha256": "",
-  "notes": "1.3.51: the footage target on the episode screen is counted per folder, not per narration chunk (it read 4,395 clips for a pool of about 1,500, and 'folder 47 of 482' over 191 folders). With 1.3.50: the footage stage shows what it is doing while it runs."
+  "notes": "1.3.52: no black windows. Started from Episode Factory's own window, the run, the card probe, ffmpeg, the speech engine and the picture judge all run without a console window of their own; nothing flashes and nothing stays open. Started from a console (episode.bat), the engine keeps its window as before. With 1.3.51: the footage target counted per folder; 1.3.50: the footage stage shows what it is doing while it runs."
 }
