@@ -1,13 +1,13 @@
 {
   "product": "EpisodeFactory",
-  "version": "1.3.58",
+  "version": "1.3.59",
   "date": "2026-09-12",
-  "applies_from": "1.3.58",
+  "applies_from": "1.3.59",
   "file": "",
   "format": "",
-  "zip": "EpisodeFactory_1.3.58_2026-09-12.zip",
+  "zip": "EpisodeFactory_1.3.59_2026-09-12.zip",
   "url": "",
   "size": 0,
   "sha256": "",
-  "notes": "The picture judge reads eight pictures in one pass on a 24 GB card, six on 16, four on 12, three on the processor - measured 2.7 times faster than one at a time, the memory unchanged"
+  "notes": "The picture judge reads eight pictures in one pass on every card, three on the processor"
 }
