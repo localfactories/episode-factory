@@ -1,13 +1,13 @@
 {
   "product": "EpisodeFactory",
-  "version": "1.3.50",
+  "version": "1.3.51",
   "date": "2026-09-11",
-  "applies_from": "1.3.50",
+  "applies_from": "1.3.51",
   "file": "",
   "format": "",
-  "zip": "EpisodeFactory_1.3.50_2026-09-11.zip",
+  "zip": "EpisodeFactory_1.3.51_2026-09-11.zip",
   "url": "",
   "size": 0,
   "sha256": "",
-  "notes": "1.3.50: you can see what the footage stage is doing. The downloader reports its own progress after every folder (which pass, folder n of N, clips against the target, how many frames the judge has seen and refused), the Clips card counts clips against the target while it runs, and the episode screen carries a second live panel, Footage, with the downloader's own newest lines while it runs beside the voice or after it. With 1.3.49: the render writes its shot list; 1.3.48: the right stage named while the run waits; 1.3.47: the footage stage shown running beside the voice, logs readable mid-run."
+  "notes": "1.3.51: the footage target on the episode screen is counted per folder, not per narration chunk (it read 4,395 clips for a pool of about 1,500, and 'folder 47 of 482' over 191 folders). With 1.3.50: the footage stage shows what it is doing while it runs."
 }
