@@ -1,13 +1,13 @@
 {
   "product": "EpisodeFactory",
-  "version": "1.3.54",
+  "version": "1.3.55",
   "date": "2026-09-11",
-  "applies_from": "1.3.54",
+  "applies_from": "1.3.55",
   "file": "",
   "format": "",
-  "zip": "EpisodeFactory_1.3.54_2026-09-11.zip",
+  "zip": "EpisodeFactory_1.3.55_2026-09-11.zip",
   "url": "",
   "size": 0,
   "sha256": "",
-  "notes": "1.3.54: a shot that fails while the others hold the card is tried again on its own - the card's route, then the CPU route, then another clip of the same pool - before a render is allowed to fail; and the render's log names ffmpeg's real reason instead of its last line. Episode 2's first render had died on 2 shots of 852 from a clip that plays perfectly on its own. With 1.3.53: no stale progress numbers; 1.3.52: no black windows."
+  "notes": "Footage rules learned from the Sahara episode: the script's climate is read by what dominates it (polar, desert, tropical, savanna); a desert refuses beaches, seas, forests and the creatures the script never names; page words are matched whole (a star is not a starfish); a creature card takes its own creature; a figure of speech names no subject"
 }
