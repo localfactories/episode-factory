@@ -1,13 +1,13 @@
 {
   "product": "EpisodeFactory",
-  "version": "1.3.48",
+  "version": "1.3.49",
   "date": "2026-09-11",
-  "applies_from": "1.3.48",
+  "applies_from": "1.3.49",
   "file": "",
   "format": "",
-  "zip": "EpisodeFactory_1.3.48_2026-09-11.zip",
+  "zip": "EpisodeFactory_1.3.49_2026-09-11.zip",
   "url": "",
   "size": 0,
   "sha256": "",
-  "notes": "1.3.48: the episode screen names the right stage while the run waits for the footage fetched beside the voice (it said the voice was still running after the voice had finished). With 1.3.47: the footage stage shown running beside the voice, a stage's log readable mid-run, the page's tests unable to reach a real engine."
+  "notes": "1.3.49: the render writes its shot list, output/episode_shots.json - which clip plays when, for which subject, under which sentence - so the footage can be checked against the talk, one frame per shot beside its sentence, without re-planning anything. With 1.3.48: the page names the right stage while the run waits for the footage; with 1.3.47: the footage stage shown running beside the voice, a stage's log readable mid-run, the page's tests unable to reach a real engine."
 }
