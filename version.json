@@ -1,13 +1,13 @@
 {
   "product": "EpisodeFactory",
-  "version": "1.3.62",
+  "version": "1.3.63",
   "date": "2026-09-12",
-  "applies_from": "1.3.62",
+  "applies_from": "1.3.63",
   "file": "",
   "format": "",
-  "zip": "EpisodeFactory_1.3.62_2026-09-12.zip",
+  "zip": "EpisodeFactory_1.3.63_2026-09-12.zip",
   "url": "",
   "size": 0,
   "sha256": "",
-  "notes": "Photos for the creatures the libraries have no film of: a creature card asks the same two libraries for photos, judged like any clip, each turned into a ten-second slow-zoom clip, at most half its folder"
+  "notes": "The picture judge on the processor uses every core and three pictures a pass, measured the fastest"
 }
