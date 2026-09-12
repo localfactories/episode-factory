@@ -1,13 +1,13 @@
 {
   "product": "EpisodeFactory",
-  "version": "1.3.63",
+  "version": "1.3.64",
   "date": "2026-09-12",
-  "applies_from": "1.3.63",
+  "applies_from": "1.3.64",
   "file": "",
   "format": "",
-  "zip": "EpisodeFactory_1.3.63_2026-09-12.zip",
+  "zip": "EpisodeFactory_1.3.64_2026-09-12.zip",
   "url": "",
   "size": 0,
   "sha256": "",
-  "notes": "The picture judge on the processor uses every core and three pictures a pass, measured the fastest"
+  "notes": "The picture judge on the processor uses all threads but two, measured the fastest at three pictures a pass"
 }
