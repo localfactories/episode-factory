@@ -1,13 +1,13 @@
 {
   "product": "EpisodeFactory",
-  "version": "1.3.67",
+  "version": "1.3.68",
   "date": "2026-09-12",
-  "applies_from": "1.3.67",
+  "applies_from": "1.3.68",
   "file": "",
   "format": "",
-  "zip": "EpisodeFactory_1.3.67_2026-09-12.zip",
+  "zip": "EpisodeFactory_1.3.68_2026-09-12.zip",
   "url": "",
   "size": 0,
   "sha256": "",
-  "notes": "Two new gates (every file scanned for a name used at start-up before it is bound; every toolkit script started under the run's environment in every voice branch); a run that dies while its judge is loading now closes it; both servers read the request body on every route"
+  "notes": "What a land is: a climate's look (the wild green of the tropics, the grass of the savanna) and a script's own family of water are never banned - the first non-desert run had two thirds of its good pictures refused; the desert's rules unchanged"
 }
