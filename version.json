@@ -1,13 +1,13 @@
 {
   "product": "EpisodeFactory",
-  "version": "1.3.60",
+  "version": "1.3.61",
   "date": "2026-09-12",
-  "applies_from": "1.3.60",
+  "applies_from": "1.3.61",
   "file": "",
   "format": "",
-  "zip": "EpisodeFactory_1.3.60_2026-09-12.zip",
+  "zip": "EpisodeFactory_1.3.61_2026-09-12.zip",
   "url": "",
   "size": 0,
   "sha256": "",
-  "notes": "Footage rules: wind turbines, city pigeons on concrete, cages, instruments, astronauts and passers-by, nebula and tornado renders, green screens and party lights refused for every script; only a creature the script owns rescues a conditional"
+  "notes": "A three-letter creature of the script (owl, fox, ant) counts on its own when a clip is judged for its card"
 }
