@@ -1,13 +1,13 @@
 {
   "product": "EpisodeFactory",
-  "version": "1.3.59",
+  "version": "1.3.60",
   "date": "2026-09-12",
-  "applies_from": "1.3.59",
+  "applies_from": "1.3.60",
   "file": "",
   "format": "",
-  "zip": "EpisodeFactory_1.3.59_2026-09-12.zip",
+  "zip": "EpisodeFactory_1.3.60_2026-09-12.zip",
   "url": "",
   "size": 0,
   "sha256": "",
-  "notes": "The picture judge reads eight pictures in one pass on every card, three on the processor"
+  "notes": "Footage rules: wind turbines, city pigeons on concrete, cages, instruments, astronauts and passers-by, nebula and tornado renders, green screens and party lights refused for every script; only a creature the script owns rescues a conditional"
 }
