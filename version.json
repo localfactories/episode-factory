@@ -1,13 +1,13 @@
 {
   "product": "EpisodeFactory",
-  "version": "1.3.70",
+  "version": "1.3.71",
   "date": "2026-09-14",
-  "applies_from": "1.3.70",
+  "applies_from": "1.3.71",
   "file": "",
   "format": "",
-  "zip": "EpisodeFactory_1.3.70_2026-09-14.zip",
+  "zip": "EpisodeFactory_1.3.71_2026-09-14.zip",
   "url": "",
   "size": 0,
   "sha256": "",
-  "notes": "The downloads at once: a batch's clips are fetched four at a time (footage.download_workers, 1-8) ahead of the loop and filed in the same order with the same checks - the same pool, only the waiting removed; the summary prints what the line gave"
+  "notes": "THE FOOTAGE-FIT VERIFY. Every clip the reject rules keep is now graded once beside the purge (its subject shown, the place, or nothing readable) and the montage ranks by it - a clean clip repeats before a refused one cuts in; a card with no clean clip of its own, or nothing of its subject after every rung of the search ladder, is named and the render stops before the encode until its search phrases are edited and Run pressed (the last rung takes pictures of a subject no camera has filmed). The render writes output\\footage_report.txt (every shot: what plays, what is said, what the judge saw, why) and prints 'footage fit N%' - what three readers would say of the clips the rules accept, by the card's class; the 90% floor is printed and warned about, not yet enforced. The QA gate writes output\\qa_verdict.txt and its PASS line carries the number. THE JUDGE IS 7: it reads four tiles of a real frame of every clip whose world bans what a tile can show - a fence, a tourist, a car; every pool is read once on its next Run, then the purge, then a refill of what it refuses; the clips log names every clip a tile refused, with the word. THE RULES: a said word's conditional stands over the climate's plain ban in every world, the sea's own words decide 'watery' and the open ocean has a look, creature compounds read as kinds (sea stars are starfish), the young of a species yields to the species, a said landform half-says its kin (hill and hillside, coast and coastline), and every world's place is the name the script says most. THE FOOTAGE KEEPS PACE WITH THE VOICE: the Pexels searches are budgeted to the key's 200 an hour (the first query at page 1 on every rung, the rest is Pixabay's, and a folder still short asks Pexels the kept-back pages last) and paced before the line; a search the library did not answer is asked again instead of being remembered as empty; the downloads come in four at once (config stock.download_workers, 1-8); a clip is written under a working name so a Stop leaves no half clip; the thumbnails come together and the captions ledger is written once a folder. The first Run of every episode after this update grades its pool, tiles it and re-scores its film; nothing is fetched twice."
 }
