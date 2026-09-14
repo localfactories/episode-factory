@@ -1,13 +1,13 @@
 {
   "product": "EpisodeFactory",
-  "version": "1.3.77",
+  "version": "1.3.78",
   "date": "2026-09-14",
-  "applies_from": "1.3.75",
-  "file": "EpisodeFactory_update_1.3.77_2026-09-14.7z",
-  "format": "7z",
-  "zip": "EpisodeFactory_1.3.77_2026-09-14.zip",
-  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_1.3.77_2026-09-14.7z",
-  "size": 379410,
-  "sha256": "d255ebdea7f7a7522773b26cfb9afbd2c39b0e60f77603e68c2913856655691d",
-  "notes": "THE PAGE SAYS WHERE IT IS DURING THE TWO SILENT PASSES. The verify stage now prints 'checked N of 432 chunk(s)' while Whisper listens, every couple of seconds, and the page turns it into the stage's bar and the card's line; the judge's pass over the pool before any fetch ('the judge re-reads the pool before fetching: N of M clips') moves the Clips card and the footage bar as it goes, and it reports every 20 clips instead of 40. A running card shows its live count instead of its last note. Since 1.3.76: the footage starts beside the first stage the Run actually runs."
+  "applies_from": "1.3.78",
+  "file": "",
+  "format": "",
+  "zip": "EpisodeFactory_1.3.78_2026-09-14.zip",
+  "url": "",
+  "size": 0,
+  "sha256": "",
+  "notes": "PIXABAY IS ASKED TWO CATEGORIES A PAGE, THE CARD'S OWN FIRST. Measured on a real run: every fresh card's search took 21 to 22 seconds while the loop itself measures one second and Pexels 1.4 - the seconds were Pixabay's, asked under every category of the episode plus the card's own, eight calls a page, and its answers came back as if one at a time. A page now asks the two categories that fit the card best and the others only when both answered with nothing at all; a Commons that is off no longer costs a pause. Since 1.3.77: the page says where it is during the verify pass and the judge's pass over the pool; since 1.3.76: the footage starts beside the first stage the Run actually runs."
 }
