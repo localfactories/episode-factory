@@ -1,13 +1,13 @@
 {
   "product": "EpisodeFactory",
-  "version": "1.3.80",
+  "version": "1.3.81",
   "date": "2026-09-14",
   "applies_from": "1.3.78",
-  "file": "EpisodeFactory_update_1.3.80_2026-09-14.7z",
+  "file": "EpisodeFactory_update_1.3.81_2026-09-14.7z",
   "format": "7z",
-  "zip": "EpisodeFactory_1.3.80_2026-09-14.zip",
-  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_1.3.80_2026-09-14.7z",
-  "size": 253010,
-  "sha256": "b22de290b8a8c8db4ab17698287e8967a779fb8621f7248de7aef983790e0fbe",
-  "notes": "A STALLED READ IS TRIED AGAIN AT ONCE, A STALLED DOWNLOAD RESUMES. A packet dropped after the connection is up climbs a retransmit ladder that a 300-second read timeout let run for twenty seconds in silence. Searches, size checks and downloads now wait at most 10 seconds between bytes; a stalled search is asked again at once, a stalled download resumes from the byte it reached, and the log says so once. Since 1.3.79: a dropped connection attempt costs 3 seconds instead of 21."
+  "zip": "EpisodeFactory_1.3.81_2026-09-14.zip",
+  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_1.3.81_2026-09-14.7z",
+  "size": 278594,
+  "sha256": "5df15a54eebe6e48f5e98fee7eb63c0d51d34924e8c888c975d1ac4c59981537",
+  "notes": "THE JUDGE STOPS WHEN THE FOLDER HAS ENOUGH. On a fresh episode a folder's line read judge 24 of 37 seconds: about thirty candidate frames described for a folder that wanted four clips. The candidates are now described eight at a time, in the batch's order, and the judging stops once the folder's need plus a spare have passed; the rest are neither kept nor spent, and the next batch meets them again if the folder is still short. Since 1.3.80: a stalled read is tried again at once and a stalled download resumes from the byte it reached."
 }
