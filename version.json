@@ -1,13 +1,13 @@
 {
   "product": "EpisodeFactory",
-  "version": "1.3.75",
+  "version": "1.3.76",
   "date": "2026-09-14",
   "applies_from": "1.3.75",
-  "file": "",
-  "format": "",
-  "zip": "EpisodeFactory_1.3.75_2026-09-14.zip",
-  "url": "",
-  "size": 0,
-  "sha256": "",
-  "notes": "THE SEARCHES OF A FOLDER RUN AT ONCE. Measured on a real run: 53 seconds a folder, of which the picture judge was 7 and the downloads 5 - the rest was the searches, one after another, each with a pause. Now every search of a page sweep - both queries, both libraries, Pixabay's categories - runs at the same time and the answers are read in the old order, so the pool is the same pool sooner; the pause after each search is gone (the libraries' own published rates - Pexels 200 an hour, Pixabay 100 a minute - are kept by a pacer). Every folder line of the clips log says where its seconds went: (15 s: search 4, judge 7, download 4). THE TILE READS THE MADE THING ALONE: the first run on the armed tiles refused half its clips by words a quarter of a frame guesses wrong - a stream, a pine forest, a beach under a crab, 'possibly a garden'; a tile now refuses only by a made, captive or person thing it plainly shows - a fence, a wire, a tourist, a car, a tank, the zoo's furniture - never by a landform, a plant or a guess. The Setup screen and the install wizard carry a Get-a-free-key link for Pexels and Pixabay. An episode's state file is written by one writer at a time. Since 1.3.72: the page watches itself, the registry is renamed into place with a short wait, one press makes one episode."
+  "file": "EpisodeFactory_update_1.3.76_2026-09-14.7z",
+  "format": "7z",
+  "zip": "EpisodeFactory_1.3.76_2026-09-14.zip",
+  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_1.3.76_2026-09-14.7z",
+  "size": 212050,
+  "sha256": "11d6d5dab9ec39220bfeed2dcbbaf5fb10b5b56739b67322c1d9ad023cfa6325",
+  "notes": "THE FOOTAGE WORKS FROM THE FIRST MOMENT OF A RUN. Until now the footage started only when the voice stage itself ran: a Run whose voice was already recorded fetched no footage until the check had finished its whole Whisper pass. Now the footage starts beside the first long stage the Run actually runs - the voice, or the check when the voice is done (the console says alongside the verify stage, the page running beside verify) - and only a Run where nothing runs before it fetches the footage in its own place. Since 1.3.75: every search of a folder runs at once, and every folder line of the clips log says where its seconds went."
 }
