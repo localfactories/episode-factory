@@ -1,13 +1,13 @@
 {
   "product": "EpisodeFactory",
-  "version": "1.3.84",
+  "version": "1.3.85",
   "date": "2026-09-15",
   "applies_from": "1.3.78",
-  "file": "EpisodeFactory_update_1.3.84_2026-09-15.7z",
+  "file": "EpisodeFactory_update_1.3.85_2026-09-15.7z",
   "format": "7z",
-  "zip": "EpisodeFactory_1.3.84_2026-09-15.zip",
-  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_1.3.84_2026-09-15.7z",
-  "size": 511170,
-  "sha256": "7acc9263fb8103534d9d385163ec2f6fd1c72f37a6cd1803f07b8ae9e39c9776",
-  "notes": "AN OLDER LADDER'S FOLDERS ARE DUG AGAIN. The search ladder now carries its own version: a folder whose every rung was walked before the ladder gained the subject-alone rung is walked again on the next Run, and the clips stage counts such a pool as owing a dig instead of skipping it. Since 1.3.83: the run never stops for want of footage, and the ladder asks a card's bare word on every shelf."
+  "zip": "EpisodeFactory_1.3.85_2026-09-15.zip",
+  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_1.3.85_2026-09-15.7z",
+  "size": 601666,
+  "sha256": "23378a8dd19df9ebff30dc92330032140dc75126769b41a6d5ce0bb4828c3109",
+  "notes": "THE ESTIMATE IS CALIBRATED TO WHAT THE VOICE DELIVERS. A finished episode measured the rate: 19,178 words became a film of 1 hour 52 minutes, 171 words a minute, where the plan had assumed 139 and promised two hours seventeen. Every estimate the product prints now uses the measured rate, and the upload kit's title takes the finished audio's real length once the narration is joined. Since 1.3.84: an older ladder's folders are dug again; since 1.3.83: the run never stops for want of footage."
 }
