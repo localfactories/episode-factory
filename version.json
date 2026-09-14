@@ -1,13 +1,13 @@
 {
   "product": "EpisodeFactory",
-  "version": "1.3.82",
-  "date": "2026-09-14",
+  "version": "1.3.83",
+  "date": "2026-09-15",
   "applies_from": "1.3.78",
-  "file": "EpisodeFactory_update_1.3.82_2026-09-14.7z",
+  "file": "EpisodeFactory_update_1.3.83_2026-09-15.7z",
   "format": "7z",
-  "zip": "EpisodeFactory_1.3.82_2026-09-14.zip",
-  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_1.3.82_2026-09-14.7z",
-  "size": 279362,
-  "sha256": "0baed0c984ae8c947584feb01d9f1828c9418dc0b70df4aa8404c008e78a9fe5",
-  "notes": "A STALLED HANDSHAKE IS TRIED AGAIN ON A FRESH SOCKET. The secure handshake now runs under the connect's own 3-second clock: a handshake that stalls is abandoned with its socket and a new attempt made at once, instead of surfacing as an error that skipped the candidate. Since 1.3.81: the judge stops describing candidates once the folder has what it needs; since 1.3.80: a stalled read is tried again at once and a stalled download resumes."
+  "zip": "EpisodeFactory_1.3.83_2026-09-15.zip",
+  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_1.3.83_2026-09-15.7z",
+  "size": 509522,
+  "sha256": "bacd809f4c61773b78cf2f6f17135b0381b70372a0ba35c351cbdc650fa9b324",
+  "notes": "THE RUN NEVER STOPS. A card that holds nothing of its own subject after every rung plays the place's film and is named - on the console, in the gate's notes and in the footage report - and the video is built all the same; the earlier refusal survives only as a switch for a hand-run audit. The search ladder gained the subject alone: the card's words with the place's anchor taken off are asked on the film shelves right after its own phrases, on the photo shelves after its photos, and on the picture rungs last, so a phrase like 'swell forest' that no library films no longer leaves a card empty. Also in this version: the judge stops describing candidates once a folder has what it needs, and a stalled secure handshake is tried again on a fresh socket."
 }
