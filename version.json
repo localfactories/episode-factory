@@ -1,13 +1,13 @@
 {
   "product": "EpisodeFactory",
-  "version": "1.3.81",
+  "version": "1.3.82",
   "date": "2026-09-14",
   "applies_from": "1.3.78",
-  "file": "EpisodeFactory_update_1.3.81_2026-09-14.7z",
+  "file": "EpisodeFactory_update_1.3.82_2026-09-14.7z",
   "format": "7z",
-  "zip": "EpisodeFactory_1.3.81_2026-09-14.zip",
-  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_1.3.81_2026-09-14.7z",
-  "size": 278594,
-  "sha256": "5df15a54eebe6e48f5e98fee7eb63c0d51d34924e8c888c975d1ac4c59981537",
-  "notes": "THE JUDGE STOPS WHEN THE FOLDER HAS ENOUGH. On a fresh episode a folder's line read judge 24 of 37 seconds: about thirty candidate frames described for a folder that wanted four clips. The candidates are now described eight at a time, in the batch's order, and the judging stops once the folder's need plus a spare have passed; the rest are neither kept nor spent, and the next batch meets them again if the folder is still short. Since 1.3.80: a stalled read is tried again at once and a stalled download resumes from the byte it reached."
+  "zip": "EpisodeFactory_1.3.82_2026-09-14.zip",
+  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_1.3.82_2026-09-14.7z",
+  "size": 279362,
+  "sha256": "0baed0c984ae8c947584feb01d9f1828c9418dc0b70df4aa8404c008e78a9fe5",
+  "notes": "A STALLED HANDSHAKE IS TRIED AGAIN ON A FRESH SOCKET. The secure handshake now runs under the connect's own 3-second clock: a handshake that stalls is abandoned with its socket and a new attempt made at once, instead of surfacing as an error that skipped the candidate. Since 1.3.81: the judge stops describing candidates once the folder has what it needs; since 1.3.80: a stalled read is tried again at once and a stalled download resumes."
 }
