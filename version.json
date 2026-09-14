@@ -1,13 +1,13 @@
 {
   "product": "EpisodeFactory",
-  "version": "1.3.79",
+  "version": "1.3.80",
   "date": "2026-09-14",
   "applies_from": "1.3.78",
-  "file": "EpisodeFactory_update_1.3.79_2026-09-14.7z",
+  "file": "EpisodeFactory_update_1.3.80_2026-09-14.7z",
   "format": "7z",
-  "zip": "EpisodeFactory_1.3.79_2026-09-14.zip",
-  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_1.3.79_2026-09-14.7z",
-  "size": 243602,
-  "sha256": "5344579f78914039c924f447240cd6f3df88bf05e47db2f36a9dc0d0ca06aef1",
-  "notes": "THE 21 SECONDS WERE THE CONNECTION, NOT THE LIBRARY. Every fresh search of a folder took 21 seconds while the libraries answered in a third of a second: a dropped first connection attempt, which Windows retries after 3, 6 and 12 seconds, and a sweep waits for its slowest connection; downloads stalled the same way. Every request of the run now goes through a connection whose connect is abandoned after 3 seconds and tried again at once, so a dropped attempt costs 3 seconds instead of 21. Since 1.3.78: Pixabay asked two categories a page, the card's own first; since 1.3.77: the page says where it is during the verify and tile passes; since 1.3.76: the footage starts beside the first stage the Run actually runs."
+  "zip": "EpisodeFactory_1.3.80_2026-09-14.zip",
+  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_1.3.80_2026-09-14.7z",
+  "size": 253010,
+  "sha256": "b22de290b8a8c8db4ab17698287e8967a779fb8621f7248de7aef983790e0fbe",
+  "notes": "A STALLED READ IS TRIED AGAIN AT ONCE, A STALLED DOWNLOAD RESUMES. A packet dropped after the connection is up climbs a retransmit ladder that a 300-second read timeout let run for twenty seconds in silence. Searches, size checks and downloads now wait at most 10 seconds between bytes; a stalled search is asked again at once, a stalled download resumes from the byte it reached, and the log says so once. Since 1.3.79: a dropped connection attempt costs 3 seconds instead of 21."
 }
