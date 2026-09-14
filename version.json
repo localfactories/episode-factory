@@ -1,13 +1,13 @@
 {
   "product": "EpisodeFactory",
-  "version": "1.3.83",
+  "version": "1.3.84",
   "date": "2026-09-15",
   "applies_from": "1.3.78",
-  "file": "EpisodeFactory_update_1.3.83_2026-09-15.7z",
+  "file": "EpisodeFactory_update_1.3.84_2026-09-15.7z",
   "format": "7z",
-  "zip": "EpisodeFactory_1.3.83_2026-09-15.zip",
-  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_1.3.83_2026-09-15.7z",
-  "size": 509522,
-  "sha256": "bacd809f4c61773b78cf2f6f17135b0381b70372a0ba35c351cbdc650fa9b324",
-  "notes": "THE RUN NEVER STOPS. A card that holds nothing of its own subject after every rung plays the place's film and is named - on the console, in the gate's notes and in the footage report - and the video is built all the same; the earlier refusal survives only as a switch for a hand-run audit. The search ladder gained the subject alone: the card's words with the place's anchor taken off are asked on the film shelves right after its own phrases, on the photo shelves after its photos, and on the picture rungs last, so a phrase like 'swell forest' that no library films no longer leaves a card empty. Also in this version: the judge stops describing candidates once a folder has what it needs, and a stalled secure handshake is tried again on a fresh socket."
+  "zip": "EpisodeFactory_1.3.84_2026-09-15.zip",
+  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_1.3.84_2026-09-15.7z",
+  "size": 511170,
+  "sha256": "7acc9263fb8103534d9d385163ec2f6fd1c72f37a6cd1803f07b8ae9e39c9776",
+  "notes": "AN OLDER LADDER'S FOLDERS ARE DUG AGAIN. The search ladder now carries its own version: a folder whose every rung was walked before the ladder gained the subject-alone rung is walked again on the next Run, and the clips stage counts such a pool as owing a dig instead of skipping it. Since 1.3.83: the run never stops for want of footage, and the ladder asks a card's bare word on every shelf."
 }
