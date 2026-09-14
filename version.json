@@ -1,13 +1,13 @@
 {
   "product": "EpisodeFactory",
-  "version": "1.3.69",
+  "version": "1.3.70",
   "date": "2026-09-14",
-  "applies_from": "1.3.69",
+  "applies_from": "1.3.70",
   "file": "",
   "format": "",
-  "zip": "EpisodeFactory_1.3.69_2026-09-14.zip",
+  "zip": "EpisodeFactory_1.3.70_2026-09-14.zip",
   "url": "",
   "size": 0,
   "sha256": "",
-  "notes": "Every kind of episode: the human world (cities, history, wars, ancient), the deep past (extinct creatures), eras, what cannot be filmed is pictured, CGI as the last step of every subject's ladder, night subjects take night frames, the judge's question names the setting and anything man-made (judge 6: every pool is judged again on its next Run), 22 fixture scripts verified by the build; measured on real footage"
+  "notes": "The downloads at once: a batch's clips are fetched four at a time (footage.download_workers, 1-8) ahead of the loop and filed in the same order with the same checks - the same pool, only the waiting removed; the summary prints what the line gave"
 }
