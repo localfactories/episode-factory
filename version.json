@@ -1,13 +1,13 @@
 {
   "product": "EpisodeFactory",
-  "version": "1.3.86",
+  "version": "1.3.87",
   "date": "2026-09-15",
   "applies_from": "1.3.78",
-  "file": "EpisodeFactory_update_1.3.86_2026-09-15.7z",
+  "file": "EpisodeFactory_update_1.3.87_2026-09-15.7z",
   "format": "7z",
-  "zip": "EpisodeFactory_1.3.86_2026-09-15.zip",
-  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_1.3.86_2026-09-15.7z",
-  "size": 665826,
-  "sha256": "7f419f14622d8e95f8028d206d51c9ab2c9f58b4a7108d15cf55625e24f81fac",
-  "notes": "the upload kit says the finished narration's measured length; the render card names the cards on the place's film beside the fit number"
+  "zip": "EpisodeFactory_1.3.87_2026-09-15.zip",
+  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_1.3.87_2026-09-15.7z",
+  "size": 669746,
+  "sha256": "23a2757c7b24447cf3d972e50ec44083394ea0830b1a4acfc7b75088f5e1c32a",
+  "notes": "the licence key is checked against the store's own products; the kit says the measured length"
 }
