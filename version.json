@@ -1,13 +1,13 @@
 {
   "product": "EpisodeFactory",
-  "version": "1.3.85",
+  "version": "1.3.86",
   "date": "2026-09-15",
   "applies_from": "1.3.78",
-  "file": "EpisodeFactory_update_1.3.85_2026-09-15.7z",
+  "file": "EpisodeFactory_update_1.3.86_2026-09-15.7z",
   "format": "7z",
-  "zip": "EpisodeFactory_1.3.85_2026-09-15.zip",
-  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_1.3.85_2026-09-15.7z",
-  "size": 601666,
-  "sha256": "23378a8dd19df9ebff30dc92330032140dc75126769b41a6d5ce0bb4828c3109",
-  "notes": "THE ESTIMATE IS CALIBRATED TO WHAT THE VOICE DELIVERS. A finished episode measured the rate: 19,178 words became a film of 1 hour 52 minutes, 171 words a minute, where the plan had assumed 139 and promised two hours seventeen. Every estimate the product prints now uses the measured rate, and the upload kit's title takes the finished audio's real length once the narration is joined. Since 1.3.84: an older ladder's folders are dug again; since 1.3.83: the run never stops for want of footage."
+  "zip": "EpisodeFactory_1.3.86_2026-09-15.zip",
+  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_1.3.86_2026-09-15.7z",
+  "size": 665826,
+  "sha256": "7f419f14622d8e95f8028d206d51c9ab2c9f58b4a7108d15cf55625e24f81fac",
+  "notes": "the upload kit says the finished narration's measured length; the render card names the cards on the place's film beside the fit number"
 }
