@@ -1,13 +1,13 @@
 {
   "product": "EpisodeFactory",
-  "version": "1.3.87",
+  "version": "1.3.88",
   "date": "2026-09-15",
   "applies_from": "1.3.78",
-  "file": "EpisodeFactory_update_1.3.87_2026-09-15.7z",
+  "file": "EpisodeFactory_update_1.3.88_2026-09-15.7z",
   "format": "7z",
-  "zip": "EpisodeFactory_1.3.87_2026-09-15.zip",
-  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_1.3.87_2026-09-15.7z",
-  "size": 669746,
-  "sha256": "23a2757c7b24447cf3d972e50ec44083394ea0830b1a4acfc7b75088f5e1c32a",
-  "notes": "the licence key is checked against the store's own products; the kit says the measured length"
+  "zip": "EpisodeFactory_1.3.88_2026-09-15.zip",
+  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_1.3.88_2026-09-15.7z",
+  "size": 700626,
+  "sha256": "3d6ec62b84f795ee5241ce6c2f84b19c5d2c57f898ebb22d508e0b7ca1e75c7b",
+  "notes": "the licence key is checked against the store; the kit says the measured length"
 }
