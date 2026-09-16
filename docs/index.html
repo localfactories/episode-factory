@@ -4,9 +4,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Episode Factory — Local Factories</title>
-<meta name="description" content="Episode Factory turns a written script and fifteen seconds of a voice into a finished, narrated, long-form 4K film on your own Windows PC and NVIDIA graphics card. One click installs, one click runs, nothing to pay per episode.">
+<meta name="description" content="Episode Factory turns a written script and fifteen seconds of a voice into a finished, narrated, long-form 4K film on your own Windows PC and NVIDIA graphics card. One click installs, one click runs. Plans from £19 a month, sized by the script words you turn into film.">
 <meta property="og:title" content="Episode Factory — Local Factories">
-<meta property="og:description" content="A written script in, a narrated long-form 4K film out — on your own graphics card. Nothing to pay per episode.">
+<meta property="og:description" content="A written script in, a narrated long-form 4K film out — on your own graphics card. Plans from £19 a month, sized by the words you turn into film.">
 <meta property="og:image" content="demo-thumbnail.jpg">
 <style>
   :root {
@@ -41,6 +41,8 @@
   .step h3 { margin: 0 0 8px; font-size: 18px; }
   .step p { margin: 0; color: var(--muted); font-size: 15px; }
   .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+  .grid3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 18px; }
+  .card li b { color: var(--text); }
   .card { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 22px; }
   .card h3 { margin: 0 0 6px; font-size: 20px; }
   .price { font-size: 36px; font-weight: 650; margin: 8px 0 2px; }
@@ -61,6 +63,7 @@
     .hero h1 { font-size: 32px; }
     .steps { grid-template-columns: 1fr 1fr; }
     .grid2 { grid-template-columns: 1fr; }
+    .grid3 { grid-template-columns: 1fr; }
     nav a { margin-left: 14px; }
   }
   @media (max-width: 520px) { .steps { grid-template-columns: 1fr; } }
@@ -82,8 +85,8 @@
   <section class="hero" style="border-top:0">
     <div>
       <h1>A written script in.<br>A narrated, long-form 4K film out.</h1>
-      <p class="lead">Episode Factory runs on your own Windows PC and your own NVIDIA graphics card. You attach a script and fifteen seconds of a voice, press Run, and it records the narration, checks every line against its own transcript, finds and judges the footage, and renders the film. Nothing to pay per episode.</p>
-      <a class="cta" href="https://localfactories.lemonsqueezy.com">Buy a licence</a>
+      <p class="lead">Episode Factory runs on your own Windows PC and your own NVIDIA graphics card. You attach a script and fifteen seconds of a voice, press Run, and it records the narration, checks every line against its own transcript, finds and judges the footage, and renders the film. One monthly plan, sized by the words you turn into film; every plan makes the same film.</p>
+      <a class="cta" href="#pricing">Choose a plan</a>
       <a class="ghost" href="https://www.youtube.com/@local.factories">Watch the demo</a>
       <p class="note" style="margin-top:18px">Made for long-form narrated formats — sleep documentaries, nature and history films, the kind of episode that runs for an hour or two and is listened to as much as watched.</p>
     </div>
@@ -106,7 +109,7 @@
 
   <section id="need">
     <h2>What you need</h2>
-    <p class="sub">Hardware you own and two free accounts. There is no subscription and no metered service inside the program.</p>
+    <p class="sub">Hardware you own and two free accounts. Nothing inside the program is metered except the one number your plan is sized by: the script words you turn into film each month.</p>
     <table>
       <tr><th>Computer</th><td>Windows 10 or 11, with an NVIDIA graphics card. The program reads the card and adapts to it — a 12 GB card runs one speech engine, a 24 GB card two. The picture judge takes the card when there is room and the processor otherwise.</td></tr>
       <tr><th>Disk</th><td>About 35 GB for the install (the speech engine and the vision model are fetched from their publishers once) and about 55 GB of working space while an episode renders.</td></tr>
@@ -118,43 +121,61 @@
 
   <section id="pricing">
     <h2>Pricing</h2>
-    <p class="sub">One payment, no renewal. Updates are included: an installed copy checks for a new version once a day and applies it with one click.</p>
-    <div class="grid2">
+    <p class="sub">Every plan makes the same film: any length, 4K, your own voice, every clip judged by its picture. Plans differ in one number, the script words you turn into film each month. Updates are included; cancel any time.</p>
+    <div class="grid3">
       <div class="card">
-        <h3>Personal</h3>
-        <div class="price">£300 <small>one-time</small></div>
-        <p class="note">For one person making their own episodes.</p>
+        <h3>Standard</h3>
+        <div class="price">£19 <small>a month</small></div>
+        <p class="note">or £190 a year. About an hour of film a month: one long film, or four to six short ones.</p>
         <ul>
-          <li>The full program, every stage, no limit on episodes</li>
-          <li>Licence key activates on 1 machine; move it any time by deactivating it first</li>
-          <li>All updates included</li>
+          <li><b>10,000 script words</b> a month</li>
+          <li>The whole program, every stage, any length</li>
+          <li>One machine at a time; the key moves by deactivating it</li>
           <li>Support by email</li>
         </ul>
-        <a class="cta" href="https://localfactories.lemonsqueezy.com">Buy Personal</a>
+        <a class="cta" href="https://localfactories.lemonsqueezy.com">Start Standard</a>
       </div>
       <div class="card">
-        <h3>Studio</h3>
-        <div class="price">£1,000 <small>one-time</small></div>
-        <p class="note">For a team or a channel network running several machines.</p>
+        <h3>Pro</h3>
+        <div class="price">£49 <small>a month</small></div>
+        <p class="note">or £490 a year. About four hours of film a month: two full-length films.</p>
         <ul>
-          <li>Everything in Personal</li>
-          <li>Licence key activates on up to 5 machines</li>
-          <li>All updates included</li>
-          <li>Priority support by email</li>
+          <li><b>40,000 script words</b> a month</li>
+          <li>The whole program, every stage, any length</li>
+          <li>One machine at a time; the key moves by deactivating it</li>
+          <li>Support by email, answered within one working day</li>
         </ul>
-        <a class="cta" href="https://localfactories.lemonsqueezy.com">Buy Studio</a>
+        <a class="cta" href="https://localfactories.lemonsqueezy.com">Start Pro</a>
+      </div>
+      <div class="card">
+        <h3>Ultimate</h3>
+        <div class="price">£99 <small>a month</small></div>
+        <p class="note">or £990 a year. About ten hours of film a month, for a channel network.</p>
+        <ul>
+          <li><b>100,000 script words</b> a month</li>
+          <li>The whole program, every stage, any length</li>
+          <li>One machine at a time; the key moves by deactivating it</li>
+          <li>Support by email, answered within one working day</li>
+        </ul>
+        <a class="cta" href="https://localfactories.lemonsqueezy.com">Start Ultimate</a>
       </div>
     </div>
-    <p class="note" style="margin-top:18px">Prices in GBP. Checkout and licence keys are handled by Lemon Squeezy, our merchant of record. A licence key is entered once during the install and can be moved to another machine by deactivating it first.</p>
+    <div class="card" style="margin-top:18px">
+      <h3>Word packs, when a month needs more</h3>
+      <p class="note" style="margin:6px 0 0">A one-time top-up, good for 90 days from the day you add it, spent after the month's own words: <b>5,000 words £12</b> · <b>10,000 words £24</b> · <b>20,000 words £39</b> · <b>50,000 words £79</b>. Paste the code from the receipt on the Setup screen. If you need more every month, a larger plan costs less per word than packs.</p>
+    </div>
+    <p class="note" style="margin-top:18px">Prices in GBP, VAT added at checkout where it applies. Checkout, billing and licence keys are handled by Lemon Squeezy, our merchant of record. The key is entered once during the install; the program shows your plan, the words left this month and the renewal date on its Setup screen. Change plan or cancel any time from the store's customer portal; a larger plan applies at once.</p>
   </section>
 
   <section id="faq">
     <h2>Questions</h2>
-    <details><summary>Is anything paid per episode?</summary><p>No. The voice and the transcript are made by programs on your own machine, and the clips come from free libraries under their free keys. The only costs are the hardware you already own and your electricity.</p></details>
+    <details><summary>What counts against my plan?</summary><p>Only the script's words, once, when an episode is first run: a 20,000-word script is a two-hour film and 20,000 words of the month. Every later run of that episode — a repair, a refetch, a re-render — is free. Nothing else is metered: the voice and the transcript are made by programs on your own machine, and the clips come from free libraries under their free keys.</p></details>
+    <details><summary>What happens when the month's words run out?</summary><p>The program says so before it starts, with the numbers: how long the script is, how many words remain, and the renewal date. You can add a word pack, move to a larger plan (it applies at once), or wait for the renewal. Nothing already made is touched.</p></details>
+    <details><summary>Can I change plan or cancel?</summary><p>Any time, from the store's customer portal. A larger plan raises this month's words at once; a smaller one takes effect at the next renewal. If you cancel, the program stops starting new episodes when the paid month ends; your films, your episodes and your settings stay yours.</p></details>
     <details><summary>Where does the footage come from, and may I publish it?</summary><p>From Pexels (and Pixabay if you add its key), under their own licences, which allow use in published videos. Put a footage credit in your description; the program's documentation lists the vendors' terms with the dates they were read. Read them yourself before you publish for money — they are the vendors' terms, not ours.</p></details>
-    <details><summary>Does it need the internet while it runs?</summary><p>Only to fetch clips. Narration, transcription, judging and rendering are local. The program checks for updates once a day; that check can be switched off.</p></details>
-    <details><summary>Is there a refund?</summary><p>No. Episode Factory is a digital licence delivered immediately, and all sales are final. Check the requirements above before you buy; if the install does not complete on a machine that meets them, write to us with the install log and we will get it running with you.</p></details>
-    <details><summary>Can I move the licence to a new computer?</summary><p>Yes. Deactivate it on the old machine (one command, in the documentation) and activate it on the new one. Personal allows 1 active machine, Studio 5.</p></details>
+    <details><summary>Does it need the internet while it runs?</summary><p>Yes, for fetching clips and, on a plan, for the short check of your key each time you press Run. Narration, transcription, judging and rendering are local. The program checks for updates once a day; that check can be switched off.</p></details>
+    <details><summary>Is there a refund?</summary><p>No. A month is paid for and delivered as it runs, and all sales are final; cancel from the portal and the plan simply ends at the renewal. Check the requirements above before you buy; if the install does not complete on a machine that meets them, write to us with the install log and we will get it running with you.</p></details>
+    <details><summary>Can I move the licence to a new computer?</summary><p>Yes. Deactivate it on the old machine (one command, in the documentation) and activate it on the new one. Every plan runs on one machine at a time.</p></details>
     <details><summary>Which languages?</summary><p>The speech engine narrates in the language of your script and your voice clip; the product is documented and tested in English.</p></details>
   </section>
 
