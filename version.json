@@ -1,13 +1,13 @@
 {
   "product": "EpisodeFactory",
-  "version": "1.3.89",
+  "version": "1.3.90",
   "date": "2026-09-16",
   "applies_from": "1.3.78",
-  "file": "EpisodeFactory_update_1.3.89_2026-09-16.7z",
+  "file": "EpisodeFactory_update_1.3.90_2026-09-16.7z",
   "format": "7z",
-  "zip": "EpisodeFactory_1.3.89_2026-09-16.zip",
-  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_1.3.89_2026-09-16.7z",
-  "size": 737810,
-  "sha256": "ce2d26da13540c8f1ae7469978b821565424afc76fcf1c4ed28042105ac13e3d",
-  "notes": "the page shows your plan and the words left this month, and a Run counts an episode's script words once, on subscription copies; nothing changes on a one-time licence"
+  "zip": "EpisodeFactory_1.3.90_2026-09-16.zip",
+  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_1.3.90_2026-09-16.7z",
+  "size": 738242,
+  "sha256": "ab44edc7ce6512244df15b5f1df92e71fba46c45e2242ce98da72cca9c16dd3c",
+  "notes": "on a subscription copy the key is checked at every Run and when the page opens; a run with no connection stops"
 }
