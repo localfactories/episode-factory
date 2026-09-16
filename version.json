@@ -1,13 +1,13 @@
 {
   "product": "EpisodeFactory",
-  "version": "1.3.90",
+  "version": "1.3.91",
   "date": "2026-09-16",
   "applies_from": "1.3.78",
-  "file": "EpisodeFactory_update_1.3.90_2026-09-16.7z",
+  "file": "EpisodeFactory_update_1.3.91_2026-09-16.7z",
   "format": "7z",
-  "zip": "EpisodeFactory_1.3.90_2026-09-16.zip",
-  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_1.3.90_2026-09-16.7z",
-  "size": 738242,
-  "sha256": "ab44edc7ce6512244df15b5f1df92e71fba46c45e2242ce98da72cca9c16dd3c",
-  "notes": "on a subscription copy the key is checked at every Run and when the page opens; a run with no connection stops"
+  "zip": "EpisodeFactory_1.3.91_2026-09-16.zip",
+  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_1.3.91_2026-09-16.7z",
+  "size": 741170,
+  "sha256": "50ac642643cd43a5c9c6d7702d78cfd8ce708f1db0dbb5eead5d891f06861d5a",
+  "notes": "word packs: a code from the store adds 5,000 to 50,000 words for 90 days, spent after the month's; on subscription copies only"
 }
