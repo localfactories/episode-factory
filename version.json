@@ -1,13 +1,13 @@
 {
   "product": "EpisodeFactory",
-  "version": "1.4.3",
+  "version": "1.4.4",
   "date": "2026-09-21",
   "applies_from": "1.3.103",
-  "file": "EpisodeFactory_update_1.4.3_2026-09-21.7z",
+  "file": "EpisodeFactory_update_1.4.4_2026-09-21.7z",
   "format": "7z",
-  "zip": "EpisodeFactory_1.4.3_2026-09-21.zip",
-  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_1.4.3_2026-09-21.7z",
-  "size": 683810,
-  "sha256": "ac8f86042dcd87731aeecc56ba84c7a1e0db7e488f1a73daef3f381a4dbe3d04",
-  "notes": "The planner never takes a cosmos word (the planet, orbit) as the place of a script that is not about the cosmos; a generic word is the last choice for a card's name; a creature said once beside its place lends the place its second search; a plan an older version made is remade by the newer one."
+  "zip": "EpisodeFactory_1.4.4_2026-09-21.zip",
+  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_1.4.4_2026-09-21.7z",
+  "size": 722450,
+  "sha256": "0d87fe37ad9448700fe21dbb36abbc17931b2c3630a4742ff9f27b9efe650f6f",
+  "notes": "A window opened before an update reopens itself at the new version (the installer's last step); the page says when its files changed under it and reopens; a plan an older version made is remade when the episode is opened; a finished episode offers Run again when an update changed what a stage would make."
 }
