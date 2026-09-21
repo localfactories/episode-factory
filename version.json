@@ -1,13 +1,13 @@
 {
   "product": "EpisodeFactory",
-  "version": "1.4.7",
+  "version": "1.4.8",
   "date": "2026-09-21",
   "applies_from": "1.3.103",
-  "file": "EpisodeFactory_update_1.4.7_2026-09-21.7z",
+  "file": "EpisodeFactory_update_1.4.8_2026-09-21.7z",
   "format": "7z",
-  "zip": "EpisodeFactory_1.4.7_2026-09-21.zip",
-  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_1.4.7_2026-09-21.7z",
-  "size": 752274,
-  "sha256": "e5e39b808f9514c742e69e2ea5a935190461a35f52782e004a725bc4a86dbc95",
-  "notes": "The montage plan is stamped with the version of the code that made it, so a newer version always remakes a plan an older one made."
+  "zip": "EpisodeFactory_1.4.8_2026-09-21.zip",
+  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_1.4.8_2026-09-21.7z",
+  "size": 758946,
+  "sha256": "2ea7b58282ae2c80aafce4cf288d2a55facb73125129366aa522d796934a9229",
+  "notes": "The upload page's description is written in full (what you will see, chapters with timestamps, keywords, hashtags, a like-and-subscribe line at the end), the thumbnail prompt is a poster brief for any image generator, the Setup page is in order (the plan's words, then updates, then the verdict), and long subtitle cues are read sentence by sentence so a creature named late in a passage no longer opens it."
 }
