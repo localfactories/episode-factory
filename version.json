@@ -1,13 +1,13 @@
 {
   "product": "EpisodeFactory",
-  "version": "1.4.8",
+  "version": "1.4.9",
   "date": "2026-09-21",
   "applies_from": "1.3.103",
-  "file": "EpisodeFactory_update_1.4.8_2026-09-21.7z",
+  "file": "EpisodeFactory_update_1.4.9_2026-09-21.7z",
   "format": "7z",
-  "zip": "EpisodeFactory_1.4.8_2026-09-21.zip",
-  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_1.4.8_2026-09-21.7z",
-  "size": 758946,
-  "sha256": "2ea7b58282ae2c80aafce4cf288d2a55facb73125129366aa522d796934a9229",
-  "notes": "The upload page's description is written in full (what you will see, chapters with timestamps, keywords, hashtags, a like-and-subscribe line at the end), the thumbnail prompt is a poster brief for any image generator, the Setup page is in order (the plan's words, then updates, then the verdict), and long subtitle cues are read sentence by sentence so a creature named late in a passage no longer opens it."
+  "zip": "EpisodeFactory_1.4.9_2026-09-21.zip",
+  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_1.4.9_2026-09-21.7z",
+  "size": 786130,
+  "sha256": "3f2cbfe14aed6ed2bf22784c1c7d7653698a18750709bf1093fbdad5de876a5e",
+  "notes": "Every footage card asks two searches and a plan the program cannot save is caught in the build, so the update to the deep-earth cards reaches your episode; if a remake is ever refused the older plan stays and the page says so; the page, the text file and the .docx now show the same full description and thumbnail prompt; and while a run is going the page holds no second Run button."
 }
