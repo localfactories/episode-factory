@@ -1,13 +1,13 @@
 {
   "product": "EpisodeFactory",
-  "version": "1.3.103",
+  "version": "1.3.104",
   "date": "2026-09-21",
-  "applies_from": "1.3.78",
-  "file": "EpisodeFactory_update_1.3.103_2026-09-21.7z",
+  "applies_from": "1.3.103",
+  "file": "EpisodeFactory_update_1.3.104_2026-09-21.7z",
   "format": "7z",
-  "zip": "EpisodeFactory_1.3.103_2026-09-21.zip",
-  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_1.3.103_2026-09-21.7z",
-  "size": 1020002,
-  "sha256": "c49451f6bd925075edcbaa6138f31991f7e4b613979a0a2b5491234c27286214",
-  "notes": "the install's voice proof starts the engine hidden wherever INSTALL.bat runs; from a console it left an engine window at a prompt after every update"
+  "zip": "EpisodeFactory_1.3.104_2026-09-21.zip",
+  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_1.3.104_2026-09-21.7z",
+  "size": 192482,
+  "sha256": "fa2efa716e9edad3c5f6fc9254381ac85a27cc4bda4f7053d01202412943ee07",
+  "notes": "the voice check compares numbers as numbers: the script's number words and the transcriber's digits are the same words now, so a right take is no longer regenerated"
 }
