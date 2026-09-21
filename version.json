@@ -1,13 +1,13 @@
 {
   "product": "EpisodeFactory",
-  "version": "1.3.104",
+  "version": "1.3.105",
   "date": "2026-09-21",
   "applies_from": "1.3.103",
-  "file": "EpisodeFactory_update_1.3.104_2026-09-21.7z",
+  "file": "EpisodeFactory_update_1.3.105_2026-09-21.7z",
   "format": "7z",
-  "zip": "EpisodeFactory_1.3.104_2026-09-21.zip",
-  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_1.3.104_2026-09-21.7z",
-  "size": 192482,
-  "sha256": "fa2efa716e9edad3c5f6fc9254381ac85a27cc4bda4f7053d01202412943ee07",
-  "notes": "the voice check compares numbers as numbers: the script's number words and the transcriber's digits are the same words now, so a right take is no longer regenerated"
+  "zip": "EpisodeFactory_1.3.105_2026-09-21.zip",
+  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_1.3.105_2026-09-21.7z",
+  "size": 332162,
+  "sha256": "af1ae6bafa6a76b03dbf58d0b65b7fa833fe393449ac975852178b2bdd734b26",
+  "notes": "numbers typed in digits are written out as words when a script is attached; the voice check regenerates a chunk at most five times, then keeps its best take, cuts what it can and goes on"
 }
