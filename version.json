@@ -1,13 +1,13 @@
 {
   "product": "EpisodeFactory",
-  "version": "3.1.4",
+  "version": "3.1.5",
   "date": "2026-09-28",
-  "applies_from": "3.1.2",
-  "file": "EpisodeFactory_update_3.1.4_2026-09-28.7z",
+  "applies_from": "3.1.4",
+  "file": "EpisodeFactory_update_3.1.5_2026-09-28.7z",
   "format": "7z",
-  "zip": "EpisodeFactory_3.1.4_2026-09-28.zip",
-  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_3.1.4_2026-09-28.7z",
-  "size": 460674,
-  "sha256": "29ef4e903200ad7875de3e4d1206d66b27da65437a6dacb1df2e4d74d4ea799b",
-  "notes": "The 9B reads every paragraph for any topic (its answers now come in a fixed shape); the Clips card shows one full target."
+  "zip": "EpisodeFactory_3.1.5_2026-09-28.zip",
+  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_3.1.5_2026-09-28.7z",
+  "size": 152546,
+  "sha256": "ec953d19148e9478195a27d99b88b91d501ccb80b0bfcfa8d9f8e62c91310502",
+  "notes": "The 9B's reading of every paragraph now reaches the plan (its answers kept their lines); a batch that gets no answer is asked again."
 }
