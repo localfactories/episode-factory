@@ -1,13 +1,13 @@
 {
   "product": "EpisodeFactory",
-  "version": "3.1.1",
+  "version": "3.1.2",
   "date": "2026-09-28",
   "applies_from": "3.1.0",
-  "file": "EpisodeFactory_update_3.1.1_2026-09-28.7z",
+  "file": "EpisodeFactory_update_3.1.2_2026-09-28.7z",
   "format": "7z",
-  "zip": "EpisodeFactory_3.1.1_2026-09-28.zip",
-  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_3.1.1_2026-09-28.7z",
-  "size": 129474,
-  "sha256": "35b62ea101a2bc1c79c7f9e63fcea8b82d1d1fe99b1e568fb4eb5848514b7f6d",
-  "notes": "Testing copies now receive updates too; paid copies are unchanged."
+  "zip": "EpisodeFactory_3.1.2_2026-09-28.zip",
+  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_3.1.2_2026-09-28.7z",
+  "size": 182130,
+  "sha256": "4fbdc8d30c0734d2b6587f65dedfaa29d67880a67d31b94cc44e28eb901a2884",
+  "notes": "No more Install form after READY; setup and runs no longer fail when a tool cannot open a console."
 }
