@@ -1,13 +1,13 @@
 {
   "product": "EpisodeFactory",
-  "version": "3.1.5",
+  "version": "3.1.6",
   "date": "2026-09-28",
-  "applies_from": "3.1.4",
-  "file": "EpisodeFactory_update_3.1.5_2026-09-28.7z",
+  "applies_from": "3.1.5",
+  "file": "EpisodeFactory_update_3.1.6_2026-09-28.7z",
   "format": "7z",
-  "zip": "EpisodeFactory_3.1.5_2026-09-28.zip",
-  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_3.1.5_2026-09-28.7z",
-  "size": 152546,
-  "sha256": "ec953d19148e9478195a27d99b88b91d501ccb80b0bfcfa8d9f8e62c91310502",
-  "notes": "The 9B's reading of every paragraph now reaches the plan (its answers kept their lines); a batch that gets no answer is asked again."
+  "zip": "EpisodeFactory_3.1.6_2026-09-28.zip",
+  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_3.1.6_2026-09-28.7z",
+  "size": 355650,
+  "sha256": "426888468ceda1c45a82ac03faed67469b79db73da02c5a4d22ee1a3009231dd",
+  "notes": "The 9B writes the upload page from the script: titles, description, tags and the thumbnail prompt; the Clips card counts every clip the searches are owed."
 }
