@@ -1,13 +1,13 @@
 {
   "product": "EpisodeFactory",
-  "version": "3.1.6",
+  "version": "3.1.7",
   "date": "2026-09-28",
-  "applies_from": "3.1.5",
-  "file": "EpisodeFactory_update_3.1.6_2026-09-28.7z",
+  "applies_from": "3.1.6",
+  "file": "EpisodeFactory_update_3.1.7_2026-09-28.7z",
   "format": "7z",
-  "zip": "EpisodeFactory_3.1.6_2026-09-28.zip",
-  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_3.1.6_2026-09-28.7z",
-  "size": 355650,
-  "sha256": "426888468ceda1c45a82ac03faed67469b79db73da02c5a4d22ee1a3009231dd",
-  "notes": "The 9B writes the upload page from the script: titles, description, tags and the thumbnail prompt; the Clips card counts every clip the searches are owed."
+  "zip": "EpisodeFactory_3.1.7_2026-09-28.zip",
+  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_3.1.7_2026-09-28.7z",
+  "size": 204082,
+  "sha256": "24c8a54b62ea7bcf81b78cd280cdb083af0546c80fa5fa9944b72f1002a44d55",
+  "notes": "3.1.7: chapters YouTube shows (three wherever the script has three chunks), each named by where the camera is; titles with their apostrophes; the palette reads mid-sentence."
 }
