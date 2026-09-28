@@ -1,13 +1,13 @@
 {
   "product": "EpisodeFactory",
-  "version": "3.1.0",
+  "version": "3.1.1",
   "date": "2026-09-28",
-  "applies_from": "3.0.9",
-  "file": "EpisodeFactory_update_3.1.0_2026-09-28.7z",
+  "applies_from": "3.1.0",
+  "file": "EpisodeFactory_update_3.1.1_2026-09-28.7z",
   "format": "7z",
-  "zip": "EpisodeFactory_3.1.0_2026-09-28.zip",
-  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_3.1.0_2026-09-28.7z",
-  "size": 142098,
-  "sha256": "4c8507d02279060c61a4fc79397b361f12777a5dc3c171df6896b01b9ac1cb30",
-  "notes": "The key file is locked without starting a program: no more icacls error dialog when you press Install."
+  "zip": "EpisodeFactory_3.1.1_2026-09-28.zip",
+  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_3.1.1_2026-09-28.7z",
+  "size": 129474,
+  "sha256": "35b62ea101a2bc1c79c7f9e63fcea8b82d1d1fe99b1e568fb4eb5848514b7f6d",
+  "notes": "Testing copies now receive updates too; paid copies are unchanged."
 }
