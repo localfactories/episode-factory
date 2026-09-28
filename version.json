@@ -1,13 +1,13 @@
 {
   "product": "EpisodeFactory",
-  "version": "3.1.9",
+  "version": "3.2.0",
   "date": "2026-09-28",
-  "applies_from": "3.1.8",
-  "file": "EpisodeFactory_update_3.1.9_2026-09-28.7z",
+  "applies_from": "3.1.9",
+  "file": "EpisodeFactory_update_3.2.0_2026-09-28.7z",
   "format": "7z",
-  "zip": "EpisodeFactory_3.1.9_2026-09-28.zip",
-  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_3.1.9_2026-09-28.7z",
-  "size": 159346,
-  "sha256": "9371dae0733ab9b034137331870de4ca06bc9aa4988e761a070a4f3b81f2d667",
-  "notes": "3.1.9: a button per word pack size on the Setup screen, each opening the checkout with that size chosen."
+  "zip": "EpisodeFactory_3.2.0_2026-09-28.zip",
+  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_3.2.0_2026-09-28.7z",
+  "size": 244898,
+  "sha256": "7ca793ea1bf4773d23f9c444adec0e3a123f464b0ac33a1bcd26f4ed28f81166",
+  "notes": "3.2.0: a long script read as a whole - the place, the things, the titles and the chapters from the whole narration; the episode named by the script's title line; the page shows the plan being made."
 }
