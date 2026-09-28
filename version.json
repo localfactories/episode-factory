@@ -1,13 +1,13 @@
 {
   "product": "EpisodeFactory",
-  "version": "1.4.9",
-  "date": "2026-09-21",
+  "version": "3.0.9",
+  "date": "2026-09-28",
   "applies_from": "1.3.103",
-  "file": "EpisodeFactory_update_1.4.9_2026-09-21.7z",
+  "file": "EpisodeFactory_update_3.0.9_2026-09-28.7z",
   "format": "7z",
-  "zip": "EpisodeFactory_1.4.9_2026-09-21.zip",
-  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_1.4.9_2026-09-21.7z",
-  "size": 786130,
-  "sha256": "3f2cbfe14aed6ed2bf22784c1c7d7653698a18750709bf1093fbdad5de876a5e",
-  "notes": "Every footage card asks two searches and a plan the program cannot save is caught in the build, so the update to the deep-earth cards reaches your episode; if a remake is ever refused the older plan stays and the page says so; the page, the text file and the .docx now show the same full description and thumbnail prompt; and while a run is going the page holds no second Run button."
+  "zip": "EpisodeFactory_3.0.9_2026-09-28.zip",
+  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_3.0.9_2026-09-28.7z",
+  "size": 1473874,
+  "sha256": "424cc4f5ed3b9efc4a0998f930cdf4fe91c0c9b33e5e26e4abc3dfc2d15b5d2b",
+  "notes": "Footage chosen by seeing: the 9B picture judge (Qwen3.5-9B on llama.cpp, installed by the setup) writes each sentence's shot and picks the clips by looking at them - 6x faster, word rules removed"
 }
