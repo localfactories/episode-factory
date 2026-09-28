@@ -1,13 +1,13 @@
 {
   "product": "EpisodeFactory",
-  "version": "3.1.8",
+  "version": "3.1.9",
   "date": "2026-09-28",
-  "applies_from": "3.1.6",
-  "file": "EpisodeFactory_update_3.1.8_2026-09-28.7z",
+  "applies_from": "3.1.8",
+  "file": "EpisodeFactory_update_3.1.9_2026-09-28.7z",
   "format": "7z",
-  "zip": "EpisodeFactory_3.1.8_2026-09-28.zip",
-  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_3.1.8_2026-09-28.7z",
-  "size": 240290,
-  "sha256": "f4ec173b139b8aeccd34404a9e2e8af03e3d645e8d62774cb92bce8ca40542e4",
-  "notes": "3.1.8: a remade chapter plan reaches the upload page - the chapter times are written again when the plan's chapters change."
+  "zip": "EpisodeFactory_3.1.9_2026-09-28.zip",
+  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_3.1.9_2026-09-28.7z",
+  "size": 159346,
+  "sha256": "9371dae0733ab9b034137331870de4ca06bc9aa4988e761a070a4f3b81f2d667",
+  "notes": "3.1.9: a button per word pack size on the Setup screen, each opening the checkout with that size chosen."
 }
