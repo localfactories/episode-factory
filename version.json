@@ -1,13 +1,13 @@
 {
   "product": "EpisodeFactory",
-  "version": "3.2.8",
+  "version": "3.2.9",
   "date": "2026-09-29",
   "applies_from": "",
-  "file": "EpisodeFactory_update_3.2.8_2026-09-29.7z",
+  "file": "EpisodeFactory_update_3.2.9_2026-09-29.7z",
   "format": "7z",
-  "zip": "EpisodeFactory_3.2.8_2026-09-29.zip",
-  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_3.2.8_2026-09-29.7z",
-  "size": 2221811,
-  "sha256": "182cbd0e04f064a63506ff31073cc3e5d39df6386017eefcfcdb718bfb58f331",
-  "notes": "3.2.8: footage searches are never words run together (the picture model's searches for 'black-sand beach' or four-word shots had become words no library knows); every film's reading is made again with the new shape."
+  "zip": "EpisodeFactory_3.2.9_2026-09-29.zip",
+  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_3.2.9_2026-09-29.7z",
+  "size": 2223427,
+  "sha256": "5aacc963d746b46b2a42139f0ec2c57a4c9300590d6fa7eedddaa296a7d5c67d",
+  "notes": "3.2.9: a scene's footage carries within its own passage only (a boardroom no longer spills into the next chapter); crew and team sentences no longer search for words stock libraries answer with offices."
 }
