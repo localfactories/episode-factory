@@ -1,13 +1,13 @@
 {
   "product": "EpisodeFactory",
-  "version": "3.3.0",
+  "version": "3.3.1",
   "date": "2026-09-29",
   "applies_from": "",
-  "file": "EpisodeFactory_update_3.3.0_2026-09-29.7z",
+  "file": "EpisodeFactory_update_3.3.1_2026-09-29.7z",
   "format": "7z",
-  "zip": "EpisodeFactory_3.3.0_2026-09-29.zip",
-  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_3.3.0_2026-09-29.7z",
-  "size": 2225667,
-  "sha256": "96b456fdf40371ea3f0fff04fbc22b93cfb9b1395104a61f08a8e6ecc5651613",
-  "notes": "3.3.0: when Pexels' month of searches is used up the program knows it - it stops asking until the date Pexels gives, and the page says so plainly, so a film is never silently made from one library."
+  "zip": "EpisodeFactory_3.3.1_2026-09-29.zip",
+  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_3.3.1_2026-09-29.7z",
+  "size": 2226227,
+  "sha256": "2d0d3409269bd331c76d8eeb673d31d3fdd61a0a1e6c0ff4bd003a5c87b14f04",
+  "notes": "3.3.1: a new footage key is used at once - a used-up month belongs to the key it was learned from."
 }
