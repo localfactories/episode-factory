@@ -1,13 +1,13 @@
 {
   "product": "EpisodeFactory",
-  "version": "3.2.9",
+  "version": "3.3.0",
   "date": "2026-09-29",
   "applies_from": "",
-  "file": "EpisodeFactory_update_3.2.9_2026-09-29.7z",
+  "file": "EpisodeFactory_update_3.3.0_2026-09-29.7z",
   "format": "7z",
-  "zip": "EpisodeFactory_3.2.9_2026-09-29.zip",
-  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_3.2.9_2026-09-29.7z",
-  "size": 2223427,
-  "sha256": "5aacc963d746b46b2a42139f0ec2c57a4c9300590d6fa7eedddaa296a7d5c67d",
-  "notes": "3.2.9: a scene's footage carries within its own passage only (a boardroom no longer spills into the next chapter); crew and team sentences no longer search for words stock libraries answer with offices."
+  "zip": "EpisodeFactory_3.3.0_2026-09-29.zip",
+  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_3.3.0_2026-09-29.7z",
+  "size": 2225667,
+  "sha256": "96b456fdf40371ea3f0fff04fbc22b93cfb9b1395104a61f08a8e6ecc5651613",
+  "notes": "3.3.0: when Pexels' month of searches is used up the program knows it - it stops asking until the date Pexels gives, and the page says so plainly, so a film is never silently made from one library."
 }
