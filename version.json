@@ -1,13 +1,13 @@
 {
   "product": "EpisodeFactory",
-  "version": "3.2.0",
-  "date": "2026-09-28",
-  "applies_from": "3.1.9",
-  "file": "EpisodeFactory_update_3.2.0_2026-09-28.7z",
+  "version": "3.2.1",
+  "date": "2026-09-29",
+  "applies_from": "",
+  "file": "EpisodeFactory_update_3.2.1_2026-09-29.7z",
   "format": "7z",
-  "zip": "EpisodeFactory_3.2.0_2026-09-28.zip",
-  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_3.2.0_2026-09-28.7z",
-  "size": 244898,
-  "sha256": "7ca793ea1bf4773d23f9c444adec0e3a123f464b0ac33a1bcd26f4ed28f81166",
-  "notes": "3.2.0: a long script read as a whole - the place, the things, the titles and the chapters from the whole narration; the episode named by the script's title line; the page shows the plan being made."
+  "zip": "EpisodeFactory_3.2.1_2026-09-29.zip",
+  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_3.2.1_2026-09-29.7z",
+  "size": 2193811,
+  "sha256": "7bae46b97134d86d5b7d7ef10ffbcd7db5a630bff13314d416a4a6d44d6eb183",
+  "notes": "3.2.1: footage never stalls for Pexels when Pixabay is on; every update carries the whole program, so any older copy updates; only the owner's signed marker makes a testing copy."
 }
