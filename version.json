@@ -1,13 +1,13 @@
 {
   "product": "EpisodeFactory",
-  "version": "3.2.6",
+  "version": "3.2.7",
   "date": "2026-09-29",
   "applies_from": "",
-  "file": "EpisodeFactory_update_3.2.6_2026-09-29.7z",
+  "file": "EpisodeFactory_update_3.2.7_2026-09-29.7z",
   "format": "7z",
-  "zip": "EpisodeFactory_3.2.6_2026-09-29.zip",
-  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_3.2.6_2026-09-29.7z",
-  "size": 2214003,
-  "sha256": "89e8199186f986a785a796f259a42c2e0859c7b07172eb302d3c477406b55f1a",
-  "notes": "3.2.6: the window never freezes while a plan is made (a clock and every step shown); a library that refuses rests while the other carries on, never a wait; one clip for each sentence, counted right where a subject returns later in the film."
+  "zip": "EpisodeFactory_3.2.7_2026-09-29.zip",
+  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_3.2.7_2026-09-29.7z",
+  "size": 2219331,
+  "sha256": "61e42cf817c2649811e7b05ef7f685c60c673c1fed3d8b3ade89ad6666800f33",
+  "notes": "3.2.7: the page always moves while a plan is made (clock, every step, the badge) and never waits for a plan after an update; a script written as a screenplay reads as narration - NARRATOR:, SFX: notes and chapter headings are never read aloud; a film made again never shows the old film's run."
 }
