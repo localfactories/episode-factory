@@ -1,13 +1,13 @@
 {
   "product": "EpisodeFactory",
-  "version": "3.3.4",
+  "version": "3.3.5",
   "date": "2026-09-29",
   "applies_from": "",
-  "file": "EpisodeFactory_update_3.3.4_2026-09-29.7z",
+  "file": "EpisodeFactory_update_3.3.5_2026-09-29.7z",
   "format": "7z",
-  "zip": "EpisodeFactory_3.3.4_2026-09-29.zip",
-  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_3.3.4_2026-09-29.7z",
-  "size": 2234051,
-  "sha256": "db678f082e7efdf2410822d2c48e78ca77e9ab8d499a73d48f96d8c0bad52a14",
-  "notes": "3.3.4: Pixabay footage is asked for real film only - no animations, generated images or game graphics under a real sentence."
+  "zip": "EpisodeFactory_3.3.5_2026-09-29.zip",
+  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_3.3.5_2026-09-29.7z",
+  "size": 2236003,
+  "sha256": "5baa1aa1c2249bb52d5e78da37da6a00f7369265a4e443bee66f82f5db0d973c",
+  "notes": "3.3.5: the picture model picks each shot beside the words the sentence was searched with - an abstract sentence no longer takes an office or a street for a cockpit."
 }
