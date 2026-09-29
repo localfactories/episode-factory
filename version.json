@@ -1,13 +1,13 @@
 {
   "product": "EpisodeFactory",
-  "version": "3.2.7",
+  "version": "3.2.8",
   "date": "2026-09-29",
   "applies_from": "",
-  "file": "EpisodeFactory_update_3.2.7_2026-09-29.7z",
+  "file": "EpisodeFactory_update_3.2.8_2026-09-29.7z",
   "format": "7z",
-  "zip": "EpisodeFactory_3.2.7_2026-09-29.zip",
-  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_3.2.7_2026-09-29.7z",
-  "size": 2219331,
-  "sha256": "61e42cf817c2649811e7b05ef7f685c60c673c1fed3d8b3ade89ad6666800f33",
-  "notes": "3.2.7: the page always moves while a plan is made (clock, every step, the badge) and never waits for a plan after an update; a script written as a screenplay reads as narration - NARRATOR:, SFX: notes and chapter headings are never read aloud; a film made again never shows the old film's run."
+  "zip": "EpisodeFactory_3.2.8_2026-09-29.zip",
+  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_3.2.8_2026-09-29.7z",
+  "size": 2221811,
+  "sha256": "182cbd0e04f064a63506ff31073cc3e5d39df6386017eefcfcdb718bfb58f331",
+  "notes": "3.2.8: footage searches are never words run together (the picture model's searches for 'black-sand beach' or four-word shots had become words no library knows); every film's reading is made again with the new shape."
 }
