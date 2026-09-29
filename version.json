@@ -1,13 +1,13 @@
 {
   "product": "EpisodeFactory",
-  "version": "3.3.6",
+  "version": "3.3.7",
   "date": "2026-09-29",
   "applies_from": "",
-  "file": "EpisodeFactory_update_3.3.6_2026-09-29.7z",
+  "file": "EpisodeFactory_update_3.3.7_2026-09-29.7z",
   "format": "7z",
-  "zip": "EpisodeFactory_3.3.6_2026-09-29.zip",
-  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_3.3.6_2026-09-29.7z",
-  "size": 2235635,
-  "sha256": "b13583a06bdaf3490c2433d15e36a99592802bd85beeaacd818333367d1c8c56",
-  "notes": "3.3.6: the picture model's question returns to the one that measured best on a whole film."
+  "zip": "EpisodeFactory_3.3.7_2026-09-29.zip",
+  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_3.3.7_2026-09-29.7z",
+  "size": 2239027,
+  "sha256": "63a90666f5c081e9f8ea2068c11b36140cf2f1a4d41073694d7da363937784e1",
+  "notes": "3.3.7: every picked shot must belong to the film - an office, a car or a render is refused even when it was the best of a bad set; each search spends at most two pages."
 }
