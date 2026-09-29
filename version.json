@@ -1,13 +1,13 @@
 {
   "product": "EpisodeFactory",
-  "version": "3.2.1",
+  "version": "3.2.2",
   "date": "2026-09-29",
   "applies_from": "",
-  "file": "EpisodeFactory_update_3.2.1_2026-09-29.7z",
+  "file": "EpisodeFactory_update_3.2.2_2026-09-29.7z",
   "format": "7z",
-  "zip": "EpisodeFactory_3.2.1_2026-09-29.zip",
-  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_3.2.1_2026-09-29.7z",
-  "size": 2193811,
-  "sha256": "7bae46b97134d86d5b7d7ef10ffbcd7db5a630bff13314d416a4a6d44d6eb183",
-  "notes": "3.2.1: footage never stalls for Pexels when Pixabay is on; every update carries the whole program, so any older copy updates; only the owner's signed marker makes a testing copy."
+  "zip": "EpisodeFactory_3.2.2_2026-09-29.zip",
+  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_3.2.2_2026-09-29.7z",
+  "size": 2196403,
+  "sha256": "f1d19bc717b59bf50d95836137904da45b0c8cae31f8eb6dc382f7eca02a960a",
+  "notes": "3.2.2: each footage folder is filled once a pass (no repeated judging); a rewritten search never brings in a word the film does not say."
 }
