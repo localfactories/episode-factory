@@ -1,13 +1,13 @@
 {
   "product": "EpisodeFactory",
-  "version": "3.2.3",
+  "version": "3.2.4",
   "date": "2026-09-29",
   "applies_from": "",
-  "file": "EpisodeFactory_update_3.2.3_2026-09-29.7z",
+  "file": "EpisodeFactory_update_3.2.4_2026-09-29.7z",
   "format": "7z",
-  "zip": "EpisodeFactory_3.2.3_2026-09-29.zip",
-  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_3.2.3_2026-09-29.7z",
-  "size": 2197379,
-  "sha256": "ff63e1e062ef6de811e8e277b75d5883ef6c909f41b2a825f2456986d8760327",
-  "notes": "3.2.3: accented place names stay whole in the footage searches; titles are about the whole film."
+  "zip": "EpisodeFactory_3.2.4_2026-09-29.zip",
+  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_3.2.4_2026-09-29.7z",
+  "size": 2205363,
+  "sha256": "074487deba8d3f6c91a562ac3a087409d138c82d601c9df3bf906d0bc5827ea6",
+  "notes": "3.2.4: one search and one clip for every sentence, the 9B's own search unless it names nothing the sentence says; a shot picked once is never looked at again; the next pictures load while the 9B looks; the page shows sentences, searches and sentences with their shot."
 }
