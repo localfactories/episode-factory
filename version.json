@@ -1,13 +1,13 @@
 {
   "product": "EpisodeFactory",
-  "version": "3.3.3",
+  "version": "3.3.4",
   "date": "2026-09-29",
   "applies_from": "",
-  "file": "EpisodeFactory_update_3.3.3_2026-09-29.7z",
+  "file": "EpisodeFactory_update_3.3.4_2026-09-29.7z",
   "format": "7z",
-  "zip": "EpisodeFactory_3.3.3_2026-09-29.zip",
-  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_3.3.3_2026-09-29.7z",
-  "size": 2232163,
-  "sha256": "c8fc0d3cff4f7610a4f2aeae89d4cfa530f04941be83655b23991033c8e7c094",
-  "notes": "3.3.3: one footage key is enough - Pexels or Pixabay (Pexels has paused new keys); a subject never takes more clips than its sentences need."
+  "zip": "EpisodeFactory_3.3.4_2026-09-29.zip",
+  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_3.3.4_2026-09-29.7z",
+  "size": 2234051,
+  "sha256": "db678f082e7efdf2410822d2c48e78ca77e9ab8d499a73d48f96d8c0bad52a14",
+  "notes": "3.3.4: Pixabay footage is asked for real film only - no animations, generated images or game graphics under a real sentence."
 }
