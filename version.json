@@ -1,13 +1,13 @@
 {
   "product": "EpisodeFactory",
-  "version": "3.3.5",
+  "version": "3.3.6",
   "date": "2026-09-29",
   "applies_from": "",
-  "file": "EpisodeFactory_update_3.3.5_2026-09-29.7z",
+  "file": "EpisodeFactory_update_3.3.6_2026-09-29.7z",
   "format": "7z",
-  "zip": "EpisodeFactory_3.3.5_2026-09-29.zip",
-  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_3.3.5_2026-09-29.7z",
-  "size": 2236003,
-  "sha256": "5baa1aa1c2249bb52d5e78da37da6a00f7369265a4e443bee66f82f5db0d973c",
-  "notes": "3.3.5: the picture model picks each shot beside the words the sentence was searched with - an abstract sentence no longer takes an office or a street for a cockpit."
+  "zip": "EpisodeFactory_3.3.6_2026-09-29.zip",
+  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_3.3.6_2026-09-29.7z",
+  "size": 2235635,
+  "sha256": "b13583a06bdaf3490c2433d15e36a99592802bd85beeaacd818333367d1c8c56",
+  "notes": "3.3.6: the picture model's question returns to the one that measured best on a whole film."
 }
