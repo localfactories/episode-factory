@@ -1,13 +1,13 @@
 {
   "product": "EpisodeFactory",
-  "version": "3.2.2",
+  "version": "3.2.3",
   "date": "2026-09-29",
   "applies_from": "",
-  "file": "EpisodeFactory_update_3.2.2_2026-09-29.7z",
+  "file": "EpisodeFactory_update_3.2.3_2026-09-29.7z",
   "format": "7z",
-  "zip": "EpisodeFactory_3.2.2_2026-09-29.zip",
-  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_3.2.2_2026-09-29.7z",
-  "size": 2196403,
-  "sha256": "f1d19bc717b59bf50d95836137904da45b0c8cae31f8eb6dc382f7eca02a960a",
-  "notes": "3.2.2: each footage folder is filled once a pass (no repeated judging); a rewritten search never brings in a word the film does not say."
+  "zip": "EpisodeFactory_3.2.3_2026-09-29.zip",
+  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_3.2.3_2026-09-29.7z",
+  "size": 2197379,
+  "sha256": "ff63e1e062ef6de811e8e277b75d5883ef6c909f41b2a825f2456986d8760327",
+  "notes": "3.2.3: accented place names stay whole in the footage searches; titles are about the whole film."
 }
