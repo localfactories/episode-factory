@@ -1,13 +1,13 @@
 {
   "product": "EpisodeFactory",
-  "version": "3.3.2",
+  "version": "3.3.3",
   "date": "2026-09-29",
   "applies_from": "",
-  "file": "EpisodeFactory_update_3.3.2_2026-09-29.7z",
+  "file": "EpisodeFactory_update_3.3.3_2026-09-29.7z",
   "format": "7z",
-  "zip": "EpisodeFactory_3.3.2_2026-09-29.zip",
-  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_3.3.2_2026-09-29.7z",
-  "size": 2229907,
-  "sha256": "f48920f2fd6629eb377742eb5b35add9471cf5c656770e5ee90d093b957ff119",
-  "notes": "3.3.2: about half the footage searches a film spends are gone - each sentence tries its own search and the picture model's second one, then its zone stands in - and a film of places built by people searches the libraries' own shelves (a plane film: transportation) before nature."
+  "zip": "EpisodeFactory_3.3.3_2026-09-29.zip",
+  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_3.3.3_2026-09-29.7z",
+  "size": 2232163,
+  "sha256": "c8fc0d3cff4f7610a4f2aeae89d4cfa530f04941be83655b23991033c8e7c094",
+  "notes": "3.3.3: one footage key is enough - Pexels or Pixabay (Pexels has paused new keys); a subject never takes more clips than its sentences need."
 }
