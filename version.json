@@ -1,13 +1,13 @@
 {
   "product": "EpisodeFactory",
-  "version": "3.3.7",
-  "date": "2026-09-29",
+  "version": "3.3.8",
+  "date": "2026-09-30",
   "applies_from": "",
-  "file": "EpisodeFactory_update_3.3.7_2026-09-29.7z",
+  "file": "EpisodeFactory_update_3.3.8_2026-09-30.7z",
   "format": "7z",
-  "zip": "EpisodeFactory_3.3.7_2026-09-29.zip",
-  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_3.3.7_2026-09-29.7z",
-  "size": 2239027,
-  "sha256": "63a90666f5c081e9f8ea2068c11b36140cf2f1a4d41073694d7da363937784e1",
-  "notes": "3.3.7: every picked shot must belong to the film - an office, a car or a render is refused even when it was the best of a bad set; each search spends at most two pages."
+  "zip": "EpisodeFactory_3.3.8_2026-09-30.zip",
+  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_3.3.8_2026-09-30.7z",
+  "size": 2243043,
+  "sha256": "e6186fa0d447a25d56ddb547a6b4b36c961a5b2f5a81f62f174abfff69347cfe",
+  "notes": "3.3.8: faster, fuller footage - no wasted library calls, a clip passed over for one sentence stays free for the next, the picture model moves onto the whole card once the voice ends, the film's footage categories chosen from its meaning; the finished film shows the real count of sentences with their own clip."
 }
