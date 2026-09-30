@@ -1,13 +1,13 @@
 {
   "product": "EpisodeFactory",
-  "version": "3.4.1",
+  "version": "3.4.2",
   "date": "2026-09-30",
   "applies_from": "",
-  "file": "EpisodeFactory_update_3.4.1_2026-09-30.7z",
+  "file": "EpisodeFactory_update_3.4.2_2026-09-30.7z",
   "format": "7z",
-  "zip": "EpisodeFactory_3.4.1_2026-09-30.zip",
-  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_3.4.1_2026-09-30.7z",
-  "size": 2257219,
-  "sha256": "cfaf64e5a0cb041586e2ac76e659252216ac0071181a73531fbe0efa5273e398",
-  "notes": "A finished film stays finished: an update or opening its page never makes it look undone, a subject no library has is named instead of searched for on every Run, and the description gives the film's real length."
+  "zip": "EpisodeFactory_3.4.2_2026-09-30.zip",
+  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_3.4.2_2026-09-30.7z",
+  "size": 2262867,
+  "sha256": "1f52263258bef282baa21349c03df38a19b96de23e951c9e18e096db9a6abada",
+  "notes": "Video first, photos last: every video search on Pexels and Pixabay comes before any still photo. The page, the report and the QA line now show one set of counted numbers - the sentences with their own clip and the share of still photos - and no estimated fit percentage."
 }
