@@ -1,13 +1,13 @@
 {
   "product": "EpisodeFactory",
-  "version": "3.3.8",
+  "version": "3.3.9",
   "date": "2026-09-30",
   "applies_from": "",
-  "file": "EpisodeFactory_update_3.3.8_2026-09-30.7z",
+  "file": "EpisodeFactory_update_3.3.9_2026-09-30.7z",
   "format": "7z",
-  "zip": "EpisodeFactory_3.3.8_2026-09-30.zip",
-  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_3.3.8_2026-09-30.7z",
-  "size": 2243043,
-  "sha256": "e6186fa0d447a25d56ddb547a6b4b36c961a5b2f5a81f62f174abfff69347cfe",
-  "notes": "3.3.8: faster, fuller footage - no wasted library calls, a clip passed over for one sentence stays free for the next, the picture model moves onto the whole card once the voice ends, the film's footage categories chosen from its meaning; the finished film shows the real count of sentences with their own clip."
+  "zip": "EpisodeFactory_3.3.9_2026-09-30.zip",
+  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_3.3.9_2026-09-30.7z",
+  "size": 2247475,
+  "sha256": "0ac5319c5e10370a7cdfb652e145281b1fe58ef0b0566fec0810d29c1f28a17e",
+  "notes": "Every shot that can play is checked against the film: clips kept from older runs are checked too, and a line without its own clip shows a checked clip from the nearest lines, never an unchecked one."
 }
