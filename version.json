@@ -1,13 +1,13 @@
 {
   "product": "EpisodeFactory",
-  "version": "3.4.0",
+  "version": "3.4.1",
   "date": "2026-09-30",
   "applies_from": "",
-  "file": "EpisodeFactory_update_3.4.0_2026-09-30.7z",
+  "file": "EpisodeFactory_update_3.4.1_2026-09-30.7z",
   "format": "7z",
-  "zip": "EpisodeFactory_3.4.0_2026-09-30.zip",
-  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_3.4.0_2026-09-30.7z",
-  "size": 2252307,
-  "sha256": "35b5c0cda30186292565b0d2f7fbc9e08e59d3123611ff1fdd487f271b4d9583",
-  "notes": "A finished film is no longer called out of date by an empty leftover file; when a library says slow down, the clip is waited for, not thrown away; the page counts the sentences that really have their own clip."
+  "zip": "EpisodeFactory_3.4.1_2026-09-30.zip",
+  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_3.4.1_2026-09-30.7z",
+  "size": 2257219,
+  "sha256": "cfaf64e5a0cb041586e2ac76e659252216ac0071181a73531fbe0efa5273e398",
+  "notes": "A finished film stays finished: an update or opening its page never makes it look undone, a subject no library has is named instead of searched for on every Run, and the description gives the film's real length."
 }
