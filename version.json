@@ -1,13 +1,13 @@
 {
   "product": "EpisodeFactory",
-  "version": "3.4.2",
-  "date": "2026-09-30",
+  "version": "3.4.3",
+  "date": "2026-10-01",
   "applies_from": "",
-  "file": "EpisodeFactory_update_3.4.2_2026-09-30.7z",
+  "file": "EpisodeFactory_update_3.4.3_2026-10-01.7z",
   "format": "7z",
-  "zip": "EpisodeFactory_3.4.2_2026-09-30.zip",
-  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_3.4.2_2026-09-30.7z",
-  "size": 2262867,
-  "sha256": "1f52263258bef282baa21349c03df38a19b96de23e951c9e18e096db9a6abada",
-  "notes": "Video first, photos last: every video search on Pexels and Pixabay comes before any still photo. The page, the report and the QA line now show one set of counted numbers - the sentences with their own clip and the share of still photos - and no estimated fit percentage."
+  "zip": "EpisodeFactory_3.4.3_2026-10-01.zip",
+  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_3.4.3_2026-10-01.7z",
+  "size": 2263683,
+  "sha256": "f3ce7d62db5ad9f7cb356943dec3404177e029b4cafd4d57dd4a1e5c249e3945",
+  "notes": "Rebuilding an episode no longer sends the subjects no library has back to the search: the plan's content decides, not its date."
 }
