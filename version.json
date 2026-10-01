@@ -1,13 +1,13 @@
 {
   "product": "EpisodeFactory",
-  "version": "3.4.5",
+  "version": "3.4.6",
   "date": "2026-10-01",
   "applies_from": "",
-  "file": "EpisodeFactory_update_3.4.5_2026-10-01.7z",
+  "file": "EpisodeFactory_update_3.4.6_2026-10-01.7z",
   "format": "7z",
-  "zip": "EpisodeFactory_3.4.5_2026-10-01.zip",
-  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_3.4.5_2026-10-01.7z",
-  "size": 2272355,
-  "sha256": "870bb9ee57fd87e4b27070f544ba36a9896fe059514b8bd5cc42c5b38765a091",
-  "notes": "3.4.5: a footage site with no key no longer leaves 'nothing found' behind for a week; every finished film gets a clean FINISHED FILMS folder with only the film, its subtitles, one report and the upload text"
+  "zip": "EpisodeFactory_3.4.6_2026-10-01.zip",
+  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_3.4.6_2026-10-01.7z",
+  "size": 2273427,
+  "sha256": "ad1eb6c0cd836ffdbab47381c878aacd73118540d85f8151e60ed900decfd671",
+  "notes": "3.4.6: the film's subtitles are one line per sentence (a short film had its whole script in one subtitle); 3.4.5's clean FINISHED FILMS folder and the footage-search fix included"
 }
