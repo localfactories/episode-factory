@@ -1,13 +1,13 @@
 {
   "product": "EpisodeFactory",
-  "version": "3.4.4",
+  "version": "3.4.5",
   "date": "2026-10-01",
   "applies_from": "",
-  "file": "EpisodeFactory_update_3.4.4_2026-10-01.7z",
+  "file": "EpisodeFactory_update_3.4.5_2026-10-01.7z",
   "format": "7z",
-  "zip": "EpisodeFactory_3.4.4_2026-10-01.zip",
-  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_3.4.4_2026-10-01.7z",
-  "size": 2267171,
-  "sha256": "751fe8e1351c7de64843cf07039d74cfd2f65a0288f9860fdcc95926788f55be",
-  "notes": "3.4.4: any script length builds, from one chunk up (the builder had kept an old floor of 8); the new script file and the board no longer mention 8 or 220; when a stock site's monthly limit is used up the page says so and points to a free Pixabay key"
+  "zip": "EpisodeFactory_3.4.5_2026-10-01.zip",
+  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_3.4.5_2026-10-01.7z",
+  "size": 2272355,
+  "sha256": "870bb9ee57fd87e4b27070f544ba36a9896fe059514b8bd5cc42c5b38765a091",
+  "notes": "3.4.5: a footage site with no key no longer leaves 'nothing found' behind for a week; every finished film gets a clean FINISHED FILMS folder with only the film, its subtitles, one report and the upload text"
 }
