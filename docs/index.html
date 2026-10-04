@@ -32,6 +32,12 @@
   .hero figure { margin: 0; border: 1px solid var(--line); border-radius: 12px; overflow: hidden; background: #000; }
   .hero figure img { display: block; width: 100%; height: auto; }
   .hero figcaption { padding: 10px 14px; color: var(--muted); font-size: 14px; }
+  .player { position: relative; display: block; width: 100%; aspect-ratio: 16 / 9; padding: 0; border: 0; background: #000; cursor: pointer; }
+  .player img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  .player .play { position: absolute; left: 50%; top: 50%; width: 76px; height: 54px; margin: -27px 0 0 -38px; border-radius: 14px; background: rgba(15, 17, 20, .82); border: 1px solid rgba(255, 255, 255, .25); }
+  .player .play::after { content: ""; position: absolute; left: 31px; top: 15px; border-style: solid; border-width: 12px 0 12px 20px; border-color: transparent transparent transparent #fff; }
+  .player:hover .play { background: var(--gold); }
+  .player iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
   section { padding: 40px 0; border-top: 1px solid var(--line); }
   h2 { font-size: 26px; margin: 0 0 10px; font-weight: 650; }
   .sub { color: var(--muted); margin: 0 0 24px; }
@@ -90,12 +96,12 @@
       <p class="lead">Episode Factory runs on your own Windows PC and your own NVIDIA graphics card. You attach a script and ten to fifteen seconds of a voice, press Run, and it records the narration, checks every line against its own transcript, finds and judges the footage, and renders the film. One plan: £19 a month, unlimited films, and the first 7 days free.</p>
       <p class="needs"><b>Needs:</b> Windows 10 or 11 and an NVIDIA graphics card with 8 GB or more. It does not run on a Mac.</p>
       <a class="cta" href="https://localfactories.lemonsqueezy.com/checkout/buy/963e4604-248d-411c-8c4c-91035c45f6da" data-goatcounter-click="trial-hero">Start the 7-day free trial</a>
-      <a class="ghost" href="https://youtu.be/BzQ1iL3l3fA" data-goatcounter-click="demo-button">Watch the demo</a>
+      <a class="ghost" href="#demo" data-goatcounter-click="demo-button" onclick="playDemo(); return false;">Watch the demo</a>
       <p class="note" style="margin-top:18px">Made for long-form narrated formats — sleep documentaries, nature and history films, the kind of episode that runs for an hour or two and is listened to as much as watched.</p>
     </div>
     <figure>
-      <a href="https://youtu.be/BzQ1iL3l3fA" data-goatcounter-click="demo-thumbnail"><img src="demo-thumbnail.jpg" alt="Episode Factory demo — a written script becomes a narrated 4K film" width="1280" height="720"></a>
-      <figcaption>The demo: real runs of the product, every number on screen measured.</figcaption>
+      <a class="player" id="demo" href="https://youtu.be/Owo2AyJs0G4" data-goatcounter-click="demo-thumbnail" onclick="playDemo(); return false;" aria-label="Play the demo"><img src="demo-thumbnail.jpg" alt="Episode Factory demo — a written script becomes a narrated 4K film" width="1280" height="720"><span class="play"></span></a>
+      <figcaption>The demo, 3 minutes: real runs of the product, every number on screen measured.</figcaption>
     </figure>
   </section>
 
@@ -159,6 +165,23 @@
     <p>Pexels and Pixabay are independent services with their own terms; Episode Factory is not affiliated with them. NVIDIA is a trademark of NVIDIA Corporation.</p>
   </footer>
 </div>
+<script>
+  // the demo plays here, on the page: the picture is swapped for YouTube's privacy-enhanced player only when pressed
+  function playDemo() {
+    var p = document.getElementById("demo");
+    if (!p || p.querySelector("iframe")) return;
+    var f = document.createElement("iframe");
+    f.src = "https://www.youtube-nocookie.com/embed/Owo2AyJs0G4?autoplay=1&rel=0&playsinline=1";
+    f.title = "Episode Factory demo";
+    f.allow = "autoplay; encrypted-media; picture-in-picture; fullscreen";
+    f.allowFullscreen = true;
+    p.replaceChildren(f);
+    p.removeAttribute("href");
+    p.onclick = null;
+    p.style.cursor = "default";
+    p.scrollIntoView({ behavior: "smooth", block: "center" });
+  }
+</script>
 <script data-goatcounter="https://localfactories.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
 </body>
 </html>
