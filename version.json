@@ -1,13 +1,13 @@
 {
   "product": "EpisodeFactory",
-  "version": "3.4.6",
-  "date": "2026-10-01",
+  "version": "3.4.7",
+  "date": "2026-10-04",
   "applies_from": "",
-  "file": "EpisodeFactory_update_3.4.6_2026-10-01.7z",
+  "file": "EpisodeFactory_update_3.4.7_2026-10-04.7z",
   "format": "7z",
-  "zip": "EpisodeFactory_3.4.6_2026-10-01.zip",
-  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_3.4.6_2026-10-01.7z",
-  "size": 2273427,
-  "sha256": "ad1eb6c0cd836ffdbab47381c878aacd73118540d85f8151e60ed900decfd671",
-  "notes": "3.4.6: the film's subtitles are one line per sentence (a short film had its whole script in one subtitle); 3.4.5's clean FINISHED FILMS folder and the footage-search fix included"
+  "zip": "EpisodeFactory_3.4.7_2026-10-04.zip",
+  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_3.4.7_2026-10-04.7z",
+  "size": 2275523,
+  "sha256": "0b63ec3c4ddf88a4313f79f72c2ad0b4d6b66358daf609ae70d2ed5ce068fc72",
+  "notes": "3.4.7: one plan, unlimited use - the subscription is still checked at every Run, but nothing is counted"
 }
