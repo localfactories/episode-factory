@@ -65,6 +65,10 @@
   footer p { margin: 6px 0; }
   .note { color: var(--muted); font-size: 14px; }
   .offer { border: 1px solid var(--gold-dim); background: rgba(214, 168, 74, .08); padding: 12px 16px; border-radius: 8px; margin: 0 0 22px; }
+  .eyebrow { color: var(--gold); font-size: 13px; font-weight: 650; letter-spacing: .1em; text-transform: uppercase; margin: 0 0 12px; }
+  .reassure { color: var(--muted); font-size: 14px; margin: 10px 0 0; }
+  .why h3 { margin: 0 0 6px; font-size: 18px; }
+  .why p { margin: 0; color: var(--muted); font-size: 15px; }
   .needs { border-left: 3px solid var(--gold); padding: 6px 12px; margin: 0 0 22px; color: var(--text); font-size: 15.5px; }
   @media (max-width: 860px) {
     .hero { grid-template-columns: 1fr; }
@@ -92,17 +96,29 @@
 
   <section class="hero" style="border-top:0">
     <div>
+      <p class="eyebrow">For faceless YouTube channels</p>
       <h1>A written script in.<br>A narrated, long-form 4K film out.</h1>
-      <p class="lead">Episode Factory runs on your own Windows PC and your own NVIDIA graphics card. You attach a script and ten to fifteen seconds of a voice, press Run, and it records the narration, checks every line against its own transcript, finds and judges the footage, and renders the film. One plan: £19 a month, unlimited films, and the first 7 days free.</p>
-      <p class="needs"><b>Needs:</b> Windows 10 or 11 and an NVIDIA graphics card with 8 GB or more. It does not run on a Mac.</p>
+      <p class="lead">Paste a script, give it ten to fifteen seconds of a voice, and press Run. Episode Factory narrates every line, picks the footage sentence by sentence, and renders the whole film in 4K on your own PC — with the title, description, chapters and tags ready to paste. No per-minute voice bills, no editing timeline, no limit on length. £19 a month, unlimited, and the first 7 days are free.</p>
+      <p class="needs"><b>Needs:</b> Windows 10 or 11 and an NVIDIA graphics card with 8 GB or more. It does not run on a Mac. <span class="note">Not sure? Open Task Manager → Performance → GPU and read “Dedicated GPU memory”.</span></p>
       <a class="cta" href="https://localfactories.lemonsqueezy.com/checkout/buy/963e4604-248d-411c-8c4c-91035c45f6da" data-goatcounter-click="trial-hero">Start the 7-day free trial</a>
       <a class="ghost" href="#demo" data-goatcounter-click="demo-button" onclick="playDemo(); return false;">Watch the demo</a>
+      <p class="reassure">Nothing is charged today. Cancel before day 7 and you pay nothing.</p>
       <p class="note" style="margin-top:18px">Made for long-form narrated formats — sleep documentaries, nature and history films, the kind of episode that runs for an hour or two and is listened to as much as watched.</p>
     </div>
     <figure>
       <a class="player" id="demo" href="https://youtu.be/Owo2AyJs0G4" data-goatcounter-click="demo-thumbnail" onclick="playDemo(); return false;" aria-label="Play the demo"><img src="demo-thumbnail.jpg" alt="Episode Factory demo — a written script becomes a narrated 4K film" width="1280" height="720"><span class="play"></span></a>
       <figcaption>The demo, 3 minutes: real runs of the product, every number on screen measured.</figcaption>
     </figure>
+  </section>
+
+  <section id="why">
+    <h2>Why creators use it</h2>
+    <p class="sub">Long narrated films are slow and costly to make by hand. This makes them on the machine you already own.</p>
+    <div class="grid3">
+      <div class="card why"><h3>Hours of film, not clips</h3><p>Any length of script. The Iceland film in the demo is 1 hour 54 minutes long, and it took 3 hours 7 minutes from the press to the finished 4K file — on a laptop.</p></div>
+      <div class="card why"><h3>No per-minute bills</h3><p>The voice, the transcript checks and the render all run on your own graphics card, so nothing is metered. Make one film a week or one a day — the price is the same.</p></div>
+      <div class="card why"><h3>Ready to upload</h3><p>Every film comes with a clean folder: the film, its subtitles, one report, and the upload text — a title with four more to test, the description with every chapter time, the tags and a thumbnail prompt.</p></div>
+    </div>
   </section>
 
   <section id="how">
@@ -143,6 +159,7 @@
         <li>Support by email</li>
       </ul>
       <a class="cta" href="https://localfactories.lemonsqueezy.com/checkout/buy/963e4604-248d-411c-8c4c-91035c45f6da" data-goatcounter-click="trial-price">Start the 7-day free trial</a>
+      <p class="reassure">Nothing is charged today. Cancel before day 7 and you pay nothing.</p>
     </div>
     <p class="note" style="margin-top:18px">Prices in GBP, VAT added at checkout where it applies. Checkout, billing and licence keys are handled by Lemon Squeezy, our merchant of record. The key is entered once during the install. Cancel any time from the store's customer portal.</p>
   </section>
