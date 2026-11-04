@@ -1,13 +1,13 @@
 {
   "product": "EpisodeFactory",
-  "version": "3.4.9",
+  "version": "3.5",
   "date": "2026-11-04",
   "applies_from": "",
-  "file": "EpisodeFactory_update_3.4.9_2026-11-04.7z",
+  "file": "EpisodeFactory_update_3.5_2026-11-04.7z",
   "format": "7z",
-  "zip": "EpisodeFactory_3.4.9_2026-11-04.zip",
-  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_3.4.9_2026-11-04.7z",
-  "size": 2277011,
-  "sha256": "2d783fd0e51268120d86b63e79a7740d09dacc9912e15a2d982399cc4752051c",
-  "notes": "Free trial support: a 7-day trial key shows its end date and, when it ends, where to subscribe."
+  "zip": "EpisodeFactory_3.5_2026-11-04.zip",
+  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_3.5_2026-11-04.7z",
+  "size": 2277139,
+  "sha256": "6258c237a0d4be52dc6f8ba5206c0e244013404f222f974118a40810effdf165",
+  "notes": "After a free trial, the Subscribe link goes through the website so the referring affiliate is credited."
 }
