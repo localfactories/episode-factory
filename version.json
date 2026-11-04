@@ -1,13 +1,13 @@
 {
   "product": "EpisodeFactory",
-  "version": "3.4.8",
-  "date": "2026-10-15",
+  "version": "3.4.9",
+  "date": "2026-11-04",
   "applies_from": "",
-  "file": "EpisodeFactory_update_3.4.8_2026-10-15.7z",
+  "file": "EpisodeFactory_update_3.4.9_2026-11-04.7z",
   "format": "7z",
-  "zip": "EpisodeFactory_3.4.8_2026-10-15.zip",
-  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_3.4.8_2026-10-15.7z",
-  "size": 2275811,
-  "sha256": "0ee08639a158e17d292ba4fd7408e60df44186f43451e62d1bcb83ac2f23d1ac",
-  "notes": "Quieter: the speech check no longer beeps after every step of a film."
+  "zip": "EpisodeFactory_3.4.9_2026-11-04.zip",
+  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_3.4.9_2026-11-04.7z",
+  "size": 2277011,
+  "sha256": "2d783fd0e51268120d86b63e79a7740d09dacc9912e15a2d982399cc4752051c",
+  "notes": "Free trial support: a 7-day trial key shows its end date and, when it ends, where to subscribe."
 }
