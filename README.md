@@ -3,9 +3,9 @@
 **A written script and 10-15 seconds of a voice in. A finished, narrated 4K documentary out - any length, any
 style, made entirely on your own Windows PC and NVIDIA graphics card.**
 
-[![Episode Factory demo - a written script becomes a narrated 4K film](docs/demo-thumbnail.jpg)](https://youtu.be/Owo2AyJs0G4)
+[![Episode Factory demo - a written script becomes a narrated 4K film](docs/demo-thumbnail.jpg)](https://youtu.be/CytSaWRcsCs)
 
-▶ [Watch the 3-minute demo](https://youtu.be/Owo2AyJs0G4) · 🌐 [Website and free 7-day trial, no card](https://localfactories.github.io/episode-factory/?utm_source=github&utm_campaign=readme)
+▶ [Watch the 3-minute demo](https://youtu.be/CytSaWRcsCs) · 🌐 [Website and free 7-day trial, no card](https://localfactories.github.io/episode-factory/?utm_source=github&utm_campaign=readme)
 
 ---
 
@@ -44,7 +44,7 @@ style, made entirely on your own Windows PC and NVIDIA graphics card.**
 - Installing takes one folder and one double click.
 - Updates arrive inside the app, and your films and settings are kept.
 - **Nothing is metered.** There are no per-minute voice bills and no credits; everything runs on your own PC.
-- Example from the demo: a 1 h 54 min film took 3 h 07 min from the press to the finished 4K file, on a laptop. Short
+- Example: a 1 h 54 min film took 3 h 07 min from the press to the finished 4K file, on a laptop ([watch that run](https://youtu.be/Owo2AyJs0G4)). Short
   films work just as well, because it takes any length.
 
 ## What you need
