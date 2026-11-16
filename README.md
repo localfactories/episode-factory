@@ -52,7 +52,7 @@ style, made entirely on your own Windows PC and NVIDIA graphics card.**
 - Windows 10 or 11.
 - An NVIDIA graphics card with 8 GB or more. It does not run on a Mac.
 - About 35 GB of disk space for the install.
-- A free Pexels key for the stock footage. A Pixabay key is optional.
+- One free footage key, from Pexels or Pixabay. Either one is enough.
 - 10-15 seconds of clean speech in a voice you have the rights to.
 
 ## Price
