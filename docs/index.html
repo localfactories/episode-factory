@@ -3,6 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<script>/* the padlock for everyone: a visitor who arrives on the plain address is moved to the secure one, with the same campaign tags */
+if (location.protocol === "http:" && /(^|\.)local-factories\.com$/.test(location.hostname)) location.replace("https://local-factories.com" + location.pathname + location.search + location.hash);</script>
 <title>Episode Factory — a script in, a narrated 4K film out</title>
 <meta name="description" content="Episode Factory turns a written script and ten to fifteen seconds of a voice into a finished, narrated, long-form 4K film on your own Windows PC and NVIDIA graphics card. One click installs, one click runs. £19 a month, unlimited, with a 7-day free trial.">
 <meta name="theme-color" content="#0a0c0f">
