@@ -5,7 +5,7 @@ style, made entirely on your own Windows PC and NVIDIA graphics card.**
 
 [![Episode Factory demo - a written script becomes a narrated 4K film](docs/demo-thumbnail.jpg)](https://youtu.be/CytSaWRcsCs)
 
-▶ [Watch the 3-minute demo](https://youtu.be/CytSaWRcsCs) · 🌐 [Website and free 7-day trial, no card](https://localfactories.github.io/episode-factory/?utm_source=github&utm_campaign=readme)
+▶ [Watch the 3-minute demo](https://youtu.be/CytSaWRcsCs) · 🌐 [Website and free 7-day trial, no card](https://local-factories.com/?utm_source=github&utm_campaign=readme)
 
 ---
 
@@ -58,7 +58,7 @@ style, made entirely on your own Windows PC and NVIDIA graphics card.**
 ## Price
 
 One plan: **GBP 19 a month, unlimited films of any length.** Try it free for 7 days first - **no card needed**, just your email.
-[Download the free trial](https://localfactories.github.io/episode-factory/?utm_source=github&utm_campaign=readme)
+[Download the free trial](https://local-factories.com/?utm_source=github&utm_campaign=readme)
 
 Questions: localfactories@gmail.com · YouTube: [@local.factories](https://www.youtube.com/@local.factories)
 
