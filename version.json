@@ -1,13 +1,13 @@
 {
   "product": "EpisodeFactory",
-  "version": "3.5",
-  "date": "2026-11-04",
+  "version": "3.5.2",
+  "date": "2026-11-23",
   "applies_from": "",
-  "file": "EpisodeFactory_update_3.5_2026-11-04.7z",
+  "file": "EpisodeFactory_update_3.5.2_2026-11-23.7z",
   "format": "7z",
-  "zip": "EpisodeFactory_3.5_2026-11-04.zip",
-  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_3.5_2026-11-04.7z",
-  "size": 2277139,
-  "sha256": "6258c237a0d4be52dc6f8ba5206c0e244013404f222f974118a40810effdf165",
-  "notes": "After a free trial, the Subscribe link goes through the website so the referring affiliate is credited."
+  "zip": "EpisodeFactory_3.5.2_2026-11-23.zip",
+  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_3.5.2_2026-11-23.7z",
+  "size": 2285971,
+  "sha256": "42f6ca5e363af1f6335e749e11d6022c51cab6332435ba930b7f5582a408b7a2",
+  "notes": "Licence keys from the new store are accepted, and the app's logo shows on the taskbar."
 }
