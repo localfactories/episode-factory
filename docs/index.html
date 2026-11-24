@@ -562,6 +562,22 @@ if (location.protocol === "http:" && /(^|\.)local-factories\.com$/.test(location
     setTimeout(function () { items.forEach(function (el) { el.classList.add("in"); }); }, 6000);
   })();
 </script>
+<script>
+  // Sent here by Episode Factory's own Subscribe button, a visitor arrives with ?ref=... - the reference of the PC
+  // the program runs on (a one-way hash; it names nobody). It is handed on to the checkout, so the key that payment
+  // makes finds its own way back to that PC: nothing is copied out of a receipt, nothing is typed.
+  (function () {
+    var m = /[?&]ref=([0-9a-f]{64})(?:&|$)/.exec(location.search);
+    if (!m) return;
+    document.querySelectorAll('a[href*="lemonsqueezy.com/checkout/buy/"]').forEach(function (a) {
+      try {
+        var u = new URL(a.href);
+        u.searchParams.set("checkout[custom][ref]", m[1]);
+        a.href = u.toString();
+      } catch (e) {}
+    });
+  })();
+</script>
 <!-- Lemon Squeezy affiliate tracking: credits a visitor who arrives by an affiliate's link (?aff=...) at checkout -->
 <script>window.lemonSqueezyAffiliateConfig = { store: "localfactories" };</script>
 <script src="https://lmsqueezy.com/affiliate.js" defer></script>

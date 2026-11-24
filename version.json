@@ -1,13 +1,13 @@
 {
   "product": "EpisodeFactory",
-  "version": "3.5.4",
+  "version": "3.5.5",
   "date": "2026-11-24",
   "applies_from": "",
-  "file": "EpisodeFactory_update_3.5.4_2026-11-24.7z",
+  "file": "EpisodeFactory_update_3.5.5_2026-11-24.7z",
   "format": "7z",
-  "zip": "EpisodeFactory_3.5.4_2026-11-24.zip",
-  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_3.5.4_2026-11-24.7z",
-  "size": 2299267,
-  "sha256": "02863bc228426503d3b040382207d55eb3ab10fc24ffb51cc2f196083b757dc9",
-  "notes": "The contact address is now support@local-factories.com."
+  "zip": "EpisodeFactory_3.5.5_2026-11-24.zip",
+  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_3.5.5_2026-11-24.7z",
+  "size": 2326579,
+  "sha256": "9cf513aa48762d2af98b4f69f0367ded1c0aef8401f3d3d3001f3938eba8ffde",
+  "notes": "Subscribing from inside the program: this copy can now unlock by itself when the payment is through - no key to paste. Licence checks tightened."
 }
