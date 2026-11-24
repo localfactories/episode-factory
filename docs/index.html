@@ -58,6 +58,7 @@ if (location.protocol === "http:" && /(^|\.)local-factories\.com$/.test(location
 
   /* ---- buttons ---- */
   .btn { display: inline-flex; align-items: center; justify-content: center; gap: 10px; padding: 14px 22px; border-radius: 11px; font: 650 16px/1.2 var(--font); border: 1px solid transparent; cursor: pointer; transition: transform .15s, filter .15s, background .15s, border-color .15s; text-align: center; }
+  .btn[hidden] { display: none; }
   .btn .ico { width: 18px; height: 18px; }
   .btn-primary { color: var(--ink); background: linear-gradient(180deg, #f5cb7c, #e2a848); box-shadow: inset 0 1px 0 rgba(255, 255, 255, .45), 0 10px 30px -10px rgba(233, 182, 90, .6); }
   .btn-primary:hover { color: var(--ink); transform: translateY(-1px); filter: brightness(1.06); }
@@ -324,7 +325,7 @@ if (location.protocol === "http:" && /(^|\.)local-factories\.com$/.test(location
           <a class="btn btn-primary" href="https://localfactories.lemonsqueezy.com/checkout/buy/d30ed21a-2f1c-40e4-926b-7a47c9bbd35d" data-goatcounter-click="trial-hero"><svg class="ico"><use href="#i-download"/></svg>Download free – 7 days, no card</a>
           <a class="btn btn-ghost" href="#demo" data-goatcounter-click="demo-button" onclick="playDemo(); return false;"><svg class="ico solid"><use href="#i-play"/></svg>Watch the demo</a>
         </div>
-        <p class="reassure">No card needed – just your email. The download and your key arrive by email. After the 7 days it is £19 a month, unlimited.</p>
+        <p class="reassure">No card needed – just your email. The download arrives by email. After the 7 days it is £19 a month, unlimited.</p>
     </div>
     <div class="wrap hero-stage">
       <figure>
@@ -442,19 +443,19 @@ if (location.protocol === "http:" && /(^|\.)local-factories\.com$/.test(location
           <p class="note">Try it free for 7 days first – no card needed. Subscribe when you want to keep going.</p>
           <div class="actions">
             <a class="btn btn-primary" href="https://localfactories.lemonsqueezy.com/checkout/buy/d30ed21a-2f1c-40e4-926b-7a47c9bbd35d" data-goatcounter-click="trial-price"><svg class="ico"><use href="#i-download"/></svg>Download free – 7 days, no card</a>
-            <a class="btn btn-ghost" href="https://localfactories.lemonsqueezy.com/checkout/buy/963e4604-248d-411c-8c4c-91035c45f6da" data-goatcounter-click="subscribe-price">Subscribe – £19 a month</a>
+            <a class="btn btn-ghost" id="subscribe-here" hidden href="https://localfactories.lemonsqueezy.com/checkout/buy/963e4604-248d-411c-8c4c-91035c45f6da" data-goatcounter-click="subscribe-price">Subscribe – £19 a month</a>
           </div>
-          <p class="reassure">Already tried it? Subscribe, then paste the new key from your receipt – your films and settings are kept.</p>
+          <p class="reassure" id="subscribe-note">Already using it? Subscribe from inside the program – Setup, "Your plan". Your films and settings are kept.</p>
         </div>
         <ul class="ticks">
           <li><svg class="ico"><use href="#i-check"/></svg><span><b>Unlimited films</b>, any length, in 4K</span></li>
           <li><svg class="ico"><use href="#i-check"/></svg><span>The whole program, every stage: voice, checks, footage, render</span></li>
           <li><svg class="ico"><use href="#i-check"/></svg><span>Every update included</span></li>
-          <li><svg class="ico"><use href="#i-check"/></svg><span>One machine at a time; the key moves by deactivating it</span></li>
+          <li><svg class="ico"><use href="#i-check"/></svg><span>One machine at a time</span></li>
           <li><svg class="ico"><use href="#i-check"/></svg><span>Support by email</span></li>
         </ul>
       </div>
-      <p class="fine">Prices in GBP, VAT added at checkout where it applies. Checkout, billing and licence keys are handled by Lemon Squeezy, our merchant of record. The key is entered once during the install. Cancel any time from the store's customer portal.</p>
+      <p class="fine">Prices in GBP, VAT added at checkout where it applies. Checkout and billing are handled by Lemon Squeezy, our merchant of record. Nothing is typed to activate the program. Cancel any time from the store's customer portal.</p>
     </div>
   </section>
 
@@ -466,13 +467,13 @@ if (location.protocol === "http:" && /(^|\.)local-factories\.com$/.test(location
         <p class="sub">Something else? Write to <a href="mailto:support@local-factories.com">support@local-factories.com</a>.</p>
       </div>
       <div class="qa" data-reveal>
-        <details><summary>How does the free trial work?</summary><p>Press "Download free" and enter your email – no card, no PayPal. The download and a 7-day key arrive by email; install the program with that key. When the 7 days end, the program tells you, with the link to subscribe for £19 a month. Subscribe, then paste the new key from your receipt into the program's Setup screen and press Activate – nothing is reinstalled, and your films and settings are kept. The subscription then renews by itself every month until you cancel. If you don't subscribe, nothing is ever charged.</p></details>
+        <details><summary>How does the free trial work?</summary><p>Press "Download free" and enter your email – no card, no PayPal. The download arrives by email. Install the program and open it: the 7 days start by themselves, with nothing to type. When they end, the program tells you; subscribe from inside it for £19 a month – nothing is reinstalled, and your films and settings are kept. The subscription then renews by itself every month until you cancel. If you don't subscribe, nothing is ever charged.</p></details>
         <details><summary>Is there really no limit?</summary><p>None. Make as many films as you like, of any length: nothing is counted. The voice and the transcript are made by programs on your own machine, and the clips come from free libraries under their free keys.</p></details>
         <details><summary>Can I cancel?</summary><p>Any time, from the store's customer portal. The program stops starting new episodes when the paid month ends; your films, your episodes and your settings stay yours.</p></details>
         <details><summary>Where does the footage come from, and may I publish it?</summary><p>From Pexels and Pixabay &ndash; whichever key you add, or both &ndash; under their own licences, which allow use in published videos. Put a footage credit in your description; the program's documentation lists the vendors' terms with the dates they were read. Read them yourself before you publish for money — they are the vendors' terms, not ours.</p></details>
-        <details><summary>Does it need the internet while it runs?</summary><p>Yes, for fetching clips and, for the short check of your key each time you press Run. Narration, transcription, judging and rendering are local. The program checks for updates once a day; that check can be switched off.</p></details>
+        <details><summary>Does it need the internet while it runs?</summary><p>Yes, for fetching clips and for the short check of your plan each time you press Run. Narration, transcription, judging and rendering are local. The program checks for updates once a day; that check can be switched off.</p></details>
         <details><summary>Is there a refund?</summary><p>No - that is what the free trial is for: try it for 7 days first. After that a month is paid for and delivered as it runs, and all sales are final; cancel from the portal and the plan simply ends at the renewal. Check the requirements above before you start; if the install does not complete on a machine that meets them, write to us with the install log and we will get it running with you.</p></details>
-        <details><summary>Can I move the licence to a new computer?</summary><p>Yes. Deactivate it on the old machine (one command, in the documentation) and activate it on the new one. The plan runs on one machine at a time.</p></details>
+        <details><summary>Can I move the licence to a new computer?</summary><p>Yes. The plan runs on one machine at a time. Setting the program up again on the same computer needs nothing – it carries on by itself. To move to a different computer, write to <a href="mailto:support@local-factories.com">support@local-factories.com</a> and we move it for you.</p></details>
         <details><summary>Which languages?</summary><p>The speech engine narrates in the language of your script and your voice clip; the product is documented and tested in English.</p></details>
       </div>
     </div>
@@ -484,7 +485,7 @@ if (location.protocol === "http:" && /(^|\.)local-factories\.com$/.test(location
         <h2>See it on your own script.</h2>
         <p>Free for 7 days, no card. Then £19 a month, unlimited.</p>
         <a class="btn btn-primary btn-lg" href="https://localfactories.lemonsqueezy.com/checkout/buy/d30ed21a-2f1c-40e4-926b-7a47c9bbd35d" data-goatcounter-click="trial-bottom"><svg class="ico"><use href="#i-download"/></svg>Download free – 7 days, no card</a>
-        <p class="fine">Windows 10 or 11 · NVIDIA graphics card with 8 GB or more · the download and your key arrive by email</p>
+        <p class="fine">Windows 10 or 11 · NVIDIA graphics card with 8 GB or more · the download arrives by email</p>
       </div>
     </div>
   </section>
@@ -576,6 +577,17 @@ if (location.protocol === "http:" && /(^|\.)local-factories\.com$/.test(location
         a.href = u.toString();
       } catch (e) {}
     });
+    // Subscribing is done from inside the program, so the Subscribe button is shown only to a visitor the program
+    // sent - and to them it is the one thing to press (they have the download already).
+    var sub = document.getElementById("subscribe-here");
+    var note = document.getElementById("subscribe-note");
+    if (sub) {
+      sub.hidden = false;
+      sub.className = "btn btn-primary";
+      var free = sub.parentNode.querySelector('[data-goatcounter-click="trial-price"]');
+      if (free) free.hidden = true;
+    }
+    if (note) note.textContent = "Pay in your browser, then go back to the program: it unlocks by itself. Your films and settings are kept.";
   })();
 </script>
 <!-- Lemon Squeezy affiliate tracking: credits a visitor who arrives by an affiliate's link (?aff=...) at checkout -->
