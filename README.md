@@ -60,7 +60,7 @@ style, made entirely on your own Windows PC and NVIDIA graphics card.**
 One plan: **GBP 19 a month, unlimited films of any length.** Try it free for 7 days first - **no card needed**, just your email.
 [Download the free trial](https://local-factories.com/?utm_source=github&utm_campaign=readme)
 
-Questions: localfactories@gmail.com · YouTube: [@local.factories](https://www.youtube.com/@local.factories)
+Questions: support@local-factories.com · YouTube: [@local.factories](https://www.youtube.com/@local.factories)
 
 ---
 
