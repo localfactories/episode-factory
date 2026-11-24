@@ -1,13 +1,13 @@
 {
   "product": "EpisodeFactory",
-  "version": "3.5.2",
-  "date": "2026-11-23",
+  "version": "3.5.3",
+  "date": "2026-11-24",
   "applies_from": "",
-  "file": "EpisodeFactory_update_3.5.2_2026-11-23.7z",
+  "file": "EpisodeFactory_update_3.5.3_2026-11-24.7z",
   "format": "7z",
-  "zip": "EpisodeFactory_3.5.2_2026-11-23.zip",
-  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_3.5.2_2026-11-23.7z",
-  "size": 2285971,
-  "sha256": "42f6ca5e363af1f6335e749e11d6022c51cab6332435ba930b7f5582a408b7a2",
-  "notes": "Licence keys from the new store are accepted, and the app's logo shows on the taskbar."
+  "zip": "EpisodeFactory_3.5.3_2026-11-24.zip",
+  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_3.5.3_2026-11-24.7z",
+  "size": 2299251,
+  "sha256": "887a847379327d282f2a6091701290c1079b958be97040b3e77e1a703dd5705f",
+  "notes": "After the free trial, subscribe and paste your key on the Setup page: no new download, no second setup. The plan card shows one clear status."
 }
