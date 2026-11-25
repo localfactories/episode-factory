@@ -1,13 +1,13 @@
 {
   "product": "EpisodeFactory",
-  "version": "3.6",
+  "version": "3.6.0",
   "date": "2026-11-25",
   "applies_from": "",
-  "file": "EpisodeFactory_update_3.6_2026-11-25.7z",
+  "file": "EpisodeFactory_update_3.6.0_2026-11-25.7z",
   "format": "7z",
-  "zip": "EpisodeFactory_3.6_2026-11-25.zip",
-  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_3.6_2026-11-25.7z",
-  "size": 2348083,
-  "sha256": "5a90a168929ccc38a1163d7f5a830ee6a2e473692ec78ae6ccf06112ee95667b",
-  "notes": "The uninstall window now opens straight on its one question, with nothing else showing first."
+  "zip": "EpisodeFactory_3.6.0_2026-11-25.zip",
+  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_3.6.0_2026-11-25.7z",
+  "size": 2348483,
+  "sha256": "5769f0d4dc729621c7232eb9bcee5aabcaf89f587d7f621cf4c5b56d42adc431",
+  "notes": "Version renumbered 3.6.0 (the same program as 3.6): the uninstall window opens straight on its one question."
 }
