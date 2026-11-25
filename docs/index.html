@@ -465,7 +465,7 @@ if (location.protocol === "http:" && /(^|\.)local-factories\.com$/.test(location
         <p class="app-price"><b>£19</b> a month, unlimited <span class="free">7 days free, no card</span></p>
         <div class="actions">
           <a class="btn btn-primary" href="episode-factory.html" data-goatcounter-click="home-ef-see">See Episode Factory<svg class="ico"><use href="#i-arrow"/></svg></a>
-          <a class="btn btn-ghost" href="https://localfactories.lemonsqueezy.com/checkout/buy/d30ed21a-2f1c-40e4-926b-7a47c9bbd35d" data-goatcounter-click="home-ef-trial"><svg class="ico"><use href="#i-download"/></svg>Try it free</a>
+          <a class="btn btn-ghost" href="https://episode-factory-keys.usage-worker.workers.dev/download" data-checkout="https://localfactories.lemonsqueezy.com/checkout/buy/d30ed21a-2f1c-40e4-926b-7a47c9bbd35d" data-app="EpisodeFactory" data-goatcounter-click="home-ef-trial"><svg class="ico"><use href="#i-download"/></svg>Try it free</a>
         </div>
       </div>
     </article>
@@ -483,7 +483,7 @@ if (location.protocol === "http:" && /(^|\.)local-factories\.com$/.test(location
         <p class="app-price"><b>£9</b> a month, unlimited <span class="free">7 days free, no card</span></p>
         <div class="actions">
           <a class="btn btn-primary" href="voice-factory.html" data-goatcounter-click="home-vf-see">See Voice Factory<svg class="ico"><use href="#i-arrow"/></svg></a>
-          <a class="btn btn-ghost" href="https://localfactories.lemonsqueezy.com/checkout/buy/b77baa4e-236e-497d-9c43-af5af82ef697" data-goatcounter-click="home-vf-trial"><svg class="ico"><use href="#i-download"/></svg>Try it free</a>
+          <a class="btn btn-ghost" href="https://voice-factory-keys.usage-worker.workers.dev/download" data-checkout="https://localfactories.lemonsqueezy.com/checkout/buy/b77baa4e-236e-497d-9c43-af5af82ef697" data-app="VoiceFactory" data-goatcounter-click="home-vf-trial"><svg class="ico"><use href="#i-download"/></svg>Try it free</a>
         </div>
       </div>
     </article>
@@ -507,7 +507,7 @@ if (location.protocol === "http:" && /(^|\.)local-factories\.com$/.test(location
         <div class="card" data-reveal><div class="tile"><svg class="ico"><use href="#i-drive"/></svg></div><h3>On your own PC</h3><p>The work runs on your own graphics card. Your scripts, your voices and your files stay on your PC.</p></div>
         <div class="card" data-reveal><div class="tile"><svg class="ico"><use href="#i-ear"/></svg></div><h3>Checked before you hear it</h3><p>Every sentence is listened to and compared with your words. What is missing or wrong is made again.</p></div>
         <div class="card" data-reveal><div class="tile"><svg class="ico"><use href="#i-infinity"/></svg></div><h3>No meter running</h3><p>Nothing per minute, per character or per film. One monthly plan for each app, unlimited.</p></div>
-        <div class="card" data-reveal><div class="tile"><svg class="ico"><use href="#i-download"/></svg></div><h3>7 days free</h3><p>Download it with just your email, no card. Subscribe from inside the app when you want to keep going.</p></div>
+        <div class="card" data-reveal><div class="tile"><svg class="ico"><use href="#i-download"/></svg></div><h3>7 days free</h3><p>It downloads straight away – no email, no card. Subscribe from inside the app when you want to keep going.</p></div>
       </div>
       <div class="both" data-reveal>
         <svg class="ico"><use href="#i-monitor"/></svg>
@@ -570,6 +570,48 @@ if (location.protocol === "http:" && /(^|\.)local-factories\.com$/.test(location
     // nothing may stay hidden: whatever has not arrived after a while is shown
     setTimeout(function () { items.forEach(function (el) { el.classList.add("in"); }); }, 6000);
   })();
+</script>
+<style>
+  .dl-next { position: fixed; left: 50%; bottom: 22px; transform: translateX(-50%); z-index: 200;
+             width: min(640px, calc(100% - 32px)); padding: 15px 46px 15px 18px; border-radius: 14px; background: #14181e;
+             border: 1px solid rgba(233,182,90,.45); box-shadow: 0 18px 50px rgba(0,0,0,.55); color: #e9edf2;
+             font-size: 15px; line-height: 1.55; }
+  .dl-next b { color: #e9b65a; }
+  .dl-next code { font-family: ui-monospace, Consolas, monospace; font-size: 13.5px; background: rgba(255,255,255,.07);
+                  padding: 1px 6px; border-radius: 5px; color: #e9edf2; }
+  .dl-next button { position: absolute; top: 8px; right: 10px; background: none; border: 0; color: #9aa4b0;
+                    font-size: 22px; line-height: 1; cursor: pointer; padding: 4px; }
+  .dl-next[hidden] { display: none; }
+</style>
+<div class="dl-next" id="dl-next" role="status" hidden><button type="button" aria-label="Close">×</button><b>Downloading.</b> Open the zip, put its folder somewhere short such as <code data-folder>D:\EpisodeFactory</code>, and double-click <b>INSTALL.bat</b>. The 7 free days start by themselves – nothing to type, no card.</div>
+<script>/* THE FREE DOWNLOAD, NO EMAIL (download_button.py): a computer downloads at once; a phone, or a visitor an
+   affiliate sent, goes through the store (it emails the link / credits the affiliate) */
+(function () {
+  var aff = /[?&]aff=/i.test(location.search);
+  try {
+    if (aff) localStorage.setItem("lf_aff", String(Date.now()));
+    else { var t = +localStorage.getItem("lf_aff") || 0; aff = t > 0 && Date.now() - t < 30 * 864e5; }
+  } catch (e) {}
+  var phone = /Android|iPhone|iPad|iPod|Mobile|Windows Phone/i.test(navigator.userAgent);
+  var note = document.getElementById("dl-next");
+  document.querySelectorAll("a[data-checkout]").forEach(function (a) {
+    if (phone || aff) {
+      a.href = a.getAttribute("data-checkout");
+      a.setAttribute("data-goatcounter-click", (a.getAttribute("data-goatcounter-click") || "trial") + (phone ? "-phone" : "-aff"));
+      var l = a.querySelector(".dl-label");
+      if (phone && l) l.textContent = "Email me the download link";
+      return;
+    }
+    a.addEventListener("click", function () {
+      if (!note) return;
+      var f = note.querySelector("[data-folder]");
+      if (f) f.textContent = "D:\\" + (a.getAttribute("data-app") || "EpisodeFactory");
+      note.hidden = false;
+    });
+  });
+  if (note) note.querySelector("button").addEventListener("click", function () { note.hidden = true; });
+  if (phone) document.querySelectorAll("[data-phone-note]").forEach(function (p) { p.textContent = p.getAttribute("data-phone-note"); });
+})();
 </script>
 <!-- Lemon Squeezy affiliate tracking: credits a visitor who arrives by an affiliate's link (?aff=...) at checkout -->
 <script>window.lemonSqueezyAffiliateConfig = { store: "localfactories" };</script>
