@@ -7,10 +7,14 @@
 if (location.protocol === "http:" && /(^|\.)local-factories\.com$/.test(location.hostname)) location.replace("https://local-factories.com" + location.pathname + location.search + location.hash);</script>
 <script>/* every link made before 25 Nov 2026 meant Episode Factory: the program's Subscribe button (?ref=), the adverts and
    posts (utm_ / gclid / fbclid), the affiliates (?aff=) and the old section links go on to its page with their tags.
-   A Local Factories campaign of its own uses utm_campaign=lf-... and stays here. */
+   A Local Factories campaign of its own uses utm_campaign=lf-... and stays here.
+   (25 Nov 2026 - the owner: "I post my web page but it goes only to Episode Factory") Facebook adds fbclid to EVERY link
+   clicked there, a plain post's too: fbclid alone no longer counts - a post of the home page shows the home page. An
+   advert still carries its utm_ tags; the program's Subscribe button carries its machine's 64-hex ref. */
 (function () {
   var s = location.search, h = location.hash;
-  var tagged = /[?&](ref|utm_[a-z]+|gclid|gbraid|wbraid|fbclid|msclkid|ttclid|aff)=/i.test(s) && !/[?&]utm_campaign=lf-/i.test(s);
+  var tagged = (/[?&](utm_[a-z]+|gclid|gbraid|wbraid|msclkid|ttclid|aff)=/i.test(s) || /[?&]ref=[0-9a-f]{64}(&|$)/i.test(s))
+               && !/[?&]utm_campaign=lf-/i.test(s);
   var old = /^#(how|need|pricing|faq|demo|run|why|subscribe-here)$/.test(h);
   if (tagged || old) location.replace("episode-factory.html" + s + h);
 })();</script>
