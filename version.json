@@ -1,13 +1,13 @@
 {
   "product": "EpisodeFactory",
-  "version": "3.5.9",
+  "version": "3.6",
   "date": "2026-11-25",
   "applies_from": "",
-  "file": "EpisodeFactory_update_3.5.9_2026-11-25.7z",
+  "file": "EpisodeFactory_update_3.6_2026-11-25.7z",
   "format": "7z",
-  "zip": "EpisodeFactory_3.5.9_2026-11-25.zip",
-  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_3.5.9_2026-11-25.7z",
-  "size": 2347587,
-  "sha256": "82c3077d63418f2d848d33c4c62ee70b988139a25f71385679e1e3f8212eedf5",
-  "notes": "Uninstalling is now one question in the program's own window: Uninstall or Keep it. Your films are kept, and this copy's desktop and Start-menu shortcuts are removed too."
+  "zip": "EpisodeFactory_3.6_2026-11-25.zip",
+  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_3.6_2026-11-25.7z",
+  "size": 2348083,
+  "sha256": "5a90a168929ccc38a1163d7f5a830ee6a2e473692ec78ae6ccf06112ee95667b",
+  "notes": "The uninstall window now opens straight on its one question, with nothing else showing first."
 }
