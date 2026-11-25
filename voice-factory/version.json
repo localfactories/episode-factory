@@ -1,13 +1,13 @@
 {
   "product": "VoiceFactory",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "date": "2026-11-25",
   "applies_from": "",
-  "file": "VoiceFactory_update_1.1.2_2026-11-25.7z",
+  "file": "VoiceFactory_update_1.1.3_2026-11-25.7z",
   "format": "7z",
-  "zip": "VoiceFactory_1.1.2_2026-11-25.zip",
-  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/voice-factory/releases/VoiceFactory_update_1.1.2_2026-11-25.7z",
-  "size": 471154,
-  "sha256": "cece8682da27ec474c31b59eccbe7f7dc97a15c195204142f24170602c0eda3e",
-  "notes": "Voice Factory 1.1.2 - Transcript to: the same language, English or 13 more, translated on your PC with every line keeping its time; Narrate in: a text in one language narrated in another (English, Spanish, Arabic, Chinese, Japanese); Make it in another language for any project."
+  "zip": "VoiceFactory_1.1.3_2026-11-25.zip",
+  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/voice-factory/releases/VoiceFactory_update_1.1.3_2026-11-25.7z",
+  "size": 475826,
+  "sha256": "35551338e1d43a1a53b9e93c748d3ecbe03ab423b6a3ec58fe28e4dcbb92463c",
+  "notes": "Voice Factory 1.1.3 - two buttons and two lists on the left: Text to audio and Audio to text; Rename, Open the folder and Delete in plain sight; a transcript's folder holds its sound and the files you chose (TXT, SRT, Word, PDF ...), nothing else; PDF added."
 }
