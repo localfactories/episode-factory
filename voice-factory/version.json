@@ -1,15 +1,15 @@
 {
   "product": "VoiceFactory",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "date": "2026-11-25",
   "applies_from": "",
-  "file": "VoiceFactory_update_1.2.3_2026-11-25.7z",
+  "file": "VoiceFactory_update_1.2.4_2026-11-25.7z",
   "format": "7z",
-  "zip": "VoiceFactory_1.2.3_2026-11-25.zip",
-  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/voice-factory/releases/VoiceFactory_update_1.2.3_2026-11-25.7z",
-  "size": 3637651,
-  "sha256": "b93774c71e9d7922093deb65919a62ed9c148aff50159c4bdb52fc0a89820a8f",
-  "notes": "Paths are always whole in the compiled copy.",
+  "zip": "VoiceFactory_1.2.4_2026-11-25.zip",
+  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/voice-factory/releases/VoiceFactory_update_1.2.4_2026-11-25.7z",
+  "size": 3781187,
+  "sha256": "8fb88b944377971f9c2bc8fffaa82bb02bf50c157fa5cc5c8922963014f25320",
+  "notes": "Dubbing: every line fits its own time in the film, sung parts keep the film's own singing, speakers found on the graphics card, a speed control, far faster. Clearer choices, play/pause, edit while it is made, Clean audio under Dub a video.",
   "python": [
     "3.12",
     "3.14"
