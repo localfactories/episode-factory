@@ -1,13 +1,13 @@
 {
   "product": "EpisodeFactory",
-  "version": "3.6.0",
+  "version": "3.6.1",
   "date": "2026-11-25",
   "applies_from": "",
-  "file": "EpisodeFactory_update_3.6.0_2026-11-25.7z",
+  "file": "EpisodeFactory_update_3.6.1_2026-11-25.7z",
   "format": "7z",
-  "zip": "EpisodeFactory_3.6.0_2026-11-25.zip",
-  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_3.6.0_2026-11-25.7z",
-  "size": 2348483,
-  "sha256": "5769f0d4dc729621c7232eb9bcee5aabcaf89f587d7f621cf4c5b56d42adc431",
-  "notes": "Version renumbered 3.6.0 (the same program as 3.6): the uninstall window opens straight on its one question."
+  "zip": "EpisodeFactory_3.6.1_2026-11-25.zip",
+  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_3.6.1_2026-11-25.7z",
+  "size": 2367811,
+  "sha256": "d3b675a6a75a046b266dd1b0a26d0ed409330b4bd2b63dd235700b8078cecad8",
+  "notes": "Steadier narration checks: numbers like 'a hundred thousand' are no longer re-recorded for nothing, the re-check and the multi-engine recorder follow your voice settings, and the narration check now understands Spanish, Arabic, Chinese and Japanese for the languages coming next."
 }
