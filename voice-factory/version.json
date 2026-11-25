@@ -1,13 +1,13 @@
 {
   "product": "VoiceFactory",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "date": "2026-11-25",
   "applies_from": "",
-  "file": "",
-  "format": "",
-  "zip": "VoiceFactory_1.0.0_2026-11-25.zip",
-  "url": "",
-  "size": 0,
-  "sha256": "",
-  "notes": "Voice Factory 1.0.0 - any text in, a checked narration out: every sentence listened to and repaired, any length, five languages, subtitles."
+  "file": "VoiceFactory_update_1.0.1_2026-11-25.7z",
+  "format": "7z",
+  "zip": "VoiceFactory_1.0.1_2026-11-25.zip",
+  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/voice-factory/releases/VoiceFactory_update_1.0.1_2026-11-25.7z",
+  "size": 423794,
+  "sha256": "a8f8d2ddf77f114b66725cc68f9ff8bcacb6a513767d21a104752b816bc2e856",
+  "notes": "Voice Factory 1.0.1 - its own logo: a sound wave with the check sign, in the window, the taskbar and the shortcuts."
 }
