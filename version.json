@@ -1,13 +1,13 @@
 {
   "product": "EpisodeFactory",
-  "version": "3.6.1",
+  "version": "3.6.2",
   "date": "2026-11-25",
   "applies_from": "",
-  "file": "EpisodeFactory_update_3.6.1_2026-11-25.7z",
+  "file": "EpisodeFactory_update_3.6.2_2026-11-25.7z",
   "format": "7z",
-  "zip": "EpisodeFactory_3.6.1_2026-11-25.zip",
-  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_3.6.1_2026-11-25.7z",
-  "size": 2367811,
-  "sha256": "d3b675a6a75a046b266dd1b0a26d0ed409330b4bd2b63dd235700b8078cecad8",
-  "notes": "Steadier narration checks: numbers like 'a hundred thousand' are no longer re-recorded for nothing, the re-check and the multi-engine recorder follow your voice settings, and the narration check now understands Spanish, Arabic, Chinese and Japanese for the languages coming next."
+  "zip": "EpisodeFactory_3.6.2_2026-11-25.zip",
+  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_3.6.2_2026-11-25.7z",
+  "size": 2383459,
+  "sha256": "0e73a0cb123a267961aaebade31f285c52b51a829dbe0fc8f012941e846589dd",
+  "notes": "Episode Factory 3.6.2 - its own logo (a frame of film); on graphics cards under 12 GB the voice engine steps aside while each part is checked, so 8 GB cards keep up; the uninstall runs without a window; Voice Factory, the new Local Factories app, on the Setup page."
 }
