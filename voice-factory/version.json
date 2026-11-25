@@ -1,15 +1,15 @@
 {
   "product": "VoiceFactory",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "date": "2026-11-25",
   "applies_from": "",
-  "file": "VoiceFactory_update_1.2.2_2026-11-25.7z",
+  "file": "VoiceFactory_update_1.2.3_2026-11-25.7z",
   "format": "7z",
-  "zip": "VoiceFactory_1.2.2_2026-11-25.zip",
-  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/voice-factory/releases/VoiceFactory_update_1.2.2_2026-11-25.7z",
-  "size": 3635683,
-  "sha256": "7779930c70e6dcc6446fdd98437adbc1f8d91851d05c12ed9632d99e65bb2831",
-  "notes": "The program now comes compiled.",
+  "zip": "VoiceFactory_1.2.3_2026-11-25.zip",
+  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/voice-factory/releases/VoiceFactory_update_1.2.3_2026-11-25.7z",
+  "size": 3637651,
+  "sha256": "b93774c71e9d7922093deb65919a62ed9c148aff50159c4bdb52fc0a89820a8f",
+  "notes": "Paths are always whole in the compiled copy.",
   "python": [
     "3.12",
     "3.14"
