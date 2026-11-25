@@ -1,15 +1,15 @@
 {
   "product": "VoiceFactory",
-  "version": "1.2.4",
+  "version": "1.2.5",
   "date": "2026-11-25",
   "applies_from": "",
-  "file": "VoiceFactory_update_1.2.4_2026-11-25.7z",
+  "file": "VoiceFactory_update_1.2.5_2026-11-25.7z",
   "format": "7z",
-  "zip": "VoiceFactory_1.2.4_2026-11-25.zip",
-  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/voice-factory/releases/VoiceFactory_update_1.2.4_2026-11-25.7z",
-  "size": 3781187,
-  "sha256": "8fb88b944377971f9c2bc8fffaa82bb02bf50c157fa5cc5c8922963014f25320",
-  "notes": "Dubbing: every line fits its own time in the film, sung parts keep the film's own singing, speakers found on the graphics card, a speed control, far faster. Clearer choices, play/pause, edit while it is made, Clean audio under Dub a video.",
+  "zip": "VoiceFactory_1.2.5_2026-11-25.zip",
+  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/voice-factory/releases/VoiceFactory_update_1.2.5_2026-11-25.7z",
+  "size": 3802259,
+  "sha256": "60acc4ec4b5a8b29f7e7c6ac26407c55007d83e06890f35a619c520090c4db2b",
+  "notes": "Dubbing no longer loops: the check understands Arabic said with another accent and never redoes a line it could not hear. What is running shows at the top with its percentage - one press goes back to it - and its button flashes slowly.",
   "python": [
     "3.12",
     "3.14"
