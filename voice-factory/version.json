@@ -1,13 +1,13 @@
 {
   "product": "VoiceFactory",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "date": "2026-11-25",
   "applies_from": "",
-  "file": "VoiceFactory_update_1.2.0_2026-11-25.7z",
+  "file": "VoiceFactory_update_1.2.1_2026-11-25.7z",
   "format": "7z",
-  "zip": "VoiceFactory_1.2.0_2026-11-25.zip",
-  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/voice-factory/releases/VoiceFactory_update_1.2.0_2026-11-25.7z",
-  "size": 584530,
-  "sha256": "5bf3d2e646b2ad4bf29f0b6988db92ceb95df834f9a2d9c3b28c2caaf9039437",
-  "notes": "New: dub a video into another language in the same voices; speech to text marks who is speaking; clean audio takes music and noise out."
+  "zip": "VoiceFactory_1.2.1_2026-11-25.zip",
+  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/voice-factory/releases/VoiceFactory_update_1.2.1_2026-11-25.7z",
+  "size": 587218,
+  "sha256": "945cfab10fc23a43c94b20a2b0c34f4e079ab56614ca64646fca1dfb742dfca3",
+  "notes": "Every tool asks your plan first - translating a text too."
 }
