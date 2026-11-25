@@ -1,13 +1,13 @@
 {
   "product": "EpisodeFactory",
-  "version": "3.5.6",
-  "date": "2026-11-24",
+  "version": "3.5.7",
+  "date": "2026-11-25",
   "applies_from": "",
-  "file": "EpisodeFactory_update_3.5.6_2026-11-24.7z",
+  "file": "EpisodeFactory_update_3.5.7_2026-11-25.7z",
   "format": "7z",
-  "zip": "EpisodeFactory_3.5.6_2026-11-24.zip",
-  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_3.5.6_2026-11-24.7z",
-  "size": 2337971,
-  "sha256": "ab960170300896c6bde84112c2e1427e59d8a694161c90b1229532847e3e73e5",
-  "notes": "No licence key to type any more: the free trial starts by itself the first time the program opens, and subscribing from inside the program unlocks it by itself."
+  "zip": "EpisodeFactory_3.5.7_2026-11-25.zip",
+  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_3.5.7_2026-11-25.7z",
+  "size": 2339059,
+  "sha256": "1f7cb2e5f6cc437653ed7a36df0347af8875e06a392c62f201b5577f71167952",
+  "notes": "Fix: the setup window no longer asks for a licence key - the free trial starts by itself the first time the program opens."
 }

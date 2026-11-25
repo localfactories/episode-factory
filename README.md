@@ -66,5 +66,4 @@ Questions: support@local-factories.com · YouTube: [@local.factories](https://ww
 
 <sub>This repository also holds the program's update packages.
 - `version.json` names the newest version, and every installed copy checks it once a day.
-- The packages under `releases/` are encrypted. They open only from inside a purchased copy, and a licence key is
-  needed to install.</sub>
+- The packages under `releases/` are encrypted. They open only from inside a copy downloaded from the website.</sub>
