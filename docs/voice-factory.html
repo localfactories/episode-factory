@@ -6,7 +6,7 @@
 <script>/* the padlock for everyone: a visitor who arrives on the plain address is moved to the secure one, with the same campaign tags */
 if (location.protocol === "http:" && /(^|\.)local-factories\.com$/.test(location.hostname)) location.replace("https://local-factories.com" + location.pathname + location.search + location.hash);</script>
 <title>Voice Factory — any text in, a checked narration out</title>
-<meta name="description" content="Voice Factory reads any text in the voice you give it - ten to fifteen seconds, once - then listens to every sentence it recorded and repairs what is wrong. Any length, five languages, subtitles, on your own Windows PC and NVIDIA graphics card. £9 a month, 7 days free.">
+<meta name="description" content="Voice Factory reads any text in the voice you give it - ten to fifteen seconds, once - then listens to every sentence it recorded and repairs what is wrong. Speech to text with speakers, clean audio, and videos dubbed into another language in the same voices. On your own Windows PC and NVIDIA graphics card. £9 a month, 7 days free.">
 <meta name="theme-color" content="#0a0c0f">
 <link rel="canonical" href="https://local-factories.com/voice-factory.html">
 <link rel="icon" href="img/vf-favicon.ico" sizes="any">
@@ -318,6 +318,7 @@ if (location.protocol === "http:" && /(^|\.)local-factories\.com$/.test(location
     <a class="brand" href="#top"><img src="img/vf-icon.png" width="30" height="30" alt=""> Voice Factory <small>by Local Factories</small></a>
     <nav aria-label="Sections">
       <a href="#how">How it works</a>
+      <a href="#more">Dubbing &amp; more</a>
       <a href="#need">What you need</a>
       <a href="#pricing">Price</a>
       <a href="#faq">Questions</a>
@@ -337,6 +338,7 @@ if (location.protocol === "http:" && /(^|\.)local-factories\.com$/.test(location
           <li><svg class="ico"><use href="#i-check"/></svg>No per-character bills</li>
           <li><svg class="ico"><use href="#i-check"/></svg>Every sentence listened to</li>
           <li><svg class="ico"><use href="#i-check"/></svg>No limit on length</li>
+          <li><svg class="ico"><use href="#i-check"/></svg>Dub videos in the same voices</li>
         </ul>
         <div class="actions">
           <a class="btn btn-primary" href="https://localfactories.lemonsqueezy.com/checkout/buy/b77baa4e-236e-497d-9c43-af5af82ef697" data-goatcounter-click="vf-trial-hero"><svg class="ico"><use href="#i-download"/></svg>Download free – 7 days, no card</a>
@@ -403,21 +405,37 @@ if (location.protocol === "http:" && /(^|\.)local-factories\.com$/.test(location
     </div>
   </section>
 
-  <section id="stt" class="band">
+  <section id="more" class="band">
     <div class="wrap">
       <div class="head" data-reveal>
         <p class="eyebrow">Also inside</p>
-        <h2>Speech to text</h2>
-        <p class="sub">Any recording or video in. The words out, with their times — on your own PC.</p>
+        <h2>Words out. Voices apart. Videos in another language.</h2>
+        <p class="sub">Three more tools in the same studio, on the same PC — included in the same plan.</p>
       </div>
       <div class="bento">
-        <div class="card wide" data-reveal>
+        <div class="card wide" data-reveal id="dub">
           <div class="txt">
-            <h3>Drop a recording, get the words</h3>
-            <p>Interviews, podcasts, lectures, videos — any length, in more than thirty languages, detected by itself. Or have it written in another language: a recording in Spanish comes out in English, an English one in Arabic, French or Japanese - translated on your PC, every line keeping its time. Correct it on the page, press any line to hear it from there, or make a narration from it in one of your voices.</p>
-            <div class="langs fmts"><span>Text</span><span>Text with times</span><span>SRT</span><span>VTT</span><span>Word</span><span>PDF</span><span>JSON</span><span>Into another language</span></div>
+            <h3>Dub a video — in the same voices</h3>
+            <p>Drop a video. Every line is heard, translated and said again in the voice of the person who said it — at the moment they said it, over the same music and sounds. Two people talking stay two voices. Every line is checked; correct one and only that line is said again. Their own voices only with their permission — or read each person in one of yours.</p>
+            <div class="langs fmts"><span>English</span><span>Español</span><span>العربية</span><span>中文</span><span>日本語</span><span>MP4 · MP3 · WAV · SRT</span></div>
           </div>
-          <div class="shot"><img src="img/vf-stt.webp" alt="Voice Factory's speech to text: a recording written out line by line with its times, ready to download as text, subtitles or a Word document" width="1440" height="900" loading="lazy"></div>
+          <div class="shot"><img src="img/vf-dub.webp" alt="A dubbed video in Voice Factory: two speakers, each line with the original English above and the Spanish said in the speaker's own voice, every line checked" width="1440" height="900" loading="lazy"></div>
+        </div>
+        <div class="card wide" data-reveal id="stt">
+          <div class="txt">
+            <h3>Speech to text — and who said it</h3>
+            <p>Interviews, podcasts, lectures, videos — any length, in more than thirty languages, detected by itself. Each line can be marked with who said it, and you give them their names. Have it written in another language too: a recording in Spanish comes out in English, an English one in Arabic, French or Japanese — every line keeping its time. Correct it on the page, press any line to hear it from there.</p>
+            <div class="langs fmts"><span>Text</span><span>Text with times</span><span>SRT</span><span>VTT</span><span>Word</span><span>PDF</span><span>JSON</span><span>Who is speaking</span><span>Into another language</span></div>
+          </div>
+          <div class="shot"><img src="img/vf-stt.webp" alt="Voice Factory's speech to text: an interview written out line by line with its times, each line marked with the speaker's name, ready to download as text, subtitles, Word or PDF" width="1440" height="900" loading="lazy"></div>
+        </div>
+        <div class="card wide" data-reveal id="clean">
+          <div class="txt">
+            <h3>Clean audio — the voice alone</h3>
+            <p>Music, noise and the room taken out of any recording or video. The voice comes out on its own, the music and sounds on their own too, and a video gets its picture back with the clean voice. Seconds a minute on your graphics card. Or tick “Clean the sound first” on a transcript for better words from a noisy recording.</p>
+            <div class="langs fmts"><span>The voice</span><span>The background</span><span>Clean video</span><span>WAV</span><span>MP3</span></div>
+          </div>
+          <div class="shot"><img src="img/vf-clean.webp" alt="Clean audio in Voice Factory: an interview recorded over music, split into the voice alone and the background, each ready to play and download" width="1440" height="900" loading="lazy"></div>
         </div>
       </div>
     </div>
@@ -461,6 +479,7 @@ if (location.protocol === "http:" && /(^|\.)local-factories\.com$/.test(location
           <li><svg class="ico"><use href="#i-check"/></svg><span><b>Unlimited narration</b>, any length</span></li>
           <li><svg class="ico"><use href="#i-check"/></svg><span>Every sentence checked and repaired</span></li>
           <li><svg class="ico"><use href="#i-check"/></svg><span>Five languages, subtitles included</span></li>
+          <li><svg class="ico"><use href="#i-check"/></svg><span>Speech to text, clean audio and video dubbing</span></li>
           <li><svg class="ico"><use href="#i-check"/></svg><span>Every update included</span></li>
           <li><svg class="ico"><use href="#i-check"/></svg><span>One machine at a time · support by email</span></li>
         </ul>
@@ -478,7 +497,8 @@ if (location.protocol === "http:" && /(^|\.)local-factories\.com$/.test(location
       </div>
       <div class="qa" data-reveal>
         <details><summary>How does the free trial work?</summary><p>Press "Download free" and enter your email – no card, no PayPal. The download arrives by email. Install it and open the studio: the 7 days start by themselves on that PC. When they end, the studio shows a Subscribe button; after paying it unlocks by itself.</p></details>
-        <details><summary>Whose voice can I use?</summary><p>Your own, or a voice you have the speaker's permission to use. The studio asks you to confirm this each time you add a voice. Never use a voice to pretend to be someone.</p></details>
+        <details><summary>Whose voice can I use?</summary><p>Your own, or a voice you have the speaker's permission to use. The studio asks you to confirm this each time you add a voice, and before a video is dubbed in its speakers' own voices. Never use a voice to pretend to be someone.</p></details>
+        <details><summary>How does dubbing work?</summary><p>Drop a video and choose the language. The voices are separated from the music and sounds, every line is heard and translated, then said again in the voice of the person who said it and laid back where it was said, over the original music. Each line is checked like any narration. You can correct any line, rename the speakers, or read any of them in one of your own voices — only what changed is made again. It dubs into English, Spanish, Arabic, Chinese and Japanese.</p></details>
         <details><summary>How is it checked?</summary><p>After each part is recorded, a transcriber on your PC listens to it and the words are compared with your text, one by one. Missing or wrong words are recorded again; extra words, stumbles and long gaps are cut. The report says what was done to each part.</p></details>
         <details><summary>Which languages?</summary><p>English, Spanish, Arabic, Chinese and Japanese. Each gets the same check; numbers are read out in that language.</p></details>
         <details><summary>What do I get at the end?</summary><p>A levelled WAV and an MP3 of the whole narration, its subtitles as SRT and VTT in your own words, and the text.</p></details>
