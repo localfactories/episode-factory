@@ -1,13 +1,13 @@
 {
   "product": "VoiceFactory",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "date": "2026-11-25",
   "applies_from": "",
-  "file": "VoiceFactory_update_1.0.1_2026-11-25.7z",
+  "file": "VoiceFactory_update_1.0.2_2026-11-25.7z",
   "format": "7z",
-  "zip": "VoiceFactory_1.0.1_2026-11-25.zip",
-  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/voice-factory/releases/VoiceFactory_update_1.0.1_2026-11-25.7z",
-  "size": 423794,
-  "sha256": "a8f8d2ddf77f114b66725cc68f9ff8bcacb6a513767d21a104752b816bc2e856",
-  "notes": "Voice Factory 1.0.1 - its own logo: a sound wave with the check sign, in the window, the taskbar and the shortcuts."
+  "zip": "VoiceFactory_1.0.2_2026-11-25.zip",
+  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/voice-factory/releases/VoiceFactory_update_1.0.2_2026-11-25.7z",
+  "size": 437074,
+  "sha256": "81dac1c4855190a89e917b59043b903fc99ae9ef5f4888c8e7187f83921c74f0",
+  "notes": "Voice Factory 1.0.2 - add your own voice first, recorded here with the microphone or from a clip; an arrow beside each project to rename it, open its folder or delete it (to the Recycle Bin); the player shows the real length and can jump anywhere; the voice's path opens its folder; the logo on the taskbar and the shortcuts."
 }
