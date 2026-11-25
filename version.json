@@ -1,13 +1,17 @@
 {
   "product": "EpisodeFactory",
-  "version": "3.6.3",
+  "version": "3.6.4",
   "date": "2026-11-25",
   "applies_from": "",
-  "file": "EpisodeFactory_update_3.6.3_2026-11-25.7z",
+  "file": "EpisodeFactory_update_3.6.4_2026-11-25.7z",
   "format": "7z",
-  "zip": "EpisodeFactory_3.6.3_2026-11-25.zip",
-  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_3.6.3_2026-11-25.7z",
-  "size": 2384867,
-  "sha256": "7b0a65231a11781b2bc0189c002799abafc0c517004508a5f783c50d73b5b084",
-  "notes": "Episode Factory 3.6.3 - the desktop and Start-menu shortcuts show the new logo after an update (Windows kept the old picture), and the shortcut step runs without a window."
+  "zip": "EpisodeFactory_3.6.4_2026-11-25.zip",
+  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_3.6.4_2026-11-25.7z",
+  "size": 7393347,
+  "sha256": "476e4267d927e74cda7ea82439f1b12c4b0cf7686cde41cd9fe40ca8f6a16b05",
+  "notes": "The program now comes compiled.",
+  "python": [
+    "3.12",
+    "3.14"
+  ]
 }
