@@ -1,13 +1,17 @@
 {
   "product": "VoiceFactory",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "date": "2026-11-25",
   "applies_from": "",
-  "file": "VoiceFactory_update_1.2.1_2026-11-25.7z",
+  "file": "VoiceFactory_update_1.2.2_2026-11-25.7z",
   "format": "7z",
-  "zip": "VoiceFactory_1.2.1_2026-11-25.zip",
-  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/voice-factory/releases/VoiceFactory_update_1.2.1_2026-11-25.7z",
-  "size": 587218,
-  "sha256": "945cfab10fc23a43c94b20a2b0c34f4e079ab56614ca64646fca1dfb742dfca3",
-  "notes": "Every tool asks your plan first - translating a text too."
+  "zip": "VoiceFactory_1.2.2_2026-11-25.zip",
+  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/voice-factory/releases/VoiceFactory_update_1.2.2_2026-11-25.7z",
+  "size": 3635683,
+  "sha256": "7779930c70e6dcc6446fdd98437adbc1f8d91851d05c12ed9632d99e65bb2831",
+  "notes": "The program now comes compiled.",
+  "python": [
+    "3.12",
+    "3.14"
+  ]
 }
