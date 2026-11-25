@@ -1,13 +1,13 @@
 {
   "product": "EpisodeFactory",
-  "version": "3.6.2",
+  "version": "3.6.3",
   "date": "2026-11-25",
   "applies_from": "",
-  "file": "EpisodeFactory_update_3.6.2_2026-11-25.7z",
+  "file": "EpisodeFactory_update_3.6.3_2026-11-25.7z",
   "format": "7z",
-  "zip": "EpisodeFactory_3.6.2_2026-11-25.zip",
-  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_3.6.2_2026-11-25.7z",
-  "size": 2383459,
-  "sha256": "0e73a0cb123a267961aaebade31f285c52b51a829dbe0fc8f012941e846589dd",
-  "notes": "Episode Factory 3.6.2 - its own logo (a frame of film); on graphics cards under 12 GB the voice engine steps aside while each part is checked, so 8 GB cards keep up; the uninstall runs without a window; Voice Factory, the new Local Factories app, on the Setup page."
+  "zip": "EpisodeFactory_3.6.3_2026-11-25.zip",
+  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_3.6.3_2026-11-25.7z",
+  "size": 2384867,
+  "sha256": "7b0a65231a11781b2bc0189c002799abafc0c517004508a5f783c50d73b5b084",
+  "notes": "Episode Factory 3.6.3 - the desktop and Start-menu shortcuts show the new logo after an update (Windows kept the old picture), and the shortcut step runs without a window."
 }
