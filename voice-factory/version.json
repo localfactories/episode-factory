@@ -1,13 +1,13 @@
 {
   "product": "VoiceFactory",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "date": "2026-11-25",
   "applies_from": "",
-  "file": "VoiceFactory_update_1.1.0_2026-11-25.7z",
+  "file": "VoiceFactory_update_1.1.1_2026-11-25.7z",
   "format": "7z",
-  "zip": "VoiceFactory_1.1.0_2026-11-25.zip",
-  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/voice-factory/releases/VoiceFactory_update_1.1.0_2026-11-25.7z",
-  "size": 456018,
-  "sha256": "9996f0d8d7b98547089af5b69ff396414dd81b6c9d061f996023a8090466b489",
-  "notes": "Voice Factory 1.1.0 - Speech to text: any recording or video in, the words out with their times; choose text, text with times, SRT, VTT, Word or JSON; correct it on the page, play from any line, or make a narration from it. The update shows beside the version."
+  "zip": "VoiceFactory_1.1.1_2026-11-25.zip",
+  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/voice-factory/releases/VoiceFactory_update_1.1.1_2026-11-25.7z",
+  "size": 459410,
+  "sha256": "0c8ea631764a47d69333db804b3e6dcff4e9469719688b4835ba650468235dcb",
+  "notes": "Voice Factory 1.1.1 - speech to text can write a recording in English (translated); every project and transcript shows its folder as a link; a project's voice and language can be changed; voices can be made the default, renamed or deleted; narrations come as M4A too."
 }
