@@ -55,6 +55,9 @@ if (location.protocol === "http:" && /(^|\.)local-factories\.com$/.test(location
   .top nav { margin-left: auto; display: flex; gap: 28px; }
   .top nav a { color: var(--muted); font-size: 15px; transition: color .15s; }
   .top nav a:hover { color: var(--text); }
+  .top nav a, .top .btn { white-space: nowrap; }
+  /* the header stays one line: the section links give way before they would wrap */
+  @media (max-width: 1180px) { .top nav { display: none; } .top .btn { margin-left: auto; } }
 
   /* ---- buttons ---- */
   .btn { display: inline-flex; align-items: center; justify-content: center; gap: 10px; padding: 14px 22px; border-radius: 11px; font: 650 16px/1.2 var(--font); border: 1px solid transparent; cursor: pointer; transition: transform .15s, filter .15s, background .15s, border-color .15s; text-align: center; }
@@ -303,6 +306,7 @@ if (location.protocol === "http:" && /(^|\.)local-factories\.com$/.test(location
       <a href="#need">What you need</a>
       <a href="#pricing">Price</a>
       <a href="#faq">Questions</a>
+      <a href="voice-factory.html" data-goatcounter-click="vf-from-ef-nav">Voice Factory</a>
       <a href="mailto:support@local-factories.com">Contact</a>
     </nav>
     <a class="btn btn-primary btn-sm" href="https://localfactories.lemonsqueezy.com/checkout/buy/d30ed21a-2f1c-40e4-926b-7a47c9bbd35d" data-goatcounter-click="trial-nav">Try free for 7 days</a>
@@ -495,7 +499,7 @@ if (location.protocol === "http:" && /(^|\.)local-factories\.com$/.test(location
   <div class="wrap foot">
     <div>
       <a class="brand" href="#top"><img src="icon-192.png" width="30" height="30" alt="" loading="lazy"> Episode Factory</a>
-      <p><strong>Local Factories</strong> — Episode Factory</p>
+      <p><strong>Local Factories</strong> — Episode Factory · <a href="voice-factory.html" data-goatcounter-click="vf-from-ef-footer">Voice Factory</a></p>
       <p>A written script in. A narrated, long-form 4K film out.</p>
     </div>
     <div>
