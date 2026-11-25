@@ -1,13 +1,13 @@
 {
   "product": "EpisodeFactory",
-  "version": "3.5.8",
+  "version": "3.5.9",
   "date": "2026-11-25",
   "applies_from": "",
-  "file": "EpisodeFactory_update_3.5.8_2026-11-25.7z",
+  "file": "EpisodeFactory_update_3.5.9_2026-11-25.7z",
   "format": "7z",
-  "zip": "EpisodeFactory_3.5.8_2026-11-25.zip",
-  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_3.5.8_2026-11-25.7z",
-  "size": 2339107,
-  "sha256": "b11cb58784657b43fa170b3bd8674444d6095b50864c860ce12a746acd1304e1",
-  "notes": "Setup now sits above Episodes in the side menu."
+  "zip": "EpisodeFactory_3.5.9_2026-11-25.zip",
+  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_3.5.9_2026-11-25.7z",
+  "size": 2347587,
+  "sha256": "82c3077d63418f2d848d33c4c62ee70b988139a25f71385679e1e3f8212eedf5",
+  "notes": "Uninstalling is now one question in the program's own window: Uninstall or Keep it. Your films are kept, and this copy's desktop and Start-menu shortcuts are removed too."
 }
