@@ -1,15 +1,15 @@
 {
   "product": "VoiceFactory",
-  "version": "1.2.5",
+  "version": "1.2.6",
   "date": "2026-11-25",
   "applies_from": "",
-  "file": "VoiceFactory_update_1.2.5_2026-11-25.7z",
+  "file": "VoiceFactory_update_1.2.6_2026-11-25.7z",
   "format": "7z",
-  "zip": "VoiceFactory_1.2.5_2026-11-25.zip",
-  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/voice-factory/releases/VoiceFactory_update_1.2.5_2026-11-25.7z",
-  "size": 3802259,
-  "sha256": "60acc4ec4b5a8b29f7e7c6ac26407c55007d83e06890f35a619c520090c4db2b",
-  "notes": "Dubbing no longer loops: the check understands Arabic said with another accent and never redoes a line it could not hear. What is running shows at the top with its percentage - one press goes back to it - and its button flashes slowly.",
+  "zip": "VoiceFactory_1.2.6_2026-11-25.zip",
+  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/voice-factory/releases/VoiceFactory_update_1.2.6_2026-11-25.7z",
+  "size": 3946195,
+  "sha256": "a6c72d0e1b81e09a072cc705b7b73e48717981e3ff92085c00fd53b8bb5ce148",
+  "notes": "Dubbing: the translation is now checked by a language model that reads the whole script, so each line means what it means in its scene; lines too long for their time are written shorter. Arabic narration speaks 15% quicker.",
   "python": [
     "3.12",
     "3.14"
