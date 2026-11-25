@@ -1,13 +1,13 @@
 {
   "product": "EpisodeFactory",
-  "version": "3.5.7",
+  "version": "3.5.8",
   "date": "2026-11-25",
   "applies_from": "",
-  "file": "EpisodeFactory_update_3.5.7_2026-11-25.7z",
+  "file": "EpisodeFactory_update_3.5.8_2026-11-25.7z",
   "format": "7z",
-  "zip": "EpisodeFactory_3.5.7_2026-11-25.zip",
-  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_3.5.7_2026-11-25.7z",
-  "size": 2339059,
-  "sha256": "1f7cb2e5f6cc437653ed7a36df0347af8875e06a392c62f201b5577f71167952",
-  "notes": "Fix: the setup window no longer asks for a licence key - the free trial starts by itself the first time the program opens."
+  "zip": "EpisodeFactory_3.5.8_2026-11-25.zip",
+  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_3.5.8_2026-11-25.7z",
+  "size": 2339107,
+  "sha256": "b11cb58784657b43fa170b3bd8674444d6095b50864c860ce12a746acd1304e1",
+  "notes": "Setup now sits above Episodes in the side menu."
 }
