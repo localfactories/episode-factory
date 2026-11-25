@@ -56,6 +56,9 @@ if (location.protocol === "http:" && /(^|\.)local-factories\.com$/.test(location
   .top nav a, .top .btn { white-space: nowrap; }
   /* the header stays one line: the section links give way before they would wrap */
   @media (max-width: 1180px) { .top nav { display: none; } .top .btn { margin-left: auto; } }
+  /* ---- the other Local Factories apps ---- */
+  .other { display: grid; grid-template-columns: 1fr auto; gap: 24px; align-items: center; }
+  @media (max-width: 760px) { .other { grid-template-columns: 1fr; } }
 
   /* ---- buttons ---- */
   .btn { display: inline-flex; align-items: center; justify-content: center; gap: 10px; padding: 14px 22px; border-radius: 11px; font: 650 16px/1.2 var(--font); border: 1px solid transparent; cursor: pointer; transition: transform .15s, filter .15s, background .15s, border-color .15s; text-align: center; }
@@ -317,7 +320,7 @@ if (location.protocol === "http:" && /(^|\.)local-factories\.com$/.test(location
       <a href="#need">What you need</a>
       <a href="#pricing">Price</a>
       <a href="#faq">Questions</a>
-      <a href="./">Episode Factory</a>
+      <a href="episode-factory.html" data-goatcounter-click="ef-from-vf-nav">Episode Factory</a>
     </nav>
     <a class="btn btn-primary btn-sm" href="https://localfactories.lemonsqueezy.com/checkout/buy/b77baa4e-236e-497d-9c43-af5af82ef697" data-goatcounter-click="vf-trial-nav">Try free for 7 days</a>
   </div>
@@ -472,7 +475,7 @@ if (location.protocol === "http:" && /(^|\.)local-factories\.com$/.test(location
       </div>
       <div class="card other" data-reveal>
         <div><h3>A written script in. A narrated, long-form 4K film out.</h3><p>The same voice and the same check, plus footage found sentence by sentence and a finished 4K film with its title, description, chapters and tags. £19 a month, 7 days free.</p></div>
-        <a class="btn btn-ghost" href="./" data-goatcounter-click="vf-to-ef">See Episode Factory</a>
+        <a class="btn btn-ghost" href="episode-factory.html" data-goatcounter-click="vf-to-ef">See Episode Factory</a>
       </div>
     </div>
   </section>
@@ -493,7 +496,7 @@ if (location.protocol === "http:" && /(^|\.)local-factories\.com$/.test(location
   <div class="wrap foot">
     <div>
       <a class="brand" href="#top"><img src="icon-192.png" width="30" height="30" alt="" loading="lazy"> Voice Factory</a>
-      <p><strong>Local Factories</strong> — Voice Factory · <a href="./">Episode Factory</a></p>
+      <p><a href="./" data-goatcounter-click="home-from-vf-footer"><strong>Local Factories</strong></a> — Voice Factory · <a href="episode-factory.html" data-goatcounter-click="ef-from-vf-footer">Episode Factory</a> · <a href="./#apps" data-goatcounter-click="apps-from-vf-footer">All apps</a></p>
       <p>Any text in. A checked narration out.</p>
     </div>
     <div>

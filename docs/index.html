@@ -5,8 +5,17 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <script>/* the padlock for everyone: a visitor who arrives on the plain address is moved to the secure one, with the same campaign tags */
 if (location.protocol === "http:" && /(^|\.)local-factories\.com$/.test(location.hostname)) location.replace("https://local-factories.com" + location.pathname + location.search + location.hash);</script>
-<title>Episode Factory — a script in, a narrated 4K film out</title>
-<meta name="description" content="Episode Factory turns a written script and ten to fifteen seconds of a voice into a finished, narrated, long-form 4K film on your own Windows PC and NVIDIA graphics card. One click installs, one click runs. £19 a month, unlimited, with a 7-day free trial.">
+<script>/* every link made before 25 Nov 2026 meant Episode Factory: the program's Subscribe button (?ref=), the adverts and
+   posts (utm_ / gclid / fbclid), the affiliates (?aff=) and the old section links go on to its page with their tags.
+   A Local Factories campaign of its own uses utm_campaign=lf-... and stays here. */
+(function () {
+  var s = location.search, h = location.hash;
+  var tagged = /[?&](ref|utm_[a-z]+|gclid|gbraid|wbraid|fbclid|msclkid|ttclid|aff)=/i.test(s) && !/[?&]utm_campaign=lf-/i.test(s);
+  var old = /^#(how|need|pricing|faq|demo|run|why|subscribe-here)$/.test(h);
+  if (tagged || old) location.replace("episode-factory.html" + s + h);
+})();</script>
+<title>Local Factories — studio work, made on your own PC</title>
+<meta name="description" content="Local Factories makes Windows apps that do a studio's work on your own PC and NVIDIA graphics card. Episode Factory turns a written script into a narrated 4K film; Voice Factory turns any text into a checked narration with subtitles. Each with 7 days free, no card.">
 <meta name="theme-color" content="#0a0c0f">
 <link rel="canonical" href="https://local-factories.com/">
 <link rel="icon" href="favicon.ico" sizes="any">
@@ -15,11 +24,11 @@ if (location.protocol === "http:" && /(^|\.)local-factories\.com$/.test(location
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Local Factories">
 <meta property="og:url" content="https://local-factories.com/">
-<meta property="og:title" content="Episode Factory — Local Factories">
-<meta property="og:description" content="A written script in, a narrated long-form 4K film out — on your own graphics card. £19 a month, unlimited, 7-day free trial.">
-<meta property="og:image" content="https://local-factories.com/demo-thumbnail.jpg">
-<meta property="og:image:width" content="1280">
-<meta property="og:image:height" content="720">
+<meta property="og:title" content="Local Factories — studio work, made on your own PC">
+<meta property="og:description" content="Episode Factory: a written script in, a narrated 4K film out. Voice Factory: any text in, a checked narration out. On your own graphics card, 7 days free.">
+<meta property="og:image" content="https://local-factories.com/img/home-og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 <style>
   :root {
@@ -58,6 +67,9 @@ if (location.protocol === "http:" && /(^|\.)local-factories\.com$/.test(location
   .top nav a, .top .btn { white-space: nowrap; }
   /* the header stays one line: the section links give way before they would wrap */
   @media (max-width: 1180px) { .top nav { display: none; } .top .btn { margin-left: auto; } }
+  /* ---- the other Local Factories apps ---- */
+  .other { display: grid; grid-template-columns: 1fr auto; gap: 24px; align-items: center; }
+  @media (max-width: 760px) { .other { grid-template-columns: 1fr; } }
 
   /* ---- buttons ---- */
   .btn { display: inline-flex; align-items: center; justify-content: center; gap: 10px; padding: 14px 22px; border-radius: 11px; font: 650 16px/1.2 var(--font); border: 1px solid transparent; cursor: pointer; transition: transform .15s, filter .15s, background .15s, border-color .15s; text-align: center; }
@@ -280,6 +292,110 @@ if (location.protocol === "http:" && /(^|\.)local-factories\.com$/.test(location
   }
   @media print { .js [data-reveal] { opacity: 1; transform: none; } }
 </style>
+<style>
+  /* ---- the Local Factories home ---- */
+  .home-hero { position: relative; padding: 0 0 30px; }
+  .home-glow { position: absolute; z-index: -1; left: 0; right: 0; top: -66px; height: 900px; overflow: hidden; pointer-events: none;
+    background:
+      radial-gradient(640px 340px at 50% 12%, rgba(233, 182, 90, .20), transparent 72%),
+      radial-gradient(760px 520px at 12% 70%, rgba(86, 120, 170, .12), transparent 70%),
+      radial-gradient(760px 520px at 88% 70%, rgba(233, 182, 90, .07), transparent 70%); }
+  .home-glow::after { content: ""; position: absolute; inset: 0; opacity: .5;
+    background-image: linear-gradient(rgba(255, 255, 255, .035) 1px, transparent 1px), linear-gradient(90deg, rgba(255, 255, 255, .035) 1px, transparent 1px);
+    background-size: 56px 56px; -webkit-mask-image: radial-gradient(800px 420px at 50% 20%, #000, transparent 75%); mask-image: radial-gradient(800px 420px at 50% 20%, #000, transparent 75%); }
+  .home-copy { max-width: 900px; padding-top: 92px; text-align: center; }
+  .home-copy .lead { margin-left: auto; margin-right: auto; max-width: 38em; color: #c9cdd3; }
+  .home-copy > * { animation: rise .9s cubic-bezier(.2, .7, .2, 1) both; }
+  .home-copy > :nth-child(2) { animation-delay: .08s; } .home-copy > :nth-child(3) { animation-delay: .16s; }
+  .home-copy > :nth-child(4) { animation-delay: .24s; }
+  .family { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px 22px; margin: 0; padding: 0; list-style: none; color: var(--muted); font-size: 15px; }
+  .family li { display: inline-flex; align-items: center; gap: 8px; }
+  .family .ico { width: 17px; height: 17px; color: var(--amber); stroke-width: 2.4; }
+
+  .apps { display: grid; grid-template-columns: 1fr 1fr; gap: 26px; margin-top: 60px; animation: rise 1.1s cubic-bezier(.2, .7, .2, 1) .35s both; }
+  .app { display: flex; flex-direction: column; border-radius: 24px; border: 1px solid transparent; overflow: hidden;
+    background: linear-gradient(180deg, #161b21, #0f1317) padding-box,
+                linear-gradient(160deg, rgba(233, 182, 90, .6), rgba(255, 255, 255, .09) 38%, rgba(255, 255, 255, .05)) border-box;
+    box-shadow: 0 50px 120px -60px #000; transition: transform .25s cubic-bezier(.2, .7, .2, 1), box-shadow .25s; }
+  .app:hover { transform: translateY(-4px); box-shadow: 0 64px 140px -60px #000, 0 0 140px -70px rgba(233, 182, 90, .55); }
+  .app-visual { position: relative; display: block; padding: 30px 30px 0; background: radial-gradient(520px 260px at 50% 0%, rgba(233, 182, 90, .14), transparent 72%); }
+  .app-visual .window { display: block; border-radius: 14px 14px 0 0; border-bottom: 0; box-shadow: 0 30px 80px -40px #000; }
+  .app-visual .window .bar { height: 32px; font-size: 12px; }
+  .app-visual .window .ctl svg { width: 38px; padding: 11px 14px; }
+  .app-visual .shot-img { display: block; width: 100%; height: auto; aspect-ratio: 16 / 10; object-fit: cover; object-position: left top; }
+  .inset { position: absolute; right: 16px; bottom: 16px; width: 46%; border-radius: 12px; border: 1px solid var(--line-2); overflow: hidden;
+    box-shadow: 0 30px 60px -18px #000, 0 0 0 6px rgba(10, 12, 15, .55); transition: transform .35s cubic-bezier(.2, .7, .2, 1); }
+  .app:hover .inset { transform: translateY(-4px) scale(1.02); }
+  .inset-film img { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; object-fit: cover; }
+  .inset .tag { position: absolute; left: 10px; top: 10px; display: inline-flex; align-items: center; gap: 6px; padding: 4px 9px; border-radius: 7px; background: rgba(10, 12, 15, .78);
+    color: var(--amber-hi); font: 650 11.5px/1.2 var(--font); letter-spacing: .06em; text-transform: uppercase; }
+  .inset .tag .ico { width: 12px; height: 12px; }
+  .inset-audio { padding: 14px 16px 13px; background: rgba(18, 22, 28, .97); }
+  .inset-audio .t { display: flex; align-items: center; gap: 8px; color: var(--text); font: 600 13px/1.3 var(--font); }
+  .inset-audio .t .ico { width: 15px; height: 15px; color: var(--amber); }
+  .wave { display: flex; align-items: center; gap: 3px; height: 38px; margin: 10px 0 8px; }
+  .wave i { flex: 1; min-width: 2px; border-radius: 2px; background: linear-gradient(180deg, #f5cb7c, #cf9a3f); opacity: .95; }
+  .wave i.later { background: rgba(255, 255, 255, .18); }
+  .inset-audio .m { display: flex; justify-content: space-between; gap: 10px; color: var(--muted); font-size: 12px; }
+  .inset-audio .ok { color: #8fd6a0; }
+  .app-body { display: flex; flex-direction: column; flex: 1; padding: 30px 32px 32px; }
+  .app-kicker { margin: 0 0 12px; color: var(--amber); font: 650 12.5px/1.3 var(--font); letter-spacing: .14em; text-transform: uppercase; }
+  .app-name { display: flex; align-items: center; gap: 12px; margin: 0 0 12px; font: 700 2rem/1.1 var(--display); letter-spacing: -.025em; }
+  .app-name img { width: 36px; height: 36px; border-radius: 9px; }
+  .app-name a { color: var(--text); }
+  .app-line { margin: 0 0 14px; font: 600 1.22rem/1.35 var(--display); letter-spacing: -.01em; color: var(--text); }
+  .app-line em { font-style: normal; color: var(--amber-hi); }
+  .app-text { margin: 0 0 20px; color: var(--muted); font-size: 15.5px; }
+  .app .points { margin: 0 0 24px; font-size: 15px; gap: 8px 18px; }
+  .app-price { display: flex; align-items: baseline; flex-wrap: wrap; gap: 4px 10px; margin: auto 0 18px; padding-top: 20px; border-top: 1px solid var(--line); color: var(--muted); font-size: 15px; }
+  .app-price b { color: var(--text); font: 700 1.9rem/1 var(--display); letter-spacing: -.02em; }
+  .app-price .free { margin-left: auto; color: var(--amber-hi); font-weight: 600; }
+  .app .actions .btn { flex: 1 1 auto; }
+  .app .actions .ico { width: 17px; height: 17px; }
+  .app.coming { opacity: .9; }
+  /* on a narrow screen the cards stack: both names are still on the first screen, as a switcher under the headline */
+  .pills { display: none; gap: 10px; justify-content: center; margin: 26px 0 0; }
+  .pills a { display: flex; flex-direction: column; align-items: flex-start; gap: 2px; flex: 1 1 0; max-width: 240px; padding: 11px 14px; border-radius: 13px;
+    border: 1px solid var(--amber-line); background: rgba(233, 182, 90, .07); color: var(--text); font: 650 15px/1.25 var(--display); text-align: left; }
+  .pills a small { color: var(--muted); font: 400 12.5px/1.3 var(--font); }
+  .pills a:hover { color: var(--text); border-color: var(--amber); }
+  .soon { display: inline-block; margin-left: 10px; padding: 4px 10px; border-radius: 999px; border: 1px solid var(--amber-line); color: var(--amber-hi); font: 650 11.5px/1.2 var(--font); letter-spacing: .08em; text-transform: uppercase; vertical-align: middle; }
+
+  .next { display: grid; grid-template-columns: auto minmax(0, 1fr) auto; gap: 22px; align-items: center; margin-top: 26px; padding: 24px 28px; border-radius: 20px;
+    border: 1px dashed rgba(233, 182, 90, .38); background: linear-gradient(90deg, rgba(233, 182, 90, .06), rgba(255, 255, 255, .015)); }
+  .next .tile { margin: 0; }
+  .next h3 { margin: 0 0 4px; }
+  .next p { margin: 0; color: var(--muted); font-size: 15px; }
+
+  .promise { display: grid; grid-template-columns: repeat(4, 1fr); gap: 18px; }
+  .promise .card h3 { font-size: 1.08rem; }
+  .both { display: flex; gap: 16px; align-items: flex-start; margin: 26px 0 0; padding: 20px 24px; border: 1px solid var(--line); border-radius: var(--r-lg); background: rgba(255, 255, 255, .025); color: var(--muted); font-size: 15.5px; }
+  .both .ico { margin-top: 3px; color: var(--amber); }
+  .both b { color: var(--text); }
+
+  @media (max-width: 1000px) {
+    .pills { display: flex; }
+    .apps { grid-template-columns: 1fr; max-width: 660px; margin-left: auto; margin-right: auto; }
+    .promise { grid-template-columns: 1fr 1fr; }
+    .next { grid-template-columns: auto minmax(0, 1fr); }
+    .next .btn { grid-column: 1 / -1; }
+  }
+  @media (max-width: 640px) {
+    .home-copy { padding-top: 56px; }
+    .apps { margin-top: 44px; gap: 20px; }
+    .app-visual { padding: 18px 18px 0; }
+    .app-body { padding: 24px 22px 26px; }
+    .app-name { font-size: 1.7rem; }
+    .inset { width: 52%; right: 10px; bottom: 10px; }
+    .inset-audio { padding: 10px 11px; }
+    .wave { height: 26px; margin: 7px 0 6px; }
+    .inset-audio .t { font-size: 11.5px; }
+    .inset-audio .m { font-size: 10.5px; }
+    .promise { grid-template-columns: 1fr; }
+    .next { grid-template-columns: 1fr; padding: 22px; }
+  }
+  @media (prefers-reduced-motion: reduce) { .home-copy > *, .apps { animation: none; } .app, .inset { transition: none; } }
+</style>
 </head>
 <body>
 <svg xmlns="http://www.w3.org/2000/svg" width="0" height="0" style="position:absolute" aria-hidden="true">
@@ -296,200 +412,122 @@ if (location.protocol === "http:" && /(^|\.)local-factories\.com$/.test(location
   <symbol id="i-drive" viewBox="0 0 24 24"><line x1="22" y1="12" x2="2" y2="12"/><path d="M5.45 5.11L2 12v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-6l-3.45-6.89A2 2 0 0 0 16.76 4H7.24a2 2 0 0 0-1.79 1.11z"/><line x1="6" y1="16" x2="6.01" y2="16"/><line x1="10" y1="16" x2="10.01" y2="16"/></symbol>
   <symbol id="i-key" viewBox="0 0 24 24"><path d="M21 2l-2 2m-7.61 7.61a5.5 5.5 0 1 1-7.778 7.778 5.5 5.5 0 0 1 7.777-7.777zm0 0L15.5 7.5m0 0l3 3L22 7l-3-3m-3.5 3.5L19 4"/></symbol>
   <symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></symbol>
+  <symbol id="i-plus" viewBox="0 0 24 24"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></symbol>
+  <symbol id="i-arrow" viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></symbol>
+  <symbol id="i-ear" viewBox="0 0 24 24"><path d="M6 8.5a6 6 0 0 1 12 0c0 3.5-3 4.5-3 7a3 3 0 0 1-6 0"/><path d="M10 8.5a2 2 0 0 1 4 0"/></symbol>
+  <symbol id="i-mail" viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></symbol>
 </svg>
 
 <header class="top">
   <div class="wrap">
-    <a class="brand" href="#top"><img src="icon-192.png" width="30" height="30" alt=""> Episode Factory <small>by Local Factories</small></a>
+    <a class="brand" href="#top"><img src="icon-192.png" width="30" height="30" alt=""> Local Factories</a>
     <nav aria-label="Sections">
-      <a href="#how">How it works</a>
-      <a href="#need">What you need</a>
-      <a href="#pricing">Price</a>
-      <a href="#faq">Questions</a>
-      <a href="voice-factory.html" data-goatcounter-click="vf-from-ef-nav">Voice Factory</a>
+      <a href="#apps">Apps</a>
+      <a href="episode-factory.html" data-goatcounter-click="home-ef-nav">Episode Factory</a>
+      <a href="voice-factory.html" data-goatcounter-click="home-vf-nav">Voice Factory</a>
+      <a href="#questions">Questions</a>
       <a href="mailto:support@local-factories.com">Contact</a>
     </nav>
-    <a class="btn btn-primary btn-sm" href="https://localfactories.lemonsqueezy.com/checkout/buy/d30ed21a-2f1c-40e4-926b-7a47c9bbd35d" data-goatcounter-click="trial-nav">Try free for 7 days</a>
+    <a class="btn btn-primary btn-sm" href="#apps" data-goatcounter-click="home-try-nav">Try free for 7 days</a>
   </div>
 </header>
 
 <main id="top">
-  <section class="hero">
-    <div class="hero-bg" aria-hidden="true"><video id="bgfilm" muted loop playsinline preload="none" poster="img/hero.jpg" tabindex="-1"></video></div>
-    <div class="wrap hero-copy">
-        <p class="chip"><i></i>For faceless YouTube channels</p>
-        <h1>A written script in.<br><em>A narrated, <span class="nb">long-form</span> <span class="nb">4K film out.</span></em></h1>
-        <p class="lead">Give it ten to fifteen seconds of a voice once. Then paste a script and press Run. Episode Factory narrates every line, picks the footage sentence by sentence, and renders the whole film in 4K on your own PC — with the title, description, chapters and tags ready to paste.</p>
-        <ul class="points">
-          <li><svg class="ico"><use href="#i-check"/></svg>No per-minute voice bills</li>
-          <li><svg class="ico"><use href="#i-check"/></svg>No editing timeline</li>
-          <li><svg class="ico"><use href="#i-check"/></svg>No limit on length</li>
-        </ul>
+  <section class="home-hero">
+    <div class="home-glow" aria-hidden="true"></div>
+    <div class="wrap home-copy">
+      <p class="chip"><i></i>Local Factories</p>
+      <h1>Studio work, made on <em><span class="nb">your own PC.</span></em></h1>
+      <p class="lead">Apps that turn your words into finished work on your own Windows PC and graphics card — and listen to every sentence before you hear it. No per-minute bills, nothing sent away, no limit on length.</p>
+      <ul class="family">
+        <li><svg class="ico"><use href="#i-check"/></svg>One click installs</li>
+        <li><svg class="ico"><use href="#i-check"/></svg>7 days free, no card</li>
+        <li><svg class="ico"><use href="#i-check"/></svg>Cancel any time</li>
+      </ul>
+      <nav class="pills" aria-label="The apps">
+        <a href="#app-ef" data-goatcounter-click="home-ef-pill">Episode Factory<small>Script in, 4K film out</small></a>
+        <a href="#app-vf" data-goatcounter-click="home-vf-pill">Voice Factory<small>Text in, narration out</small></a>
+      </nav>
+    </div>
+    <div class="wrap" id="apps">
+      <div class="apps">
+    <article class="app" id="app-ef" data-reveal>
+      <a class="app-visual" href="episode-factory.html" data-goatcounter-click="home-ef-picture" aria-label="Episode Factory">
+        <div class="window"><div class="bar"><img src="icon-192.png" alt="" width="16" height="16">Episode Factory<span class="ctl" aria-hidden="true"><svg viewBox="0 0 10 10"><line x1="0" y1="5" x2="10" y2="5"/></svg><svg viewBox="0 0 10 10"><rect x=".5" y=".5" width="9" height="9"/></svg><svg viewBox="0 0 10 10"><line x1="0" y1="0" x2="10" y2="10"/><line x1="10" y1="0" x2="0" y2="10"/></svg></span></div><img class="shot-img" src="img/run.webp" alt="Episode Factory — the program's own window" width="2000" height="1162"></div>
+        <span class="inset inset-film"><img src="img/still-3.webp" alt="" width="640" height="360" loading="lazy"><span class="tag"><svg class="ico"><use href="#i-film"/></svg>4K film</span></span>
+      </a>
+      <div class="app-body">
+        <p class="app-kicker">For faceless YouTube channels</p>
+        <h2 class="app-name"><img src="icon-192.png" alt="" width="36" height="36"><a href="episode-factory.html" data-goatcounter-click="home-ef-name">Episode Factory</a></h2>
+        <p class="app-line">A written script in. <em>A narrated, long-form 4K film out.</em></p>
+        <p class="app-text">Give it ten to fifteen seconds of a voice once. Then paste a script and press Run: every line narrated, the footage picked sentence by sentence and the whole film rendered in 4K on your own PC — with the title, description, chapters and tags ready to paste.</p>
+        <ul class="points"><li><svg class="ico"><use href="#i-check"/></svg>No per-minute voice bills</li><li><svg class="ico"><use href="#i-check"/></svg>No editing timeline</li><li><svg class="ico"><use href="#i-check"/></svg>No limit on length</li></ul>
+        <p class="app-price"><b>£19</b> a month, unlimited <span class="free">7 days free, no card</span></p>
         <div class="actions">
-          <a class="btn btn-primary" href="https://localfactories.lemonsqueezy.com/checkout/buy/d30ed21a-2f1c-40e4-926b-7a47c9bbd35d" data-goatcounter-click="trial-hero"><svg class="ico"><use href="#i-download"/></svg>Download free – 7 days, no card</a>
-          <a class="btn btn-ghost" href="#demo" data-goatcounter-click="demo-button" onclick="playDemo(); return false;"><svg class="ico solid"><use href="#i-play"/></svg>Watch the demo</a>
+          <a class="btn btn-primary" href="episode-factory.html" data-goatcounter-click="home-ef-see">See Episode Factory<svg class="ico"><use href="#i-arrow"/></svg></a>
+          <a class="btn btn-ghost" href="https://localfactories.lemonsqueezy.com/checkout/buy/d30ed21a-2f1c-40e4-926b-7a47c9bbd35d" data-goatcounter-click="home-ef-trial"><svg class="ico"><use href="#i-download"/></svg>Try it free</a>
         </div>
-        <p class="reassure">No card needed – just your email. The download arrives by email. After the 7 days it is £19 a month, unlimited.</p>
-    </div>
-    <div class="wrap hero-stage">
-      <figure>
-        <div class="frame">
-          <a class="player" id="demo" href="https://youtu.be/CytSaWRcsCs" data-goatcounter-click="demo-thumbnail" onclick="playDemo(); return false;" aria-label="Play the demo"><img src="demo-thumbnail.jpg" alt="Episode Factory demo — a written script becomes a narrated 4K film" width="1280" height="720" fetchpriority="high"><span class="play"><svg class="ico solid"><use href="#i-play"/></svg></span></a>
+      </div>
+    </article>
+    <article class="app" id="app-vf" data-reveal>
+      <a class="app-visual" href="voice-factory.html" data-goatcounter-click="home-vf-picture" aria-label="Voice Factory">
+        <div class="window"><div class="bar"><img src="icon-192.png" alt="" width="16" height="16">Voice Factory<span class="ctl" aria-hidden="true"><svg viewBox="0 0 10 10"><line x1="0" y1="5" x2="10" y2="5"/></svg><svg viewBox="0 0 10 10"><rect x=".5" y=".5" width="9" height="9"/></svg><svg viewBox="0 0 10 10"><line x1="0" y1="0" x2="10" y2="10"/><line x1="10" y1="0" x2="0" y2="10"/></svg></span></div><img class="shot-img" src="img/vf-studio.webp" alt="Voice Factory — the program's own window" width="1440" height="900"></div>
+        <span class="inset inset-audio"><span class="t"><svg class="ico"><use href="#i-ear"/></svg>St Kilda — narration ready</span><span class="wave"><i style="height:25%"></i><i style="height:39%"></i><i style="height:61%"></i><i style="height:83%"></i><i style="height:50%"></i><i style="height:72%"></i><i style="height:94%"></i><i style="height:67%"></i><i style="height:42%"></i><i style="height:78%"></i><i style="height:100%"></i><i style="height:83%"></i><i style="height:56%"></i><i style="height:33%"></i><i style="height:67%"></i><i style="height:89%"></i><i style="height:75%"></i><i style="height:47%"></i><i style="height:28%"></i><i style="height:58%"></i><i style="height:86%"></i><i style="height:97%"></i><i style="height:69%"></i><i style="height:44%"></i><i class="later" style="height:61%"></i><i class="later" style="height:81%"></i><i class="later" style="height:53%"></i><i class="later" style="height:31%"></i><i class="later" style="height:50%"></i><i class="later" style="height:75%"></i><i class="later" style="height:92%"></i><i class="later" style="height:64%"></i><i class="later" style="height:39%"></i><i class="later" style="height:56%"></i><i class="later" style="height:83%"></i><i class="later" style="height:72%"></i></span><span class="m"><span>1 h 51 min</span><span class="ok">488 of 488 checked</span></span></span>
+      </a>
+      <div class="app-body">
+        <p class="app-kicker">For narrators, audiobooks and long videos</p>
+        <h2 class="app-name"><img src="icon-192.png" alt="" width="36" height="36"><a href="voice-factory.html" data-goatcounter-click="home-vf-name">Voice Factory</a></h2>
+        <p class="app-line">Any text in. <em>A checked narration out.</em></p>
+        <p class="app-text">Give it ten to fifteen seconds of a voice once. Then paste a script or open a book: every sentence is read in that voice and listened to again — a missing or wrong word is recorded again, a stumble or a gap is cut. With subtitles in your own words.</p>
+        <ul class="points"><li><svg class="ico"><use href="#i-check"/></svg>Every sentence listened to</li><li><svg class="ico"><use href="#i-check"/></svg>Five languages</li><li><svg class="ico"><use href="#i-check"/></svg>No limit on length</li></ul>
+        <p class="app-price"><b>£9</b> a month, unlimited <span class="free">7 days free, no card</span></p>
+        <div class="actions">
+          <a class="btn btn-primary" href="voice-factory.html" data-goatcounter-click="home-vf-see">See Voice Factory<svg class="ico"><use href="#i-arrow"/></svg></a>
+          <a class="btn btn-ghost" href="https://localfactories.lemonsqueezy.com/checkout/buy/b77baa4e-236e-497d-9c43-af5af82ef697" data-goatcounter-click="home-vf-trial"><svg class="ico"><use href="#i-download"/></svg>Try it free</a>
         </div>
-        <figcaption>The demo, under 3 minutes: one real run from the pasted script to the finished film, with the measured time.</figcaption>
-      </figure>
-        <div class="needs">
-          <svg class="ico"><use href="#i-monitor"/></svg>
-          <div><b>Needs:</b> Windows 10 or 11 and an NVIDIA graphics card with 8 GB or more. It does not run on a Mac. <span>Not sure? Open Task Manager → Performance → GPU and read “Dedicated GPU memory”.</span></div>
-        </div>
-    </div>
-    <div class="wrap">
-      <div class="stats" data-reveal>
-        <div class="stat"><b>4K</b><span>Every film, rendered on your own PC</span></div>
-        <div class="stat"><b>Any length</b><span>One film made with it runs 1 hour 54 minutes</span></div>
-        <div class="stat"><b>10–15 s</b><span>of a voice, given once, narrates every film</span></div>
-        <div class="stat"><b>£19</b><span>a month, unlimited. Free for 7 days, no card</span></div>
       </div>
-      <p class="madefor">Made for long-form narrated formats — sleep documentaries, nature and history films, the kind of episode that runs for an hour or two and is listened to as much as watched.</p>
-    </div>
-  </section>
-
-  <section id="run" class="band">
-    <div class="wrap">
-      <div class="head" data-reveal>
-        <p class="eyebrow">See it work</p>
-        <h2>One real run, start to finish</h2>
-        <p class="sub">This is the program's own page after the run in the demo. A 356-word script went in; a 2-minute 4K film came out, 4 minutes 8 seconds after the press.</p>
+    </article>
       </div>
-      <div class="window" data-reveal>
-        <div class="bar"><img src="icon-192.png" width="16" height="16" alt=""> Episode Factory
-          <span class="ctl" aria-hidden="true"><svg viewBox="0 0 10 10"><path d="M0 5.5h10"/></svg><svg viewBox="0 0 10 10"><path d="M.5.5h9v9h-9z"/></svg><svg viewBox="0 0 10 10"><path d="M0 0l10 10M10 0L0 10"/></svg></span>
-        </div>
-        <picture>
-          <source media="(max-width: 640px)" srcset="img/run-m.webp" width="1000" height="1282">
-          <img src="img/run.webp" width="2000" height="1162" loading="lazy" decoding="async" alt="The Episode Factory page for the film “A Day on a Coral Reef”: six of six stages done — Write, Build, Voice, Verify, Clips, Render — and the line “It finished after 4 min 08 s.”">
-        </picture>
+      <div class="next" data-reveal>
+        <span class="tile"><svg class="ico"><use href="#i-plus"/></svg></span>
+        <div><h3>The next factory is being built</h3><p>Every Local Factories app keeps the same promise: it runs on your own PC, it checks its own work, and it is one simple plan with a free week. New apps appear here first.</p></div>
+        <a class="btn btn-ghost" href="mailto:support@local-factories.com?subject=Tell%20me%20about%20the%20next%20Local%20Factories%20app" data-goatcounter-click="home-next-app"><svg class="ico"><use href="#i-mail"/></svg>Tell me when it is out</a>
       </div>
-      <p class="caption">Times depend on your graphics card and the length of the script.</p>
-      <div class="stills" data-reveal>
-        <img src="img/still-1.webp" width="640" height="360" loading="lazy" decoding="async" alt="Frame from the film: sunlight on a calm shore">
-        <img src="img/still-2.webp" width="640" height="360" loading="lazy" decoding="async" alt="Frame from the film: a sea turtle on the reef">
-        <img src="img/still-3.webp" width="640" height="360" loading="lazy" decoding="async" alt="Frame from the film: a clownfish in an anemone">
-        <img src="img/still-4.webp" width="640" height="360" loading="lazy" decoding="async" alt="Frame from the film: a school of silver fish">
-        <img src="img/still-5.webp" width="640" height="360" loading="lazy" decoding="async" alt="Frame from the film: a moray eel in the rock">
-        <img src="img/still-6.webp" width="640" height="360" loading="lazy" decoding="async" alt="Frame from the film: pillar coral">
-      </div>
-      <p class="caption">Six frames from that film. The footage is picked sentence by sentence, to match the words.</p>
     </div>
   </section>
 
-  <section id="why">
+  <section id="why" class="band">
     <div class="wrap">
       <div class="head" data-reveal>
-        <p class="eyebrow">Built for long films</p>
-        <h2>Why creators use it</h2>
-        <p class="sub">Long narrated films are slow and costly to make by hand. This makes them on the machine you already own.</p>
+        <p class="eyebrow">One promise, every app</p>
+        <h2>Why Local Factories</h2>
+        <p class="sub">The apps are different; the way they work is the same.</p>
       </div>
-      <div class="bento">
-          <div class="card" data-reveal><div class="tile"><svg class="ico"><use href="#i-film"/></svg></div><h3>Hours of film, not clips</h3><p>Any length of script. One film made with it is 1 hour 54 minutes long, and it took 3 hours 7 minutes from the press to the finished 4K file — on a laptop. <a href="https://youtu.be/Owo2AyJs0G4">Watch that run</a>.</p></div>
-          <div class="card" data-reveal><div class="tile"><svg class="ico"><use href="#i-infinity"/></svg></div><h3>No per-minute bills</h3><p>The voice, the transcript checks and the render all run on your own graphics card, so nothing is metered. Make one film a week or one a day — the price is the same.</p></div>
-        <div class="card wide" data-reveal><div class="txt"><div class="tile"><svg class="ico"><use href="#i-upload"/></svg></div><h3>Ready to upload</h3><p>Every film comes with a clean folder: the film, its subtitles, one report, and the upload text — a title with four more to test, the description with every chapter time, the tags and a thumbnail prompt.</p></div>
-          <div class="shot"><img src="img/package.webp" width="1500" height="1756" loading="lazy" decoding="async" alt="The finished episode in Episode Factory: the film's length and size, then the title, four other titles, the description and the chapters, each with a Copy button"></div>
-        </div>
+      <div class="promise">
+        <div class="card" data-reveal><div class="tile"><svg class="ico"><use href="#i-drive"/></svg></div><h3>On your own PC</h3><p>The work runs on your own graphics card. Your scripts, your voices and your files stay on your PC.</p></div>
+        <div class="card" data-reveal><div class="tile"><svg class="ico"><use href="#i-ear"/></svg></div><h3>Checked before you hear it</h3><p>Every sentence is listened to and compared with your words. What is missing or wrong is made again.</p></div>
+        <div class="card" data-reveal><div class="tile"><svg class="ico"><use href="#i-infinity"/></svg></div><h3>No meter running</h3><p>Nothing per minute, per character or per film. One monthly plan for each app, unlimited.</p></div>
+        <div class="card" data-reveal><div class="tile"><svg class="ico"><use href="#i-download"/></svg></div><h3>7 days free</h3><p>Download it with just your email, no card. Subscribe from inside the app when you want to keep going.</p></div>
       </div>
-    </div>
-  </section>
-
-  <section id="how" class="band">
-    <div class="wrap">
-      <div class="head" data-reveal>
-        <p class="eyebrow">One press</p>
-        <h2>How it works</h2>
-        <p class="sub">One program, one press. Every stage runs on your machine and leaves its evidence in the episode folder.</p>
-      </div>
-      <div class="steps">
-        <div class="card step" data-reveal><p class="no">01 · WRITE</p><svg class="ico"><use href="#i-pen"/></svg><h3>Attach your script</h3><p>Paste or attach a script of any length. The program splits it into short pieces and plans the pictures from the words themselves — the place, the creatures, the subjects it names.</p></div>
-        <div class="card step" data-reveal><p class="no">02 · VOICE</p><svg class="ico"><use href="#i-mic"/></svg><h3>Your voice, verified</h3><p>A local speech engine narrates in the voice of a ten- to fifteen-second clip you give it. Every piece is transcribed back and checked word by word; what does not match is recorded again.</p></div>
-        <div class="card step" data-reveal><p class="no">03 · FOOTAGE</p><svg class="ico"><use href="#i-image"/></svg><h3>Found and judged</h3><p>Stock clips are fetched from free libraries for every subject, and a small vision model looks at a frame of each candidate before it is kept: footage that does not match the words is refused.</p></div>
-        <div class="card step" data-reveal><p class="no">04 · RENDER</p><svg class="ico"><use href="#i-film"/></svg><h3>A finished 4K film</h3><p>The narration is mastered, the montage is cut to the words, and a quality gate refuses a film that is not complete. You get the film, the transcript and the chapter timestamps.</p></div>
+      <div class="both" data-reveal>
+        <svg class="ico"><use href="#i-monitor"/></svg>
+        <div><b>What you need:</b> Windows 10 or 11 and an NVIDIA graphics card with 8 GB or more. Have Episode Factory already? Voice Factory shares its voice engine and its transcriber — nothing is downloaded twice.</div>
       </div>
     </div>
   </section>
 
-  <section id="need">
-    <div class="wrap">
-      <div class="head" data-reveal>
-        <p class="eyebrow">Requirements</p>
-        <h2>What you need</h2>
-        <p class="sub">Hardware you own and a free footage key. Nothing inside the program is metered: every film, any length.</p>
-      </div>
-      <dl class="specs" data-reveal>
-        <div><dt><svg class="ico"><use href="#i-monitor"/></svg>Computer</dt><dd>Windows 10 or 11, with an NVIDIA graphics card from 8 GB. The program reads the card and adapts to it: a film was made end to end with the card held to 8 GB, and to 12 GB, and on the full 24 GB. A card of 32 GB or more runs two speech engines at once. The picture judge takes the card when there is room and the processor otherwise.</dd></div>
-        <div><dt><svg class="ico"><use href="#i-drive"/></svg>Disk</dt><dd>About 35 GB for the install (the speech engine and the vision model are fetched from their publishers once) and about 55 GB of working space while an episode renders.</dd></div>
-        <div><dt><svg class="ico"><use href="#i-key"/></svg>Footage</dt><dd>One free footage key, from Pexels or Pixabay &ndash; either one is enough. A Pixabay key is shown as soon as you sign in to a free account.</dd></div>
-        <div><dt><svg class="ico"><use href="#i-mic"/></svg>Voice</dt><dd>Ten to fifteen seconds of clean speech in the voice you want the narration in — yours, or one you have the rights to.</dd></div>
-        <div><dt><svg class="ico"><use href="#i-globe"/></svg>Internet</dt><dd>For the install and for fetching clips. The narration, the transcription and the render never leave your machine.</dd></div>
-      </dl>
-    </div>
-  </section>
-
-  <section id="pricing" class="band">
-    <div class="wrap">
-      <div class="head" data-reveal>
-        <p class="eyebrow">One plan</p>
-        <h2>Price</h2>
-        <p class="sub">One plan with everything in it. No word counts, no limits, no tiers.</p>
-      </div>
-      <div class="plan" data-reveal>
-        <div>
-          <h3>Episode Factory — unlimited</h3>
-          <div class="price">£19<small>a month</small></div>
-          <p class="note">Try it free for 7 days first – no card needed. Subscribe when you want to keep going.</p>
-          <div class="actions">
-            <a class="btn btn-primary" href="https://localfactories.lemonsqueezy.com/checkout/buy/d30ed21a-2f1c-40e4-926b-7a47c9bbd35d" data-goatcounter-click="trial-price"><svg class="ico"><use href="#i-download"/></svg>Download free – 7 days, no card</a>
-            <a class="btn btn-ghost" id="subscribe-here" hidden href="https://localfactories.lemonsqueezy.com/checkout/buy/963e4604-248d-411c-8c4c-91035c45f6da" data-goatcounter-click="subscribe-price">Subscribe – £19 a month</a>
-          </div>
-          <p class="reassure" id="subscribe-note">Already using it? Subscribe from inside the program – Setup, "Your plan". Your films and settings are kept.</p>
-        </div>
-        <ul class="ticks">
-          <li><svg class="ico"><use href="#i-check"/></svg><span><b>Unlimited films</b>, any length, in 4K</span></li>
-          <li><svg class="ico"><use href="#i-check"/></svg><span>The whole program, every stage: voice, checks, footage, render</span></li>
-          <li><svg class="ico"><use href="#i-check"/></svg><span>Every update included</span></li>
-          <li><svg class="ico"><use href="#i-check"/></svg><span>One machine at a time</span></li>
-          <li><svg class="ico"><use href="#i-check"/></svg><span>Support by email</span></li>
-        </ul>
-      </div>
-      <p class="fine">Prices in GBP, VAT added at checkout where it applies. Checkout and billing are handled by Lemon Squeezy, our merchant of record. Nothing is typed to activate the program. Cancel any time from the store's customer portal.</p>
-    </div>
-  </section>
-
-  <section id="faq">
+  <section id="questions" class="band">
     <div class="wrap faq">
       <div class="head" data-reveal>
-        <p class="eyebrow">Good to know</p>
-        <h2>Questions</h2>
-        <p class="sub">Something else? Write to <a href="mailto:support@local-factories.com">support@local-factories.com</a>.</p>
+        <p class="eyebrow">Questions</p>
+        <h2>Before you choose</h2>
+        <p class="sub">Anything else: <a href="mailto:support@local-factories.com">support@local-factories.com</a></p>
       </div>
       <div class="qa" data-reveal>
-        <details><summary>How does the free trial work?</summary><p>Press "Download free" and enter your email – no card, no PayPal. The download arrives by email. Install the program and open it: the 7 days start by themselves, with nothing to type. When they end, the program tells you; subscribe from inside it for £19 a month – nothing is reinstalled, and your films and settings are kept. The subscription then renews by itself every month until you cancel. If you don't subscribe, nothing is ever charged.</p></details>
-        <details><summary>Is there really no limit?</summary><p>None. Make as many films as you like, of any length: nothing is counted. The voice and the transcript are made by programs on your own machine, and the clips come from free libraries under their free keys.</p></details>
-        <details><summary>Can I cancel?</summary><p>Any time, from the store's customer portal. The program stops starting new episodes when the paid month ends; your films, your episodes and your settings stay yours.</p></details>
-        <details><summary>Where does the footage come from, and may I publish it?</summary><p>From Pexels and Pixabay &ndash; whichever key you add, or both &ndash; under their own licences, which allow use in published videos. Put a footage credit in your description; the program's documentation lists the vendors' terms with the dates they were read. Read them yourself before you publish for money — they are the vendors' terms, not ours.</p></details>
-        <details><summary>Does it need the internet while it runs?</summary><p>Yes, for fetching clips and for the short check of your plan each time you press Run. Narration, transcription, judging and rendering are local. The program checks for updates once a day; that check can be switched off.</p></details>
-        <details><summary>Is there a refund?</summary><p>No - that is what the free trial is for: try it for 7 days first. After that a month is paid for and delivered as it runs, and all sales are final; cancel from the portal and the plan simply ends at the renewal. Check the requirements above before you start; if the install does not complete on a machine that meets them, write to us with the install log and we will get it running with you.</p></details>
-        <details><summary>Can I move the licence to a new computer?</summary><p>Yes. The plan runs on one machine at a time. Setting the program up again on the same computer needs nothing – it carries on by itself. To move to a different computer, write to <a href="mailto:support@local-factories.com">support@local-factories.com</a> and we move it for you.</p></details>
-        <details><summary>Which languages?</summary><p>The speech engine narrates in the language of your script and your voice clip; the product is documented and tested in English.</p></details>
-      </div>
-    </div>
-  </section>
-
-  <section class="final">
-    <div class="wrap">
-      <div class="closing" data-reveal>
-        <h2>See it on your own script.</h2>
-        <p>Free for 7 days, no card. Then £19 a month, unlimited.</p>
-        <a class="btn btn-primary btn-lg" href="https://localfactories.lemonsqueezy.com/checkout/buy/d30ed21a-2f1c-40e4-926b-7a47c9bbd35d" data-goatcounter-click="trial-bottom"><svg class="ico"><use href="#i-download"/></svg>Download free – 7 days, no card</a>
-        <p class="fine">Windows 10 or 11 · NVIDIA graphics card with 8 GB or more · the download arrives by email</p>
+        <details><summary>Is it one subscription for both apps?</summary><p>No. Each app is its own plan with its own free week: Episode Factory is £19 a month, Voice Factory is £9 a month. Cancel either at any time.</p></details>
+        <details><summary>Which one do I need?</summary><p>Episode Factory if you want the finished film: the narration, the footage and the 4K render. Voice Factory if you want the narration alone — audiobooks, voice-overs, long videos — with subtitles, in five languages.</p></details>
+        <details><summary>Does anything I write leave my PC?</summary><p>No. Your text, your voices and your finished files stay on your PC. The apps go online to install, to check your plan and, in Episode Factory, to fetch the footage.</p></details>
+        <details><summary>Do they run on a Mac?</summary><p>No. Both need Windows 10 or 11 and an NVIDIA graphics card with 8 GB or more. Not sure what you have? Open Task Manager → Performance → GPU and read “Dedicated GPU memory”.</p></details>
       </div>
     </div>
   </section>
@@ -498,60 +536,26 @@ if (location.protocol === "http:" && /(^|\.)local-factories\.com$/.test(location
 <footer>
   <div class="wrap foot">
     <div>
-      <a class="brand" href="#top"><img src="icon-192.png" width="30" height="30" alt="" loading="lazy"> Episode Factory</a>
-      <p><strong>Local Factories</strong> — Episode Factory · <a href="voice-factory.html" data-goatcounter-click="vf-from-ef-footer">Voice Factory</a></p>
-      <p>A written script in. A narrated, long-form 4K film out.</p>
+      <a class="brand" href="#top"><img src="icon-192.png" width="30" height="30" alt="" loading="lazy"> Local Factories</a>
+      <p>Studio work, made on your own PC.</p>
     </div>
     <div>
-      <h4>On this page</h4>
+      <h4>Apps</h4>
       <ul>
-        <li><a href="#how">How it works</a></li>
-        <li><a href="#need">What you need</a></li>
-        <li><a href="#pricing">Price</a></li>
-        <li><a href="#faq">Questions</a></li>
+        <li><a href="episode-factory.html">Episode Factory</a></li>
+        <li><a href="voice-factory.html">Voice Factory</a></li>
       </ul>
     </div>
     <div>
       <h4>Contact</h4>
       <p>Buying and every question: <a href="mailto:support@local-factories.com">support@local-factories.com</a></p>
-      <p>Demo and episodes: <a href="https://www.youtube.com/@local.factories">YouTube — Local Factories</a></p>
-      <p>Store: <a href="https://localfactories.lemonsqueezy.com">localfactories.lemonsqueezy.com</a></p>
-      <p>Have an audience of creators? <a href="https://localfactories.lemonsqueezy.com/affiliates" data-goatcounter-click="affiliate-signup">Earn 30% of every payment, every month</a> for each subscriber you bring.</p>
+      <p>Films made with Episode Factory: <a href="https://www.youtube.com/@local.factories">YouTube — Local Factories</a></p>
+      <p>Have an audience of creators? <a href="https://localfactories.lemonsqueezy.com/affiliates" data-goatcounter-click="home-affiliate-signup">Earn 30% of every payment, every month</a> for each subscriber you bring.</p>
     </div>
   </div>
-  <div class="wrap"><p class="legal">Pexels and Pixabay are independent services with their own terms; Episode Factory is not affiliated with them. NVIDIA is a trademark of NVIDIA Corporation.</p></div>
+  <div class="wrap"><p class="legal">Use only your own voice or a voice you have permission to use. Pexels and Pixabay are independent services with their own terms; Local Factories is not affiliated with them. NVIDIA is a trademark of NVIDIA Corporation.</p></div>
 </footer>
-
 <script>
-  // the demo plays here, on the page: the picture is swapped for YouTube's privacy-enhanced player only when pressed
-  function playDemo() {
-    var p = document.getElementById("demo");
-    if (!p || p.querySelector("iframe")) return;
-    var f = document.createElement("iframe");
-    f.src = "https://www.youtube-nocookie.com/embed/CytSaWRcsCs?autoplay=1&rel=0&playsinline=1";
-    f.title = "Episode Factory demo";
-    f.allow = "autoplay; encrypted-media; picture-in-picture; fullscreen";
-    f.allowFullscreen = true;
-    p.replaceChildren(f);
-    p.removeAttribute("href");
-    p.onclick = null;
-    p.style.cursor = "default";
-    p.scrollIntoView({ behavior: "smooth", block: "center" });
-  }
-  // the film behind the headline: on a wide screen, when the reader has not asked for less motion or less data.
-  // Anywhere else the still picture stays, and nothing more is downloaded.
-  (function () {
-    var v = document.getElementById("bgfilm");
-    if (!v || !window.matchMedia) return;
-    var saving = navigator.connection && navigator.connection.saveData;
-    if (saving || !matchMedia("(min-width: 760px)").matches || matchMedia("(prefers-reduced-motion: reduce)").matches) return;
-    function start() {
-      v.src = "img/hero.mp4";
-      var p = v.play();
-      if (p && p.catch) p.catch(function () {});
-    }
-    if (document.readyState === "complete") start(); else window.addEventListener("load", start);
-  })();
   // sections arrive as they are reached; with no script, or where the reader asks for less motion, everything is simply there
   (function () {
     var items = document.querySelectorAll("[data-reveal]");
@@ -565,33 +569,6 @@ if (location.protocol === "http:" && /(^|\.)local-factories\.com$/.test(location
     items.forEach(function (el) { seen.observe(el); });
     // nothing may stay hidden: whatever has not arrived after a while is shown
     setTimeout(function () { items.forEach(function (el) { el.classList.add("in"); }); }, 6000);
-  })();
-</script>
-<script>
-  // Sent here by Episode Factory's own Subscribe button, a visitor arrives with ?ref=... - the reference of the PC
-  // the program runs on (a one-way hash; it names nobody). It is handed on to the checkout, so the key that payment
-  // makes finds its own way back to that PC: nothing is copied out of a receipt, nothing is typed.
-  (function () {
-    var m = /[?&]ref=([0-9a-f]{64})(?:&|$)/.exec(location.search);
-    if (!m) return;
-    document.querySelectorAll('a[href*="lemonsqueezy.com/checkout/buy/"]').forEach(function (a) {
-      try {
-        var u = new URL(a.href);
-        u.searchParams.set("checkout[custom][ref]", m[1]);
-        a.href = u.toString();
-      } catch (e) {}
-    });
-    // Subscribing is done from inside the program, so the Subscribe button is shown only to a visitor the program
-    // sent - and to them it is the one thing to press (they have the download already).
-    var sub = document.getElementById("subscribe-here");
-    var note = document.getElementById("subscribe-note");
-    if (sub) {
-      sub.hidden = false;
-      sub.className = "btn btn-primary";
-      var free = sub.parentNode.querySelector('[data-goatcounter-click="trial-price"]');
-      if (free) free.hidden = true;
-    }
-    if (note) note.textContent = "Pay in your browser, then go back to the program: it unlocks by itself. Your films and settings are kept.";
   })();
 </script>
 <!-- Lemon Squeezy affiliate tracking: credits a visitor who arrives by an affiliate's link (?aff=...) at checkout -->
