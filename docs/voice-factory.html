@@ -287,6 +287,7 @@ if (location.protocol === "http:" && /(^|\.)local-factories\.com$/.test(location
   .sample audio { width:100%; }
   .sample .what { font-size:14px; opacity:.8; }
   .langs { display:flex; flex-wrap:wrap; gap:10px; margin-top:18px; justify-content:center; }
+  .langs.fmts { justify-content:flex-start; }
   .langs span { padding:6px 14px; border-radius:99px; border:1px solid rgba(233,182,90,.35); color:#e9b65a; font-size:14px; }
   .other { display:grid; grid-template-columns: 1fr auto; gap:24px; align-items:center; }
   @media (max-width: 760px) { .other { grid-template-columns: 1fr; } }
@@ -395,9 +396,29 @@ if (location.protocol === "http:" && /(^|\.)local-factories\.com$/.test(location
       </div>
       <div class="steps">
         <div class="card step" data-reveal><p class="no">01 · TEXT</p><svg class="ico"><use href="#i-text"/></svg><h3>Paste it or open a file</h3><p>Paste text, or drop a file: .txt, .docx, .pdf, .epub, .odt, .html, .rtf, .md, or subtitles (.srt, .vtt) to voice again.</p></div>
-        <div class="card step" data-reveal><p class="no">02 · VOICE</p><svg class="ico"><use href="#i-mic"/></svg><h3>Choose the voice</h3><p>Ten to fifteen seconds of clean speech in the voice you want — your own, or one you have permission to use. Then the language.</p></div>
+        <div class="card step" data-reveal><p class="no">02 · VOICE</p><svg class="ico"><use href="#i-mic"/></svg><h3>Your voice</h3><p>Ten to fifteen seconds of clean speech in the voice you want — your own, or one you have permission to use. Record it right in the studio, or choose a clip. Then the language.</p></div>
         <div class="card step" data-reveal><p class="no">03 · MAKE</p><svg class="ico"><use href="#i-ear"/></svg><h3>Recorded, listened to, repaired</h3><p>Every part is recorded, checked word by word and fixed. Then it is joined, the loudness is levelled, and the subtitles are written.</p></div>
         <div class="card step" data-reveal><p class="no">04 · FILES</p><svg class="ico"><use href="#i-download"/></svg><h3>Ready to use</h3><p>WAV, MP3, SRT and VTT subtitles and the text — for a video, a podcast, an audiobook or a course.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="stt" class="band">
+    <div class="wrap">
+      <div class="head" data-reveal>
+        <p class="eyebrow">Also inside</p>
+        <h2>Speech to text</h2>
+        <p class="sub">Any recording or video in. The words out, with their times — on your own PC.</p>
+      </div>
+      <div class="bento">
+        <div class="card wide" data-reveal>
+          <div class="txt">
+            <h3>Drop a recording, get the words</h3>
+            <p>Interviews, podcasts, lectures, videos — any length, in more than thirty languages, detected by itself. Correct it on the page, press any line to hear it from there, or make a narration from it in one of your voices.</p>
+            <div class="langs fmts"><span>Text</span><span>Text with times</span><span>SRT</span><span>VTT</span><span>Word</span><span>JSON</span></div>
+          </div>
+          <div class="shot"><img src="img/vf-stt.webp" alt="Voice Factory's speech to text: a recording written out line by line with its times, ready to download as text, subtitles or a Word document" width="1440" height="900" loading="lazy"></div>
+        </div>
       </div>
     </div>
   </section>
