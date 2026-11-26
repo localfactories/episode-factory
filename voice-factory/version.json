@@ -1,15 +1,15 @@
 {
   "product": "VoiceFactory",
-  "version": "1.3.0",
+  "version": "1.3.1",
   "date": "2026-11-26",
   "applies_from": "",
-  "file": "VoiceFactory_update_1.3.0_2026-11-26.7z",
+  "file": "VoiceFactory_update_1.3.1_2026-11-26.7z",
   "format": "7z",
-  "zip": "VoiceFactory_1.3.0_2026-11-26.zip",
-  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/voice-factory/releases/VoiceFactory_update_1.3.0_2026-11-26.7z",
-  "size": 4217731,
-  "sha256": "49b03a6c93f5e543c95939808ee2d583e2e81852165381b7554c6cc19b6e84a7",
-  "notes": "New: Make music - a song or music from your words on this PC (ACE-Step 1.5): what it sounds like, the words or none, the language, the length, takes to choose from, and Fine-tune with every setting (model, guidance, steps, tempo, key, creativity, loudness, seed) starting where it sounds best. Audio to audio and Dub a video: the pauses, the music and sounds and the voice level to set - joined again in seconds, nothing recorded again.",
+  "zip": "VoiceFactory_1.3.1_2026-11-26.zip",
+  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/voice-factory/releases/VoiceFactory_update_1.3.1_2026-11-26.7z",
+  "size": 4226851,
+  "sha256": "feb72ecb5acfd4928351401c43198d384fa48e361e352826d8c64703b5a5697d",
+  "notes": "Make music on 8 GB cards: everything stays on the graphics card (nothing pushed into the computer's memory, which Windows needs) - the music model in 8 bits, one model on the card at a time; two 30-second takes with words in 42 seconds on an 8 GB card. The large model (Best) is offered with a 12 GB card and 32 GB of memory, and the page says why when it is not.",
   "python": [
     "3.12",
     "3.14"
