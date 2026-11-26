@@ -1,15 +1,15 @@
 {
   "product": "VoiceFactory",
-  "version": "1.3.5",
+  "version": "1.3.6",
   "date": "2026-11-26",
   "applies_from": "",
-  "file": "VoiceFactory_update_1.3.5_2026-11-26.7z",
+  "file": "VoiceFactory_update_1.3.6_2026-11-26.7z",
   "format": "7z",
-  "zip": "VoiceFactory_1.3.5_2026-11-26.zip",
-  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/voice-factory/releases/VoiceFactory_update_1.3.5_2026-11-26.7z",
-  "size": 4252419,
-  "sha256": "207d45bce556ac285aada9354e3c1716942934d80f6714c881fc842d68f675a0",
-  "notes": "Dubs, audio to audio and the voice changer: the check for a stray sound at the start or end of a line now measures the quiet against the line's own loudness (a breath between an 'aah' and the words no longer hides it), and never cuts a sound shorter than a quarter of a second (a consonant at the edge of a real word stays).",
+  "zip": "VoiceFactory_1.3.6_2026-11-26.zip",
+  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/voice-factory/releases/VoiceFactory_update_1.3.6_2026-11-26.7z",
+  "size": 4254371,
+  "sha256": "9a91509041101194340d936e686d7bd622e0af48640768cf171b9900790330fd",
+  "notes": "Dubs, audio to audio and the voice changer: a breath the voice puts right before a line's first word (glued to it, with no pause between) is now heard and cut - only when the line, heard without it, still has every word.",
   "python": [
     "3.12",
     "3.14"
