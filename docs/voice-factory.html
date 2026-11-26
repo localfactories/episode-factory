@@ -6,7 +6,7 @@
 <script>/* the padlock for everyone: a visitor who arrives on the plain address is moved to the secure one, with the same campaign tags */
 if (location.protocol === "http:" && /(^|\.)local-factories\.com$/.test(location.hostname)) location.replace("https://local-factories.com" + location.pathname + location.search + location.hash);</script>
 <title>Voice Factory — any text in, a checked narration out</title>
-<meta name="description" content="Voice Factory reads any text in the voice you give it - ten to fifteen seconds, once - then listens to every sentence it recorded and repairs what is wrong. Speech to text with speakers, clean audio, and videos dubbed into another language in the same voices. On your own Windows PC and NVIDIA graphics card. £9 a month, 7 days free.">
+<meta name="description" content="Voice Factory reads any text in the voice you give it - ten to fifteen seconds, once - then listens to every sentence it recorded and repairs what is wrong. Speech to text with speakers, clean audio, videos and recordings in another language in the same voices, a voice changer, and songs made from your words. On your own Windows PC and NVIDIA graphics card. £9 a month, 7 days free.">
 <meta name="theme-color" content="#0a0c0f">
 <link rel="canonical" href="https://local-factories.com/voice-factory.html">
 <link rel="icon" href="img/vf-favicon.ico" sizes="any">
@@ -338,7 +338,7 @@ if (location.protocol === "http:" && /(^|\.)local-factories\.com$/.test(location
           <li><svg class="ico"><use href="#i-check"/></svg>No per-character bills</li>
           <li><svg class="ico"><use href="#i-check"/></svg>Every sentence listened to</li>
           <li><svg class="ico"><use href="#i-check"/></svg>No limit on length</li>
-          <li><svg class="ico"><use href="#i-check"/></svg>Dub videos in the same voices</li>
+          <li><svg class="ico"><use href="#i-check"/></svg>Dubbing, a voice changer and music</li>
         </ul>
         <div class="actions">
           <a class="btn btn-primary" href="https://voice-factory-keys.usage-worker.workers.dev/download" data-checkout="https://localfactories.lemonsqueezy.com/checkout/buy/b77baa4e-236e-497d-9c43-af5af82ef697" data-app="VoiceFactory" data-goatcounter-click="vf-trial-hero"><svg class="ico"><use href="#i-download"/></svg><span class="dl-label">Download free – 7 days, no card</span></a>
@@ -409,8 +409,8 @@ if (location.protocol === "http:" && /(^|\.)local-factories\.com$/.test(location
     <div class="wrap">
       <div class="head" data-reveal>
         <p class="eyebrow">Also inside</p>
-        <h2>Words out. Voices apart. Videos in another language.</h2>
-        <p class="sub">Three more tools in the same studio, on the same PC — included in the same plan.</p>
+        <h2>Words out. Voices apart. Any language, any voice — and music.</h2>
+        <p class="sub">More tools in the same studio, on the same PC — included in the same plan.</p>
       </div>
       <div class="bento">
         <div class="card wide" data-reveal id="dub">
@@ -420,6 +420,28 @@ if (location.protocol === "http:" && /(^|\.)local-factories\.com$/.test(location
             <div class="langs fmts"><span>English</span><span>Español</span><span>العربية</span><span>中文</span><span>日本語</span><span>MP4 · MP3 · WAV · SRT</span></div>
           </div>
           <div class="shot"><img src="img/vf-dub.webp" alt="A dubbed video in Voice Factory: two speakers, each line with the original English above and the Spanish said in the speaker's own voice, every line checked" width="1440" height="900" loading="lazy"></div>
+        </div>
+        <div class="card" data-reveal id="a2a">
+          <div class="txt">
+            <h3>Audio to audio — a recording in another language</h3>
+            <p>A talk, a lesson, a podcast, a voice message: every line is said again in another language in the voice of the person who said it — at its own natural pace, with its pauses. Set the speed, the pauses, the music under it and the voice; a change is ready in seconds, nothing is recorded again.</p>
+            <div class="langs fmts"><span>MP3</span><span>WAV</span><span>SRT</span></div>
+          </div>
+        </div>
+        <div class="card" data-reveal id="voice-changer">
+          <div class="txt">
+            <h3>Voice changer — the same words, another voice</h3>
+            <p>Choose “The same language — another voice” for a recording or a video: every line is said again, in its own words, in a voice of yours — a different one for each speaker if you like. A video stays in time with the lips.</p>
+            <div class="langs fmts"><span>Recordings</span><span>Videos</span><span>Each speaker their own voice</span></div>
+          </div>
+        </div>
+        <div class="card wide" data-reveal id="music">
+          <div class="txt">
+            <h3>Make music — a song from your words</h3>
+            <p>Say what it should sound like, write the words — or none, for music alone — choose the language and the length, and it is sung and played on your graphics card. Each take is a different version; keep the one you like. Fine-tune holds every setting — how closely it follows you, the tempo, the key, the creativity, the loudness, a seed to make a take again — each starting where it sounds best. From an 8 GB card, all of it on the card.</p>
+            <div class="langs fmts"><span>Words or none</span><span>23 languages</span><span>Takes to choose from</span><span>WAV · MP3</span></div>
+          </div>
+          <div class="shot"><img src="img/vf-music.webp" alt="Make music in Voice Factory: a lullaby made from a short description and the words, two takes to choose from, each ready to play and download" width="1440" height="900" loading="lazy"></div>
         </div>
         <div class="card wide" data-reveal id="stt">
           <div class="txt">
@@ -450,7 +472,7 @@ if (location.protocol === "http:" && /(^|\.)local-factories\.com$/.test(location
       </div>
       <dl class="specs" data-reveal>
         <div><dt><svg class="ico"><use href="#i-monitor"/></svg>Computer</dt><dd>Windows 10 or 11, with an NVIDIA graphics card from 8 GB. On a card under 12 GB the voice steps aside while the check listens, so each has the card to itself.</dd></div>
-        <div><dt><svg class="ico"><use href="#i-drive"/></svg>Disk</dt><dd>About 20 GB for the install (the speech engine and the transcriber are fetched from their publishers once). Already have Episode Factory? Voice Factory shares its engine and downloads almost nothing.</dd></div>
+        <div><dt><svg class="ico"><use href="#i-drive"/></svg>Disk</dt><dd>About 20 GB for the install (the speech engine and the transcriber are fetched from their publishers once). Already have Episode Factory? Voice Factory shares its engine and downloads almost nothing. Making music fetches its own engine on the first song — about 14 GB on an 8 GB card; the studio says how much for your PC first.</dd></div>
         <div><dt><svg class="ico"><use href="#i-mic"/></svg>Voice</dt><dd>Ten to fifteen seconds of clean speech in the voice you want — yours, or one you have the rights to.</dd></div>
         <div><dt><svg class="ico"><use href="#i-globe"/></svg>Internet</dt><dd>For the install and to check your plan. The text, the voice, the checks and the subtitles never leave your machine.</dd></div>
       </dl>
@@ -479,7 +501,8 @@ if (location.protocol === "http:" && /(^|\.)local-factories\.com$/.test(location
           <li><svg class="ico"><use href="#i-check"/></svg><span><b>Unlimited narration</b>, any length</span></li>
           <li><svg class="ico"><use href="#i-check"/></svg><span>Every sentence checked and repaired</span></li>
           <li><svg class="ico"><use href="#i-check"/></svg><span>Five languages, subtitles included</span></li>
-          <li><svg class="ico"><use href="#i-check"/></svg><span>Speech to text, clean audio and video dubbing</span></li>
+          <li><svg class="ico"><use href="#i-check"/></svg><span>Speech to text, clean audio, dubbing and a voice changer</span></li>
+          <li><svg class="ico"><use href="#i-check"/></svg><span>Music and songs from your words</span></li>
           <li><svg class="ico"><use href="#i-check"/></svg><span>Every update included</span></li>
           <li><svg class="ico"><use href="#i-check"/></svg><span>One machine at a time · support by email</span></li>
         </ul>
@@ -499,6 +522,9 @@ if (location.protocol === "http:" && /(^|\.)local-factories\.com$/.test(location
         <details><summary>How does the free trial work?</summary><p>Press "Download free" on your Windows PC – it downloads straight away, no email, no card. Open the zip, double-click INSTALL.bat and open the studio: the 7 days start by themselves on that PC. When they end, the studio shows a Subscribe button; after paying it unlocks by itself.</p></details>
         <details><summary>Whose voice can I use?</summary><p>Your own, or a voice you have the speaker's permission to use. The studio asks you to confirm this each time you add a voice, and before a video is dubbed in its speakers' own voices. Never use a voice to pretend to be someone.</p></details>
         <details><summary>How does dubbing work?</summary><p>Drop a video and choose the language. The voices are separated from the music and sounds, every line is heard and translated, then said again in the voice of the person who said it and laid back where it was said, over the original music. Each line is checked like any narration. You can correct any line, rename the speakers, or read any of them in one of your own voices — only what changed is made again. It dubs into English, Spanish, Arabic, Chinese and Japanese.</p></details>
+        <details><summary>Does it work for a recording with no video?</summary><p>Yes — Audio to audio. Every line is said again in the other language at its own natural pace, with its pauses, so nothing sounds rushed; there are no lips to keep in time. The speed, the pauses, the music under it and the voice can be set afterwards, and only the joining is done again.</p></details>
+        <details><summary>Can it change a voice without translating?</summary><p>Yes. Choose “The same language — another voice” and every line is said again in a voice of yours, the same words at the same moments. Each speaker can have a different voice.</p></details>
+        <details><summary>How does making music work?</summary><p>Describe the music in a few sentences, write the words — or tick “No words”, for music alone — and choose the language, the length and how many takes. Each take is a different version, with its own player and WAV and MP3. Fine-tune holds every setting, and “Same again” brings a take's settings back so you can change one thing and hear what it did. It runs on your graphics card from 8 GB; the larger model is chosen by itself on a card of 20 GB with 32 GB of memory.</p></details>
         <details><summary>How is it checked?</summary><p>After each part is recorded, a transcriber on your PC listens to it and the words are compared with your text, one by one. Missing or wrong words are recorded again; extra words, stumbles and long gaps are cut. The report says what was done to each part.</p></details>
         <details><summary>Which languages?</summary><p>English, Spanish, Arabic, Chinese and Japanese. Each gets the same check; numbers are read out in that language.</p></details>
         <details><summary>What do I get at the end?</summary><p>A levelled WAV and an MP3 of the whole narration, its subtitles as SRT and VTT in your own words, and the text.</p></details>
