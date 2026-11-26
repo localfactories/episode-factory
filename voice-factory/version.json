@@ -1,15 +1,15 @@
 {
   "product": "VoiceFactory",
-  "version": "1.2.9",
+  "version": "1.3.0",
   "date": "2026-11-26",
   "applies_from": "",
-  "file": "VoiceFactory_update_1.2.9_2026-11-26.7z",
+  "file": "VoiceFactory_update_1.3.0_2026-11-26.7z",
   "format": "7z",
-  "zip": "VoiceFactory_1.2.9_2026-11-26.zip",
-  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/voice-factory/releases/VoiceFactory_update_1.2.9_2026-11-26.7z",
-  "size": 4036003,
-  "sha256": "0eb2ba6a0bcf26f8382fe7b77e43ce3f5d5466bf05dcb83be302998081388ef5",
-  "notes": "New: the voice changer - in Audio to audio and in Dub a video choose 'The same language - another voice': every line is said again in a voice of yours (a different voice for each speaker on the page if you like), the same words, at its own time; a video stays in time with the lips.",
+  "zip": "VoiceFactory_1.3.0_2026-11-26.zip",
+  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/voice-factory/releases/VoiceFactory_update_1.3.0_2026-11-26.7z",
+  "size": 4217731,
+  "sha256": "49b03a6c93f5e543c95939808ee2d583e2e81852165381b7554c6cc19b6e84a7",
+  "notes": "New: Make music - a song or music from your words on this PC (ACE-Step 1.5): what it sounds like, the words or none, the language, the length, takes to choose from, and Fine-tune with every setting (model, guidance, steps, tempo, key, creativity, loudness, seed) starting where it sounds best. Audio to audio and Dub a video: the pauses, the music and sounds and the voice level to set - joined again in seconds, nothing recorded again.",
   "python": [
     "3.12",
     "3.14"
