@@ -1,15 +1,15 @@
 {
   "product": "VoiceFactory",
-  "version": "1.2.6",
-  "date": "2026-11-25",
+  "version": "1.2.7",
+  "date": "2026-11-26",
   "applies_from": "",
-  "file": "VoiceFactory_update_1.2.6_2026-11-25.7z",
+  "file": "VoiceFactory_update_1.2.7_2026-11-26.7z",
   "format": "7z",
-  "zip": "VoiceFactory_1.2.6_2026-11-25.zip",
-  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/voice-factory/releases/VoiceFactory_update_1.2.6_2026-11-25.7z",
-  "size": 3946195,
-  "sha256": "a6c72d0e1b81e09a072cc705b7b73e48717981e3ff92085c00fd53b8bb5ce148",
-  "notes": "Dubbing: the translation is now checked by a language model that reads the whole script, so each line means what it means in its scene; lines too long for their time are written shorter. Arabic narration speaks 15% quicker.",
+  "zip": "VoiceFactory_1.2.7_2026-11-26.zip",
+  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/voice-factory/releases/VoiceFactory_update_1.2.7_2026-11-26.7z",
+  "size": 3989235,
+  "sha256": "204eaeffb5733282864192268a5b9de2d99e953da5dc859c0e93cdd2970f6b35",
+  "notes": "Dubs: every change the dubbing editor makes is checked side by side with the translation (a wrong change is undone); lines with the same words as the film keep the actor's own voice; long lines are fitted using the engine's measured speed; sound words stay sounds; a renamed project's files take the new name; 'Another language' never offers the language the video speaks; after Stop the dub says Stopped and Go on finishes it",
   "python": [
     "3.12",
     "3.14"
