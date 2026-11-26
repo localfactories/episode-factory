@@ -1,15 +1,15 @@
 {
   "product": "VoiceFactory",
-  "version": "1.2.7",
+  "version": "1.2.8",
   "date": "2026-11-26",
   "applies_from": "",
-  "file": "VoiceFactory_update_1.2.7_2026-11-26.7z",
+  "file": "VoiceFactory_update_1.2.8_2026-11-26.7z",
   "format": "7z",
-  "zip": "VoiceFactory_1.2.7_2026-11-26.zip",
-  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/voice-factory/releases/VoiceFactory_update_1.2.7_2026-11-26.7z",
-  "size": 3989235,
-  "sha256": "204eaeffb5733282864192268a5b9de2d99e953da5dc859c0e93cdd2970f6b35",
-  "notes": "Dubs: every change the dubbing editor makes is checked side by side with the translation (a wrong change is undone); lines with the same words as the film keep the actor's own voice; long lines are fitted using the engine's measured speed; sound words stay sounds; a renamed project's files take the new name; 'Another language' never offers the language the video speaks; after Stop the dub says Stopped and Go on finishes it",
+  "zip": "VoiceFactory_1.2.8_2026-11-26.zip",
+  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/voice-factory/releases/VoiceFactory_update_1.2.8_2026-11-26.7z",
+  "size": 4016035,
+  "sha256": "289ea5d77815253f2c908460b0eb13ac50d9a2c6ee4b3e410f4ab7d014bcdd03",
+  "notes": "New: Audio to audio - any recording (a talk, a lesson, a podcast, a voice message) said in another language in the speakers' own voices or a voice of yours, every line at its natural pace with its pauses, only the speed to set; MP3, WAV and subtitles. A video dub stays timed to the picture.",
   "python": [
     "3.12",
     "3.14"
