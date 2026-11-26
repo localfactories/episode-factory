@@ -1,15 +1,15 @@
 {
   "product": "VoiceFactory",
-  "version": "1.3.4",
+  "version": "1.3.5",
   "date": "2026-11-26",
   "applies_from": "",
-  "file": "VoiceFactory_update_1.3.4_2026-11-26.7z",
+  "file": "VoiceFactory_update_1.3.5_2026-11-26.7z",
   "format": "7z",
-  "zip": "VoiceFactory_1.3.4_2026-11-26.zip",
-  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/voice-factory/releases/VoiceFactory_update_1.3.4_2026-11-26.7z",
-  "size": 4252003,
-  "sha256": "6ce418cca2b11bf90c1c97a0a230ee22eb391aa742d61205a17380e450f960bc",
-  "notes": "Dubs, audio to audio and the voice changer: a short sound before or after a line that is no word (an 'aah' the voice added) is now heard and cut. A Japanese word with two readings is no longer counted wrong. A line said again now reaches the finished film. The voice changer's label says whose voice speaks.",
+  "zip": "VoiceFactory_1.3.5_2026-11-26.zip",
+  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/voice-factory/releases/VoiceFactory_update_1.3.5_2026-11-26.7z",
+  "size": 4252419,
+  "sha256": "207d45bce556ac285aada9354e3c1716942934d80f6714c881fc842d68f675a0",
+  "notes": "Dubs, audio to audio and the voice changer: the check for a stray sound at the start or end of a line now measures the quiet against the line's own loudness (a breath between an 'aah' and the words no longer hides it), and never cuts a sound shorter than a quarter of a second (a consonant at the edge of a real word stays).",
   "python": [
     "3.12",
     "3.14"
