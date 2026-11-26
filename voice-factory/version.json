@@ -1,15 +1,15 @@
 {
   "product": "VoiceFactory",
-  "version": "1.3.2",
+  "version": "1.3.3",
   "date": "2026-11-26",
   "applies_from": "",
-  "file": "VoiceFactory_update_1.3.2_2026-11-26.7z",
+  "file": "VoiceFactory_update_1.3.3_2026-11-26.7z",
   "format": "7z",
-  "zip": "VoiceFactory_1.3.2_2026-11-26.zip",
-  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/voice-factory/releases/VoiceFactory_update_1.3.2_2026-11-26.7z",
-  "size": 4228691,
-  "sha256": "fe4475445c3f3d071f934fefb0bfa410bad2de72c3b15a7539fffe3e1ebf18ba",
-  "notes": "Make music: before the first song the page says how much it downloads on this PC (about 14 GB on an 8 GB card; more for the large model on big cards) - nothing for music is downloaded at install.",
+  "zip": "VoiceFactory_1.3.3_2026-11-26.zip",
+  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/voice-factory/releases/VoiceFactory_update_1.3.3_2026-11-26.7z",
+  "size": 4236355,
+  "sha256": "c8d79a62b1b0619a117b8a6dbb540de59860921694a58d6ef744c9923d638aee",
+  "notes": "The music engine's download cache (about 6 GB) is cleared once it is built. The guide inside the download now covers Audio to audio, the voice changer and Make music.",
   "python": [
     "3.12",
     "3.14"
