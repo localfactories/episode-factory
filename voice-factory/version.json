@@ -1,15 +1,15 @@
 {
   "product": "VoiceFactory",
-  "version": "1.2.8",
+  "version": "1.2.9",
   "date": "2026-11-26",
   "applies_from": "",
-  "file": "VoiceFactory_update_1.2.8_2026-11-26.7z",
+  "file": "VoiceFactory_update_1.2.9_2026-11-26.7z",
   "format": "7z",
-  "zip": "VoiceFactory_1.2.8_2026-11-26.zip",
-  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/voice-factory/releases/VoiceFactory_update_1.2.8_2026-11-26.7z",
-  "size": 4016035,
-  "sha256": "289ea5d77815253f2c908460b0eb13ac50d9a2c6ee4b3e410f4ab7d014bcdd03",
-  "notes": "New: Audio to audio - any recording (a talk, a lesson, a podcast, a voice message) said in another language in the speakers' own voices or a voice of yours, every line at its natural pace with its pauses, only the speed to set; MP3, WAV and subtitles. A video dub stays timed to the picture.",
+  "zip": "VoiceFactory_1.2.9_2026-11-26.zip",
+  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/voice-factory/releases/VoiceFactory_update_1.2.9_2026-11-26.7z",
+  "size": 4036003,
+  "sha256": "0eb2ba6a0bcf26f8382fe7b77e43ce3f5d5466bf05dcb83be302998081388ef5",
+  "notes": "New: the voice changer - in Audio to audio and in Dub a video choose 'The same language - another voice': every line is said again in a voice of yours (a different voice for each speaker on the page if you like), the same words, at its own time; a video stays in time with the lips.",
   "python": [
     "3.12",
     "3.14"
