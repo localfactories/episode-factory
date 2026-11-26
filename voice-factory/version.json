@@ -1,15 +1,15 @@
 {
   "product": "VoiceFactory",
-  "version": "1.3.1",
+  "version": "1.3.2",
   "date": "2026-11-26",
   "applies_from": "",
-  "file": "VoiceFactory_update_1.3.1_2026-11-26.7z",
+  "file": "VoiceFactory_update_1.3.2_2026-11-26.7z",
   "format": "7z",
-  "zip": "VoiceFactory_1.3.1_2026-11-26.zip",
-  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/voice-factory/releases/VoiceFactory_update_1.3.1_2026-11-26.7z",
-  "size": 4226851,
-  "sha256": "feb72ecb5acfd4928351401c43198d384fa48e361e352826d8c64703b5a5697d",
-  "notes": "Make music on 8 GB cards: everything stays on the graphics card (nothing pushed into the computer's memory, which Windows needs) - the music model in 8 bits, one model on the card at a time; two 30-second takes with words in 42 seconds on an 8 GB card. The large model (Best) is offered with a 12 GB card and 32 GB of memory, and the page says why when it is not.",
+  "zip": "VoiceFactory_1.3.2_2026-11-26.zip",
+  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/voice-factory/releases/VoiceFactory_update_1.3.2_2026-11-26.7z",
+  "size": 4228691,
+  "sha256": "fe4475445c3f3d071f934fefb0bfa410bad2de72c3b15a7539fffe3e1ebf18ba",
+  "notes": "Make music: before the first song the page says how much it downloads on this PC (about 14 GB on an 8 GB card; more for the large model on big cards) - nothing for music is downloaded at install.",
   "python": [
     "3.12",
     "3.14"
