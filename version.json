@@ -1,15 +1,15 @@
 {
   "product": "EpisodeFactory",
-  "version": "3.6.4",
-  "date": "2026-11-25",
+  "version": "3.6.5",
+  "date": "2026-11-27",
   "applies_from": "",
-  "file": "EpisodeFactory_update_3.6.4_2026-11-25.7z",
+  "file": "EpisodeFactory_update_3.6.5_2026-11-27.7z",
   "format": "7z",
-  "zip": "EpisodeFactory_3.6.4_2026-11-25.zip",
-  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_3.6.4_2026-11-25.7z",
-  "size": 7393347,
-  "sha256": "476e4267d927e74cda7ea82439f1b12c4b0cf7686cde41cd9fe40ca8f6a16b05",
-  "notes": "The program now comes compiled.",
+  "zip": "EpisodeFactory_3.6.5_2026-11-27.zip",
+  "url": "https://raw.githubusercontent.com/localfactories/episode-factory/main/releases/EpisodeFactory_update_3.6.5_2026-11-27.7z",
+  "size": 7411299,
+  "sha256": "23a0c0095da9db5f7a3936e19a9a0340d239c47395833ebf95ede8fce1187b26",
+  "notes": "",
   "python": [
     "3.12",
     "3.14"
