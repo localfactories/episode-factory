@@ -19,7 +19,7 @@ if (location.protocol === "http:" && /(^|\.)local-factories\.com$/.test(location
   if (tagged || old) location.replace("episode-factory.html" + s + h);
 })();</script>
 <title>Local Factories — studio work, made on your own PC</title>
-<meta name="description" content="Local Factories makes Windows apps that do a studio's work on your own PC and NVIDIA graphics card. Episode Factory turns a written script into a narrated 4K film; Voice Factory turns any text into a checked narration with subtitles - and dubs, changes voices and makes music. Each with 7 days free, no card.">
+<meta name="description" content="Local Factories makes Windows apps that do a studio's work on your own PC and NVIDIA graphics card. Episode Factory turns a written script into a narrated 4K film; Voice Factory turns any text into a checked narration with subtitles - and dubs, changes voices and makes music. Ad Factory turns your photos or your website into a premium video ad on your phone or computer, in seven languages.">
 <meta name="theme-color" content="#0a0c0f">
 <link rel="canonical" href="https://local-factories.com/">
 <link rel="icon" href="favicon.ico" sizes="any">
@@ -29,7 +29,7 @@ if (location.protocol === "http:" && /(^|\.)local-factories\.com$/.test(location
 <meta property="og:site_name" content="Local Factories">
 <meta property="og:url" content="https://local-factories.com/">
 <meta property="og:title" content="Local Factories — studio work, made on your own PC">
-<meta property="og:description" content="Episode Factory: a written script in, a narrated 4K film out. Voice Factory: any text in, a checked narration out. On your own graphics card, 7 days free.">
+<meta property="og:description" content="Episode Factory: a written script in, a narrated 4K film out. Voice Factory: any text in, a checked narration out. Ad Factory: your photos in, a premium video ad out.">
 <meta property="og:image" content="https://local-factories.com/img/home-og.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
@@ -357,6 +357,17 @@ if (location.protocol === "http:" && /(^|\.)local-factories\.com$/.test(location
   .app .actions .btn { flex: 1 1 auto; }
   .app .actions .ico { width: 17px; height: 17px; }
   .app.coming { opacity: .9; }
+  /* Ad Factory: the wide card under the two Windows apps - the studio and a phone playing an ad it made */
+  .app.wide { grid-column: 1 / -1; display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr); }
+  .app.wide .app-visual { padding: 40px 70px 40px 36px; display: flex; align-items: center; }
+  .app.wide .stack { position: relative; display: block; width: 100%; margin-bottom: 44px; }
+  .app.wide .app-visual .window { display: block; width: 100%; border-radius: 14px; border-bottom: 1px solid var(--line-2); }
+  .app.wide .app-body { padding: 40px 40px 38px 6px; }
+  .inset-phone { width: 29%; right: -46px; bottom: -44px; border-radius: 22px; border: 3px solid #23282f; background: #000;
+    box-shadow: 0 40px 80px -24px #000, 0 0 0 6px rgba(10, 12, 15, .55), 0 0 90px -30px rgba(233, 182, 90, .5); }
+  .inset-phone video { display: block; width: 100%; height: auto; aspect-ratio: 9 / 16; object-fit: cover; }
+  .app-kicker .new { margin-left: 10px; padding: 3px 9px; border-radius: 999px; background: var(--amber); color: #1b1305; font-size: 11px; letter-spacing: .08em; vertical-align: 1px; }
+  .app-soon { margin: 14px 0 0; color: var(--muted); font-size: 13.5px; }
   /* on a narrow screen the cards stack: both names are still on the first screen, as a switcher under the headline */
   .pills { display: none; gap: 10px; justify-content: center; margin: 26px 0 0; }
   .pills a { display: flex; flex-direction: column; align-items: flex-start; gap: 2px; flex: 1 1 0; max-width: 240px; padding: 11px 14px; border-radius: 13px;
@@ -380,6 +391,12 @@ if (location.protocol === "http:" && /(^|\.)local-factories\.com$/.test(location
   @media (max-width: 1000px) {
     .pills { display: flex; }
     .apps { grid-template-columns: 1fr; max-width: 660px; margin-left: auto; margin-right: auto; }
+    .app.wide { display: flex; flex-direction: column; }
+    .app.wide .app-visual { padding: 30px 30px 0; display: block; }
+    .app.wide .stack { margin-bottom: 0; }
+    .app.wide .app-visual .window { border-radius: 14px 14px 0 0; border-bottom: 0; }
+    .app.wide .app-body { padding: 30px 32px 32px; }
+    .inset-phone { width: 30%; right: 14px; bottom: 14px; border-radius: 18px; }
     .promise { grid-template-columns: 1fr 1fr; }
     .next { grid-template-columns: auto minmax(0, 1fr); }
     .next .btn { grid-column: 1 / -1; }
@@ -391,6 +408,9 @@ if (location.protocol === "http:" && /(^|\.)local-factories\.com$/.test(location
     .app-body { padding: 24px 22px 26px; }
     .app-name { font-size: 1.7rem; }
     .inset { width: 52%; right: 10px; bottom: 10px; }
+    .app.wide .app-visual { padding: 18px 18px 0; }
+    .app.wide .app-body { padding: 24px 22px 26px; }
+    .inset-phone { width: 34%; right: 10px; bottom: 10px; border-radius: 14px; border-width: 2px; }
     .inset-audio { padding: 10px 11px; }
     .wave { height: 26px; margin: 7px 0 6px; }
     .inset-audio .t { font-size: 11.5px; }
@@ -429,6 +449,7 @@ if (location.protocol === "http:" && /(^|\.)local-factories\.com$/.test(location
       <a href="#apps">Apps</a>
       <a href="episode-factory.html" data-goatcounter-click="home-ef-nav">Episode Factory</a>
       <a href="voice-factory.html" data-goatcounter-click="home-vf-nav">Voice Factory</a>
+      <a href="#app-af" data-goatcounter-click="home-af-nav">Ad Factory</a>
       <a href="#questions">Questions</a>
       <a href="mailto:support@local-factories.com">Contact</a>
     </nav>
@@ -442,7 +463,7 @@ if (location.protocol === "http:" && /(^|\.)local-factories\.com$/.test(location
     <div class="wrap home-copy">
       <p class="chip"><i></i>Local Factories</p>
       <h1>Studio work, made on <em><span class="nb">your own PC.</span></em></h1>
-      <p class="lead">Apps that turn your words into finished work on your own Windows PC and graphics card — and listen to every sentence before you hear it. No per-minute bills, nothing sent away, no limit on length.</p>
+      <p class="lead">Apps that turn your words into finished work on your own device — films and narrations on your Windows PC, video ads on your phone or computer. No per-minute bills, nothing sent away.</p>
       <ul class="family">
         <li><svg class="ico"><use href="#i-check"/></svg>One click installs</li>
         <li><svg class="ico"><use href="#i-check"/></svg>7 days free, no card</li>
@@ -451,6 +472,7 @@ if (location.protocol === "http:" && /(^|\.)local-factories\.com$/.test(location
       <nav class="pills" aria-label="The apps">
         <a href="#app-ef" data-goatcounter-click="home-ef-pill">Episode Factory<small>Script in, 4K film out</small></a>
         <a href="#app-vf" data-goatcounter-click="home-vf-pill">Voice Factory<small>Text in, narration out</small></a>
+        <a href="#app-af" data-goatcounter-click="home-af-pill">Ad Factory<small>Photos in, video ad out</small></a>
       </nav>
     </div>
     <div class="wrap" id="apps">
@@ -491,6 +513,24 @@ if (location.protocol === "http:" && /(^|\.)local-factories\.com$/.test(location
         </div>
       </div>
     </article>
+    <article class="app wide" id="app-af" data-reveal>
+      <a class="app-visual" href="https://ad-factory.usage-worker.workers.dev/" data-goatcounter-click="home-af-picture" aria-label="Ad Factory">
+        <span class="stack"><span class="window"><div class="bar"><img src="img/af-icon.png" alt="" width="16" height="16">Ad Factory<span class="ctl" aria-hidden="true"><svg viewBox="0 0 10 10"><line x1="0" y1="5" x2="10" y2="5"/></svg><svg viewBox="0 0 10 10"><rect x=".5" y=".5" width="9" height="9"/></svg><svg viewBox="0 0 10 10"><line x1="0" y1="0" x2="10" y2="10"/><line x1="10" y1="0" x2="0" y2="10"/></svg></span></div><img class="shot-img" src="img/af-studio.webp" alt="Ad Factory — the studio" width="1440" height="900" loading="lazy"></span>
+        <span class="inset inset-phone"><video src="img/af-ad.mp4" poster="img/af-ad.jpg" width="432" height="768" muted loop playsinline autoplay preload="metadata" aria-label="An ad made with Ad Factory"></video></span></span>
+      </a>
+      <div class="app-body">
+        <p class="app-kicker">For every small business<span class="new">New</span></p>
+        <h2 class="app-name"><img src="img/af-icon.png" alt="" width="36" height="36"><a href="https://ad-factory.usage-worker.workers.dev/" data-goatcounter-click="home-af-name">Ad Factory</a></h2>
+        <p class="app-line">Your photos or your website in. <em>A premium video ad out.</em></p>
+        <p class="app-text">Add a few photos or video clips — or just your website's address. Ad Factory sets your words in a premium style, cuts every picture on the music's beat and makes the ad in seconds, on your phone or your computer. In seven languages, with offers, customer reviews and a QR code.</p>
+        <ul class="points"><li><svg class="ico"><use href="#i-check"/></svg>Nothing to install, your photos stay with you</li><li><svg class="ico"><use href="#i-check"/></svg>7 languages, Arabic and Chinese included</li><li><svg class="ico"><use href="#i-check"/></svg>A safe music library of 30 tracks</li></ul>
+        <p class="app-price"><b>Free</b> to make ads &middot; Pro &pound;4.99 a month <span class="free">Opens in your browser</span></p>
+        <div class="actions">
+          <a class="btn btn-primary" href="https://ad-factory.usage-worker.workers.dev/" data-goatcounter-click="home-af-open">Open Ad Factory<svg class="ico"><use href="#i-arrow"/></svg></a>
+        </div>
+        <p class="app-soon">On Android and on your computer now &middot; in Google Play soon</p>
+      </div>
+    </article>
       </div>
       <div class="next" data-reveal>
         <span class="tile"><svg class="ico"><use href="#i-plus"/></svg></span>
@@ -515,7 +555,7 @@ if (location.protocol === "http:" && /(^|\.)local-factories\.com$/.test(location
       </div>
       <div class="both" data-reveal>
         <svg class="ico"><use href="#i-monitor"/></svg>
-        <div><b>What you need:</b> Windows 10 or 11 and an NVIDIA graphics card with 8 GB or more. Have Episode Factory already? Voice Factory shares its voice engine and its transcriber — nothing is downloaded twice.</div>
+        <div><b>What you need:</b> Windows 10 or 11 and an NVIDIA graphics card with 8 GB or more. Have Episode Factory already? Voice Factory shares its voice engine and its transcriber — nothing is downloaded twice. Ad Factory needs nothing installed: Chrome or Edge on an Android phone or any computer.</div>
       </div>
     </div>
   </section>
@@ -528,10 +568,10 @@ if (location.protocol === "http:" && /(^|\.)local-factories\.com$/.test(location
         <p class="sub">Anything else: <a href="mailto:support@local-factories.com">support@local-factories.com</a></p>
       </div>
       <div class="qa" data-reveal>
-        <details><summary>Is it one subscription for both apps?</summary><p>No. Each app is its own plan with its own free week: Episode Factory is £19 a month, Voice Factory is £9 a month. Cancel either at any time.</p></details>
+        <details><summary>Is it one subscription for every app?</summary><p>No. Each app is its own plan: Episode Factory is £19 a month and Voice Factory £9 a month, each with a free week. Ad Factory is free to make ads; its Pro plan is £4.99 a month. Cancel any of them at any time.</p></details>
         <details><summary>Which one do I need?</summary><p>Episode Factory if you want the finished film: the narration, the footage and the 4K render. Voice Factory if you want the narration alone — audiobooks, voice-overs, long videos — with subtitles, in five languages; and dubbing, a voice changer, speech to text, clean audio and music.</p></details>
         <details><summary>Does anything I write leave my PC?</summary><p>No. Your text, your voices and your finished files stay on your PC. The apps go online to install, to check your plan and, in Episode Factory, to fetch the footage.</p></details>
-        <details><summary>Do they run on a Mac?</summary><p>No. Both need Windows 10 or 11 and an NVIDIA graphics card with 8 GB or more. Not sure what you have? Open Task Manager → Performance → GPU and read “Dedicated GPU memory”.</p></details>
+        <details><summary>Do they run on a Mac?</summary><p>Episode Factory and Voice Factory: no — both need Windows 10 or 11 and an NVIDIA graphics card with 8 GB or more. Not sure what you have? Open Task Manager → Performance → GPU and read “Dedicated GPU memory”. Ad Factory runs in Chrome or Edge on any computer, a Mac too, and on Android phones.</p></details>
       </div>
     </div>
   </section>
@@ -548,6 +588,7 @@ if (location.protocol === "http:" && /(^|\.)local-factories\.com$/.test(location
       <ul>
         <li><a href="episode-factory.html">Episode Factory</a></li>
         <li><a href="voice-factory.html">Voice Factory</a></li>
+        <li><a href="https://ad-factory.usage-worker.workers.dev/">Ad Factory</a></li>
       </ul>
     </div>
     <div>
